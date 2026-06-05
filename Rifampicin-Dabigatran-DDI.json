@@ -1,0 +1,5676 @@
+{
+  "Version": 80,
+  "ExpressionProfiles": [
+    {
+      "Type": "Enzyme",
+      "Species": "Human",
+      "Molecule": "AADAC",
+      "Category": "European (P-gp modified, new ref. conc.)",
+      "Parameters": [
+        {
+          "Path": "AADAC|Reference concentration",
+          "Value": 1.0,
+          "Unit": "µmol/l"
+        },
+        {
+          "Path": "AADAC|Relative expression in blood cells",
+          "Value": 3.9102564103E-05
+        },
+        {
+          "Path": "AADAC|Relative expression in plasma",
+          "Value": 3.9102564103E-05
+        },
+        {
+          "Path": "AADAC|t1/2 (intestine)",
+          "Value": 23.0,
+          "Unit": "h"
+        },
+        {
+          "Path": "AADAC|t1/2 (liver)",
+          "Value": 36.0,
+          "Unit": "h"
+        },
+        {
+          "Path": "Organism|Bone|Intracellular|AADAC|Relative expression",
+          "Value": 4.8717948718E-05
+        },
+        {
+          "Path": "Organism|Brain|Intracellular|AADAC|Relative expression",
+          "Value": 3.9743589744E-05
+        },
+        {
+          "Path": "Organism|Gonads|Intracellular|AADAC|Relative expression",
+          "Value": 0.0011923076923
+        },
+        {
+          "Path": "Organism|Heart|Intracellular|AADAC|Relative expression",
+          "Value": 0.0026602564103
+        },
+        {
+          "Path": "Organism|Kidney|Intracellular|AADAC|Relative expression",
+          "Value": 5.7051282051E-05
+        },
+        {
+          "Path": "Organism|LargeIntestine|Intracellular|AADAC|Relative expression",
+          "Value": 0.00010384615385
+        },
+        {
+          "Path": "Organism|LargeIntestine|Mucosa|ColonAscendens|Intracellular|AADAC|Relative expression",
+          "Value": 0.00010384615385
+        },
+        {
+          "Path": "Organism|LargeIntestine|Mucosa|ColonDescendens|Intracellular|AADAC|Relative expression",
+          "Value": 0.00010384615385
+        },
+        {
+          "Path": "Organism|LargeIntestine|Mucosa|ColonSigmoid|Intracellular|AADAC|Relative expression",
+          "Value": 0.00010384615385
+        },
+        {
+          "Path": "Organism|LargeIntestine|Mucosa|ColonTransversum|Intracellular|AADAC|Relative expression",
+          "Value": 0.00010384615385
+        },
+        {
+          "Path": "Organism|Liver|Pericentral|Intracellular|AADAC|Relative expression",
+          "Value": 1.0
+        },
+        {
+          "Path": "Organism|Liver|Periportal|Intracellular|AADAC|Relative expression",
+          "Value": 1.0
+        },
+        {
+          "Path": "Organism|Lung|Intracellular|AADAC|Relative expression",
+          "Value": 0.0269230769
+        },
+        {
+          "Path": "Organism|Muscle|Intracellular|AADAC|Relative expression",
+          "Value": 0.00020833333333
+        },
+        {
+          "Path": "Organism|Pancreas|Intracellular|AADAC|Relative expression",
+          "Value": 0.1474358974
+        },
+        {
+          "Path": "Organism|SmallIntestine|Intracellular|AADAC|Relative expression",
+          "Value": 0.2544871795
+        },
+        {
+          "Path": "Organism|SmallIntestine|Mucosa|Duodenum|Intracellular|AADAC|Relative expression",
+          "Value": 0.2544871795
+        },
+        {
+          "Path": "Organism|SmallIntestine|Mucosa|LowerIleum|Intracellular|AADAC|Relative expression",
+          "Value": 0.2544871795
+        },
+        {
+          "Path": "Organism|SmallIntestine|Mucosa|LowerJejunum|Intracellular|AADAC|Relative expression",
+          "Value": 0.2544871795
+        },
+        {
+          "Path": "Organism|SmallIntestine|Mucosa|UpperIleum|Intracellular|AADAC|Relative expression",
+          "Value": 0.2544871795
+        },
+        {
+          "Path": "Organism|SmallIntestine|Mucosa|UpperJejunum|Intracellular|AADAC|Relative expression",
+          "Value": 0.2544871795
+        },
+        {
+          "Path": "Organism|Spleen|Intracellular|AADAC|Relative expression",
+          "Value": 0.00037115384615
+        },
+        {
+          "Path": "Organism|Stomach|Intracellular|AADAC|Relative expression",
+          "Value": 0.0775641026
+        }
+      ],
+      "Localization": "Intracellular, BloodCellsIntracellular, VascEndosome"
+    },
+    {
+      "Type": "OtherProtein",
+      "Species": "Human",
+      "Molecule": "ATP1A2",
+      "Category": "European (P-gp modified, new ref. conc.)",
+      "Parameters": [
+        {
+          "Path": "ATP1A2|Reference concentration",
+          "Value": 0.39140774,
+          "Unit": "µmol/l",
+          "ValueOrigin": {
+            "Source": "Unknown"
+          }
+        },
+        {
+          "Path": "ATP1A2|t1/2 (intestine)",
+          "Value": 23.0,
+          "Unit": "h"
+        },
+        {
+          "Path": "ATP1A2|t1/2 (liver)",
+          "Value": 36.0,
+          "Unit": "h"
+        },
+        {
+          "Path": "Organism|Bone|Intracellular|ATP1A2|Relative expression",
+          "Value": 0.0062154033171
+        },
+        {
+          "Path": "Organism|Brain|Intracellular|ATP1A2|Relative expression",
+          "Value": 1.0
+        },
+        {
+          "Path": "Organism|Gonads|Intracellular|ATP1A2|Relative expression",
+          "Value": 0.0508741242
+        },
+        {
+          "Path": "Organism|Heart|Intracellular|ATP1A2|Relative expression",
+          "Value": 0.3179118843
+        },
+        {
+          "Path": "Organism|Kidney|Intracellular|ATP1A2|Relative expression",
+          "Value": 0.0158938619
+        },
+        {
+          "Path": "Organism|LargeIntestine|Intracellular|ATP1A2|Relative expression",
+          "Value": 0.0786998764
+        },
+        {
+          "Path": "Organism|LargeIntestine|Mucosa|ColonAscendens|Intracellular|ATP1A2|Relative expression",
+          "Value": 0.0786998764
+        },
+        {
+          "Path": "Organism|LargeIntestine|Mucosa|ColonDescendens|Intracellular|ATP1A2|Relative expression",
+          "Value": 0.0786998764
+        },
+        {
+          "Path": "Organism|LargeIntestine|Mucosa|ColonSigmoid|Intracellular|ATP1A2|Relative expression",
+          "Value": 0.0786998764
+        },
+        {
+          "Path": "Organism|LargeIntestine|Mucosa|ColonTransversum|Intracellular|ATP1A2|Relative expression",
+          "Value": 0.0786998764
+        },
+        {
+          "Path": "Organism|Liver|Pericentral|Intracellular|ATP1A2|Relative expression",
+          "Value": 0.0223784807
+        },
+        {
+          "Path": "Organism|Liver|Periportal|Intracellular|ATP1A2|Relative expression",
+          "Value": 0.0223784807
+        },
+        {
+          "Path": "Organism|Lung|Intracellular|ATP1A2|Relative expression",
+          "Value": 0.0272345453
+        },
+        {
+          "Path": "Organism|Muscle|Intracellular|ATP1A2|Relative expression",
+          "Value": 0.7034193524
+        },
+        {
+          "Path": "Organism|Pancreas|Intracellular|ATP1A2|Relative expression",
+          "Value": 0.0073903254795
+        },
+        {
+          "Path": "Organism|Skin|Intracellular|ATP1A2|Relative expression",
+          "Value": 0.0389467988
+        },
+        {
+          "Path": "Organism|SmallIntestine|Intracellular|ATP1A2|Relative expression",
+          "Value": 0.0501579923
+        },
+        {
+          "Path": "Organism|SmallIntestine|Mucosa|Duodenum|Intracellular|ATP1A2|Relative expression",
+          "Value": 0.0501579923
+        },
+        {
+          "Path": "Organism|SmallIntestine|Mucosa|LowerIleum|Intracellular|ATP1A2|Relative expression",
+          "Value": 0.0501579923
+        },
+        {
+          "Path": "Organism|SmallIntestine|Mucosa|LowerJejunum|Intracellular|ATP1A2|Relative expression",
+          "Value": 0.0501579923
+        },
+        {
+          "Path": "Organism|SmallIntestine|Mucosa|UpperIleum|Intracellular|ATP1A2|Relative expression",
+          "Value": 0.0501579923
+        },
+        {
+          "Path": "Organism|SmallIntestine|Mucosa|UpperJejunum|Intracellular|ATP1A2|Relative expression",
+          "Value": 0.0501579923
+        },
+        {
+          "Path": "Organism|Spleen|Intracellular|ATP1A2|Relative expression",
+          "Value": 0.0103243118
+        },
+        {
+          "Path": "Organism|Stomach|Intracellular|ATP1A2|Relative expression",
+          "Value": 0.0309435884
+        }
+      ],
+      "Localization": "Interstitial, BloodCellsMembrane, VascMembranePlasmaSide"
+    },
+    {
+      "Type": "Enzyme",
+      "Species": "Human",
+      "Molecule": "CYP3A4",
+      "Category": "European (P-gp modified, new ref. conc.)",
+      "Parameters": [
+        {
+          "Path": "CYP3A4|Reference concentration",
+          "Value": 4.32,
+          "Unit": "µmol/l"
+        },
+        {
+          "Path": "CYP3A4|t1/2 (intestine)",
+          "Value": 23.0,
+          "Unit": "h"
+        },
+        {
+          "Path": "CYP3A4|t1/2 (liver)",
+          "Value": 36.0,
+          "Unit": "h",
+          "ValueOrigin": {
+            "Source": "Publication",
+            "Description": "DOI: 10.1016/j.ejps.2011.04.008"
+          }
+        },
+        {
+          "Path": "Organism|Brain|Intracellular|CYP3A4|Relative expression",
+          "Value": 0.0041682898325
+        },
+        {
+          "Path": "Organism|Gonads|Intracellular|CYP3A4|Relative expression",
+          "Value": 0.00078691079081
+        },
+        {
+          "Path": "Organism|Kidney|Intracellular|CYP3A4|Relative expression",
+          "Value": 0.0053603428126
+        },
+        {
+          "Path": "Organism|Liver|Pericentral|Intracellular|CYP3A4|Relative expression",
+          "Value": 1.0
+        },
+        {
+          "Path": "Organism|Liver|Periportal|Intracellular|CYP3A4|Relative expression",
+          "Value": 1.0
+        },
+        {
+          "Path": "Organism|Lung|Intracellular|CYP3A4|Relative expression",
+          "Value": 0.00042695753798
+        },
+        {
+          "Path": "Organism|SmallIntestine|Intracellular|CYP3A4|Relative expression",
+          "Value": 0.0727697702
+        },
+        {
+          "Path": "Organism|SmallIntestine|Mucosa|Duodenum|Intracellular|CYP3A4|Relative expression",
+          "Value": 0.0727697702
+        },
+        {
+          "Path": "Organism|SmallIntestine|Mucosa|LowerIleum|Intracellular|CYP3A4|Relative expression",
+          "Value": 0.0727697702
+        },
+        {
+          "Path": "Organism|SmallIntestine|Mucosa|LowerJejunum|Intracellular|CYP3A4|Relative expression",
+          "Value": 0.0727697702
+        },
+        {
+          "Path": "Organism|SmallIntestine|Mucosa|UpperIleum|Intracellular|CYP3A4|Relative expression",
+          "Value": 0.0727697702
+        },
+        {
+          "Path": "Organism|SmallIntestine|Mucosa|UpperJejunum|Intracellular|CYP3A4|Relative expression",
+          "Value": 0.0727697702
+        }
+      ],
+      "Localization": "Intracellular, BloodCellsIntracellular, VascEndosome",
+      "Ontogeny": {
+        "Name": "CYP3A4"
+      }
+    },
+    {
+      "Type": "OtherProtein",
+      "Species": "Human",
+      "Molecule": "GABRG2",
+      "Category": "European (P-gp modified, new ref. conc.)",
+      "Parameters": [
+        {
+          "Path": "GABRG2|Reference concentration",
+          "Value": 1.04099689,
+          "Unit": "µmol/l",
+          "ValueOrigin": {
+            "Source": "Unknown"
+          }
+        },
+        {
+          "Path": "GABRG2|t1/2 (intestine)",
+          "Value": 23.0,
+          "Unit": "h"
+        },
+        {
+          "Path": "GABRG2|t1/2 (liver)",
+          "Value": 36.0,
+          "Unit": "h"
+        },
+        {
+          "Path": "Organism|Brain|Intracellular|GABRG2|Relative expression",
+          "Value": 1.0
+        }
+      ],
+      "Localization": "Interstitial, BloodCellsMembrane, VascMembranePlasmaSide"
+    },
+    {
+      "Type": "Transporter",
+      "Species": "Human",
+      "Molecule": "OATP1B1",
+      "Category": "European (P-gp modified, new ref. conc.)",
+      "Parameters": [
+        {
+          "Path": "OATP1B1|Reference concentration",
+          "Value": 1.0,
+          "Unit": "µmol/l",
+          "ValueOrigin": {
+            "Source": "Publication",
+            "Description": "DOI: 10.1124/dmd.111.043174"
+          }
+        },
+        {
+          "Path": "OATP1B1|t1/2 (intestine)",
+          "Value": 23.0,
+          "Unit": "h"
+        },
+        {
+          "Path": "OATP1B1|t1/2 (liver)",
+          "Value": 36.0,
+          "Unit": "h"
+        },
+        {
+          "Path": "Organism|Brain|Intracellular|OATP1B1|Relative expression",
+          "Value": 0.00014166666667
+        },
+        {
+          "Path": "Organism|Gonads|Intracellular|OATP1B1|Relative expression",
+          "Value": 0.0141666667
+        },
+        {
+          "Path": "Organism|Heart|Intracellular|OATP1B1|Relative expression",
+          "Value": 0.0008253968254
+        },
+        {
+          "Path": "Organism|Liver|Pericentral|Intracellular|OATP1B1|Relative expression",
+          "Value": 1.0
+        },
+        {
+          "Path": "Organism|Liver|Periportal|Intracellular|OATP1B1|Relative expression",
+          "Value": 1.0
+        },
+        {
+          "Path": "Organism|Lung|Intracellular|OATP1B1|Relative expression",
+          "Value": 4.0079365079E-05
+        },
+        {
+          "Path": "Organism|Muscle|Intracellular|OATP1B1|Relative expression",
+          "Value": 0.00064682539683
+        }
+      ],
+      "TransportType": "Influx",
+      "Expression": [
+        {
+          "Name": "Bone",
+          "TransportDirection": "InfluxInterstitialToIntracellular",
+          "CompartmentName": "Intracellular"
+        },
+        {
+          "Name": "Brain",
+          "TransportDirection": "InfluxBrainPlasmaToInterstitial",
+          "CompartmentName": "Plasma"
+        },
+        {
+          "Name": "Brain",
+          "TransportDirection": "InfluxBrainInterstitialToTissue",
+          "CompartmentName": "Interstitial"
+        },
+        {
+          "Name": "Fat",
+          "TransportDirection": "InfluxInterstitialToIntracellular",
+          "CompartmentName": "Intracellular"
+        },
+        {
+          "Name": "Gonads",
+          "TransportDirection": "InfluxInterstitialToIntracellular",
+          "CompartmentName": "Intracellular"
+        },
+        {
+          "Name": "Heart",
+          "TransportDirection": "InfluxInterstitialToIntracellular",
+          "CompartmentName": "Intracellular"
+        },
+        {
+          "Name": "Kidney",
+          "TransportDirection": "InfluxInterstitialToIntracellular",
+          "CompartmentName": "Interstitial"
+        },
+        {
+          "Name": "Kidney",
+          "TransportDirection": "ExcretionKidney",
+          "CompartmentName": "Intracellular"
+        },
+        {
+          "Name": "Stomach",
+          "TransportDirection": "InfluxInterstitialToIntracellular",
+          "CompartmentName": "Intracellular"
+        },
+        {
+          "Name": "SmallIntestine",
+          "TransportDirection": "InfluxInterstitialToIntracellular",
+          "CompartmentName": "Intracellular"
+        },
+        {
+          "Name": "Duodenum",
+          "TransportDirection": "InfluxInterstitialToIntracellular",
+          "CompartmentName": "Interstitial"
+        },
+        {
+          "Name": "Duodenum",
+          "TransportDirection": "InfluxLumenToMucosaIntracellular",
+          "CompartmentName": "Intracellular"
+        },
+        {
+          "Name": "UpperJejunum",
+          "TransportDirection": "InfluxInterstitialToIntracellular",
+          "CompartmentName": "Interstitial"
+        },
+        {
+          "Name": "UpperJejunum",
+          "TransportDirection": "InfluxLumenToMucosaIntracellular",
+          "CompartmentName": "Intracellular"
+        },
+        {
+          "Name": "LowerJejunum",
+          "TransportDirection": "InfluxInterstitialToIntracellular",
+          "CompartmentName": "Interstitial"
+        },
+        {
+          "Name": "LowerJejunum",
+          "TransportDirection": "InfluxLumenToMucosaIntracellular",
+          "CompartmentName": "Intracellular"
+        },
+        {
+          "Name": "UpperIleum",
+          "TransportDirection": "InfluxInterstitialToIntracellular",
+          "CompartmentName": "Interstitial"
+        },
+        {
+          "Name": "UpperIleum",
+          "TransportDirection": "InfluxLumenToMucosaIntracellular",
+          "CompartmentName": "Intracellular"
+        },
+        {
+          "Name": "LowerIleum",
+          "TransportDirection": "InfluxInterstitialToIntracellular",
+          "CompartmentName": "Interstitial"
+        },
+        {
+          "Name": "LowerIleum",
+          "TransportDirection": "InfluxLumenToMucosaIntracellular",
+          "CompartmentName": "Intracellular"
+        },
+        {
+          "Name": "LargeIntestine",
+          "TransportDirection": "InfluxInterstitialToIntracellular",
+          "CompartmentName": "Intracellular"
+        },
+        {
+          "Name": "Caecum",
+          "TransportDirection": "InfluxInterstitialToIntracellular",
+          "CompartmentName": "Interstitial"
+        },
+        {
+          "Name": "Caecum",
+          "TransportDirection": "InfluxLumenToMucosaIntracellular",
+          "CompartmentName": "Intracellular"
+        },
+        {
+          "Name": "ColonAscendens",
+          "TransportDirection": "InfluxInterstitialToIntracellular",
+          "CompartmentName": "Interstitial"
+        },
+        {
+          "Name": "ColonAscendens",
+          "TransportDirection": "InfluxLumenToMucosaIntracellular",
+          "CompartmentName": "Intracellular"
+        },
+        {
+          "Name": "ColonTransversum",
+          "TransportDirection": "InfluxInterstitialToIntracellular",
+          "CompartmentName": "Interstitial"
+        },
+        {
+          "Name": "ColonTransversum",
+          "TransportDirection": "InfluxLumenToMucosaIntracellular",
+          "CompartmentName": "Intracellular"
+        },
+        {
+          "Name": "ColonDescendens",
+          "TransportDirection": "InfluxInterstitialToIntracellular",
+          "CompartmentName": "Interstitial"
+        },
+        {
+          "Name": "ColonDescendens",
+          "TransportDirection": "InfluxLumenToMucosaIntracellular",
+          "CompartmentName": "Intracellular"
+        },
+        {
+          "Name": "ColonSigmoid",
+          "TransportDirection": "InfluxInterstitialToIntracellular",
+          "CompartmentName": "Interstitial"
+        },
+        {
+          "Name": "ColonSigmoid",
+          "TransportDirection": "InfluxLumenToMucosaIntracellular",
+          "CompartmentName": "Intracellular"
+        },
+        {
+          "Name": "Rectum",
+          "TransportDirection": "InfluxInterstitialToIntracellular",
+          "CompartmentName": "Interstitial"
+        },
+        {
+          "Name": "Rectum",
+          "TransportDirection": "InfluxLumenToMucosaIntracellular",
+          "CompartmentName": "Intracellular"
+        },
+        {
+          "Name": "Periportal",
+          "TransportDirection": "InfluxInterstitialToIntracellular",
+          "CompartmentName": "Interstitial"
+        },
+        {
+          "Name": "Periportal",
+          "TransportDirection": "ExcretionLiver",
+          "CompartmentName": "Intracellular"
+        },
+        {
+          "Name": "Pericentral",
+          "TransportDirection": "InfluxInterstitialToIntracellular",
+          "CompartmentName": "Interstitial"
+        },
+        {
+          "Name": "Pericentral",
+          "TransportDirection": "ExcretionLiver",
+          "CompartmentName": "Intracellular"
+        },
+        {
+          "Name": "Lung",
+          "TransportDirection": "InfluxInterstitialToIntracellular",
+          "CompartmentName": "Intracellular"
+        },
+        {
+          "Name": "Muscle",
+          "TransportDirection": "InfluxInterstitialToIntracellular",
+          "CompartmentName": "Intracellular"
+        },
+        {
+          "Name": "Pancreas",
+          "TransportDirection": "InfluxInterstitialToIntracellular",
+          "CompartmentName": "Intracellular"
+        },
+        {
+          "Name": "Skin",
+          "TransportDirection": "InfluxInterstitialToIntracellular",
+          "CompartmentName": "Intracellular"
+        },
+        {
+          "Name": "Spleen",
+          "TransportDirection": "InfluxInterstitialToIntracellular",
+          "CompartmentName": "Intracellular"
+        },
+        {
+          "Name": "BloodCells",
+          "TransportDirection": "InfluxPlasmaToBloodCells"
+        },
+        {
+          "Name": "VascularEndothelium",
+          "TransportDirection": "InfluxPlasmaToInterstitial"
+        }
+      ]
+    },
+    {
+      "Type": "Transporter",
+      "Species": "Human",
+      "Molecule": "P-gp",
+      "Category": "European (P-gp modified, new ref. conc.)",
+      "Parameters": [
+        {
+          "Path": "Organism|Bone|Intracellular|P-gp|Relative expression",
+          "Value": 0.0242518189
+        },
+        {
+          "Path": "Organism|Brain|Intracellular|P-gp|Relative expression",
+          "Value": 0.07608904
+        },
+        {
+          "Path": "Organism|Gonads|Intracellular|P-gp|Relative expression",
+          "Value": 0.017417973
+        },
+        {
+          "Path": "Organism|Heart|Intracellular|P-gp|Relative expression",
+          "Value": 0.0419198106
+        },
+        {
+          "Path": "Organism|Kidney|Intracellular|P-gp|Relative expression",
+          "Value": 0.7092198582
+        },
+        {
+          "Path": "Organism|LargeIntestine|Intracellular|P-gp|Relative expression",
+          "Value": 0.1108416465
+        },
+        {
+          "Path": "Organism|LargeIntestine|Mucosa|ColonAscendens|Intracellular|P-gp|Relative expression",
+          "Value": 0.3971631206
+        },
+        {
+          "Path": "Organism|LargeIntestine|Mucosa|ColonDescendens|Intracellular|P-gp|Relative expression",
+          "Value": 0.3971631206
+        },
+        {
+          "Path": "Organism|LargeIntestine|Mucosa|ColonSigmoid|Intracellular|P-gp|Relative expression",
+          "Value": 0.3971631206
+        },
+        {
+          "Path": "Organism|LargeIntestine|Mucosa|ColonTransversum|Intracellular|P-gp|Relative expression",
+          "Value": 0.3971631206
+        },
+        {
+          "Path": "Organism|Liver|Pericentral|Intracellular|P-gp|Relative expression",
+          "Value": 0.1916810428
+        },
+        {
+          "Path": "Organism|Liver|Periportal|Intracellular|P-gp|Relative expression",
+          "Value": 0.1916810428
+        },
+        {
+          "Path": "Organism|Lung|Intracellular|P-gp|Relative expression",
+          "Value": 0.0657549316
+        },
+        {
+          "Path": "Organism|Muscle|Intracellular|P-gp|Relative expression",
+          "Value": 0.0128342959
+        },
+        {
+          "Path": "Organism|Pancreas|Intracellular|P-gp|Relative expression",
+          "Value": 0.0142510689
+        },
+        {
+          "Path": "Organism|SmallIntestine|Intracellular|P-gp|Relative expression",
+          "Value": 0.2808543974
+        },
+        {
+          "Path": "Organism|SmallIntestine|Mucosa|Duodenum|Intracellular|P-gp|Relative expression",
+          "Value": 1.0
+        },
+        {
+          "Path": "Organism|SmallIntestine|Mucosa|LowerIleum|Intracellular|P-gp|Relative expression",
+          "Value": 1.0
+        },
+        {
+          "Path": "Organism|SmallIntestine|Mucosa|LowerJejunum|Intracellular|P-gp|Relative expression",
+          "Value": 1.0
+        },
+        {
+          "Path": "Organism|SmallIntestine|Mucosa|UpperIleum|Intracellular|P-gp|Relative expression",
+          "Value": 1.0
+        },
+        {
+          "Path": "Organism|SmallIntestine|Mucosa|UpperJejunum|Intracellular|P-gp|Relative expression",
+          "Value": 1.0
+        },
+        {
+          "Path": "Organism|Spleen|Intracellular|P-gp|Relative expression",
+          "Value": 0.0742555691
+        },
+        {
+          "Path": "Organism|Stomach|Intracellular|P-gp|Relative expression",
+          "Value": 0.0260852897
+        },
+        {
+          "Path": "P-gp|Reference concentration",
+          "Value": 1.41,
+          "Unit": "µmol/l",
+          "ValueOrigin": {
+            "Source": "Publication",
+            "Description": "DOI: 10.1002/psp4.12343"
+          }
+        },
+        {
+          "Path": "P-gp|t1/2 (intestine)",
+          "Value": 23.0,
+          "Unit": "h"
+        },
+        {
+          "Path": "P-gp|t1/2 (liver)",
+          "Value": 36.0,
+          "Unit": "h"
+        }
+      ],
+      "TransportType": "Efflux",
+      "Expression": [
+        {
+          "Name": "Bone",
+          "TransportDirection": "EffluxIntracellularToInterstitial",
+          "CompartmentName": "Intracellular"
+        },
+        {
+          "Name": "Brain",
+          "TransportDirection": "EffluxBrainInterstitialToPlasma",
+          "CompartmentName": "Plasma"
+        },
+        {
+          "Name": "Brain",
+          "TransportDirection": "EffluxBrainTissueToInterstitial",
+          "CompartmentName": "Interstitial"
+        },
+        {
+          "Name": "Fat",
+          "TransportDirection": "EffluxIntracellularToInterstitial",
+          "CompartmentName": "Intracellular"
+        },
+        {
+          "Name": "Gonads",
+          "TransportDirection": "EffluxIntracellularToInterstitial",
+          "CompartmentName": "Intracellular"
+        },
+        {
+          "Name": "Heart",
+          "TransportDirection": "EffluxIntracellularToInterstitial",
+          "CompartmentName": "Intracellular"
+        },
+        {
+          "Name": "Kidney",
+          "TransportDirection": "EffluxIntracellularToInterstitial",
+          "CompartmentName": "Interstitial"
+        },
+        {
+          "Name": "Kidney",
+          "TransportDirection": "ExcretionKidney",
+          "CompartmentName": "Intracellular"
+        },
+        {
+          "Name": "Stomach",
+          "TransportDirection": "EffluxIntracellularToInterstitial",
+          "CompartmentName": "Intracellular"
+        },
+        {
+          "Name": "SmallIntestine",
+          "TransportDirection": "EffluxIntracellularToInterstitial",
+          "CompartmentName": "Intracellular"
+        },
+        {
+          "Name": "Duodenum",
+          "TransportDirection": "EffluxIntracellularToInterstitial",
+          "CompartmentName": "Interstitial"
+        },
+        {
+          "Name": "Duodenum",
+          "TransportDirection": "EffluxMucosaIntracellularToLumen",
+          "CompartmentName": "Intracellular"
+        },
+        {
+          "Name": "UpperJejunum",
+          "TransportDirection": "EffluxIntracellularToInterstitial",
+          "CompartmentName": "Interstitial"
+        },
+        {
+          "Name": "UpperJejunum",
+          "TransportDirection": "EffluxMucosaIntracellularToLumen",
+          "CompartmentName": "Intracellular"
+        },
+        {
+          "Name": "LowerJejunum",
+          "TransportDirection": "EffluxIntracellularToInterstitial",
+          "CompartmentName": "Interstitial"
+        },
+        {
+          "Name": "LowerJejunum",
+          "TransportDirection": "EffluxMucosaIntracellularToLumen",
+          "CompartmentName": "Intracellular"
+        },
+        {
+          "Name": "UpperIleum",
+          "TransportDirection": "EffluxIntracellularToInterstitial",
+          "CompartmentName": "Interstitial"
+        },
+        {
+          "Name": "UpperIleum",
+          "TransportDirection": "EffluxMucosaIntracellularToLumen",
+          "CompartmentName": "Intracellular"
+        },
+        {
+          "Name": "LowerIleum",
+          "TransportDirection": "EffluxIntracellularToInterstitial",
+          "CompartmentName": "Interstitial"
+        },
+        {
+          "Name": "LowerIleum",
+          "TransportDirection": "EffluxMucosaIntracellularToLumen",
+          "CompartmentName": "Intracellular"
+        },
+        {
+          "Name": "LargeIntestine",
+          "TransportDirection": "EffluxIntracellularToInterstitial",
+          "CompartmentName": "Intracellular"
+        },
+        {
+          "Name": "Caecum",
+          "TransportDirection": "EffluxIntracellularToInterstitial",
+          "CompartmentName": "Interstitial"
+        },
+        {
+          "Name": "Caecum",
+          "TransportDirection": "EffluxMucosaIntracellularToLumen",
+          "CompartmentName": "Intracellular"
+        },
+        {
+          "Name": "ColonAscendens",
+          "TransportDirection": "EffluxIntracellularToInterstitial",
+          "CompartmentName": "Interstitial"
+        },
+        {
+          "Name": "ColonAscendens",
+          "TransportDirection": "EffluxMucosaIntracellularToLumen",
+          "CompartmentName": "Intracellular"
+        },
+        {
+          "Name": "ColonTransversum",
+          "TransportDirection": "EffluxIntracellularToInterstitial",
+          "CompartmentName": "Interstitial"
+        },
+        {
+          "Name": "ColonTransversum",
+          "TransportDirection": "EffluxMucosaIntracellularToLumen",
+          "CompartmentName": "Intracellular"
+        },
+        {
+          "Name": "ColonDescendens",
+          "TransportDirection": "EffluxIntracellularToInterstitial",
+          "CompartmentName": "Interstitial"
+        },
+        {
+          "Name": "ColonDescendens",
+          "TransportDirection": "EffluxMucosaIntracellularToLumen",
+          "CompartmentName": "Intracellular"
+        },
+        {
+          "Name": "ColonSigmoid",
+          "TransportDirection": "EffluxIntracellularToInterstitial",
+          "CompartmentName": "Interstitial"
+        },
+        {
+          "Name": "ColonSigmoid",
+          "TransportDirection": "EffluxMucosaIntracellularToLumen",
+          "CompartmentName": "Intracellular"
+        },
+        {
+          "Name": "Rectum",
+          "TransportDirection": "EffluxIntracellularToInterstitial",
+          "CompartmentName": "Interstitial"
+        },
+        {
+          "Name": "Rectum",
+          "TransportDirection": "EffluxMucosaIntracellularToLumen",
+          "CompartmentName": "Intracellular"
+        },
+        {
+          "Name": "Periportal",
+          "TransportDirection": "EffluxIntracellularToInterstitial",
+          "CompartmentName": "Interstitial"
+        },
+        {
+          "Name": "Periportal",
+          "TransportDirection": "ExcretionLiver",
+          "CompartmentName": "Intracellular"
+        },
+        {
+          "Name": "Pericentral",
+          "TransportDirection": "EffluxIntracellularToInterstitial",
+          "CompartmentName": "Interstitial"
+        },
+        {
+          "Name": "Pericentral",
+          "TransportDirection": "ExcretionLiver",
+          "CompartmentName": "Intracellular"
+        },
+        {
+          "Name": "Lung",
+          "TransportDirection": "EffluxIntracellularToInterstitial",
+          "CompartmentName": "Intracellular"
+        },
+        {
+          "Name": "Muscle",
+          "TransportDirection": "EffluxIntracellularToInterstitial",
+          "CompartmentName": "Intracellular"
+        },
+        {
+          "Name": "Pancreas",
+          "TransportDirection": "EffluxIntracellularToInterstitial",
+          "CompartmentName": "Intracellular"
+        },
+        {
+          "Name": "Skin",
+          "TransportDirection": "EffluxIntracellularToInterstitial",
+          "CompartmentName": "Intracellular"
+        },
+        {
+          "Name": "Spleen",
+          "TransportDirection": "EffluxIntracellularToInterstitial",
+          "CompartmentName": "Intracellular"
+        },
+        {
+          "Name": "BloodCells",
+          "TransportDirection": "EffluxBloodCellsToPlasma"
+        },
+        {
+          "Name": "VascularEndothelium",
+          "TransportDirection": "EffluxInterstitialToPlasma"
+        }
+      ],
+      "Ontogeny": {
+        "Name": "P-gp",
+        "Table": {
+          "Name": "TableFormula",
+          "Percentile": 0.0,
+          "DistributionMetaData": [
+            {
+              "Mean": 1E-14,
+              "Deviation": 1.6,
+              "Distribution": "LogNormal"
+            },
+            {
+              "Mean": 1.915059E-05,
+              "Deviation": 1.6,
+              "Distribution": "LogNormal"
+            },
+            {
+              "Mean": 5.486795E-05,
+              "Deviation": 1.6,
+              "Distribution": "LogNormal"
+            },
+            {
+              "Mean": 0.0001571905,
+              "Deviation": 1.6,
+              "Distribution": "LogNormal"
+            },
+            {
+              "Mean": 0.0004502473,
+              "Deviation": 1.6,
+              "Distribution": "LogNormal"
+            },
+            {
+              "Mean": 0.001288958,
+              "Deviation": 1.6,
+              "Distribution": "LogNormal"
+            },
+            {
+              "Mean": 0.00368424,
+              "Deviation": 1.6,
+              "Distribution": "LogNormal"
+            },
+            {
+              "Mean": 0.01048397,
+              "Deviation": 1.6,
+              "Distribution": "LogNormal"
+            },
+            {
+              "Mean": 0.02946235,
+              "Deviation": 1.6,
+              "Distribution": "LogNormal"
+            },
+            {
+              "Mean": 0.0800178,
+              "Deviation": 1.6,
+              "Distribution": "LogNormal"
+            },
+            {
+              "Mean": 0.1994918,
+              "Deviation": 1.6,
+              "Distribution": "LogNormal"
+            },
+            {
+              "Mean": 0.4165768,
+              "Deviation": 1.6,
+              "Distribution": "LogNormal"
+            },
+            {
+              "Mean": 0.6716791,
+              "Deviation": 1.6,
+              "Distribution": "LogNormal"
+            },
+            {
+              "Mean": 0.8542612,
+              "Deviation": 1.6,
+              "Distribution": "LogNormal"
+            },
+            {
+              "Mean": 0.943803,
+              "Deviation": 1.6,
+              "Distribution": "LogNormal"
+            },
+            {
+              "Mean": 0.9796414,
+              "Deviation": 1.6,
+              "Distribution": "LogNormal"
+            },
+            {
+              "Mean": 0.992799,
+              "Deviation": 1.6,
+              "Distribution": "LogNormal"
+            },
+            {
+              "Mean": 0.9974749,
+              "Deviation": 1.6,
+              "Distribution": "LogNormal"
+            },
+            {
+              "Mean": 0.9991173,
+              "Deviation": 1.6,
+              "Distribution": "LogNormal"
+            },
+            {
+              "Mean": 0.9996917,
+              "Deviation": 1.6,
+              "Distribution": "LogNormal"
+            },
+            {
+              "Mean": 0.9998924,
+              "Deviation": 1.6,
+              "Distribution": "LogNormal"
+            },
+            {
+              "Mean": 0.9999624,
+              "Deviation": 1.6,
+              "Distribution": "LogNormal"
+            },
+            {
+              "Mean": 0.9999869,
+              "Deviation": 1.6,
+              "Distribution": "LogNormal"
+            },
+            {
+              "Mean": 1.0,
+              "Deviation": 1.6,
+              "Distribution": "LogNormal"
+            }
+          ],
+          "XName": "Postmenstrual age",
+          "XDimension": "Age in years",
+          "XUnit": "year(s)",
+          "YName": "P-gp",
+          "YDimension": "Fraction",
+          "UseDerivedValues": false,
+          "Points": [
+            {
+              "X": 0.0,
+              "Y": 1E-14,
+              "RestartSolver": false
+            },
+            {
+              "X": 0.08333334,
+              "Y": 1.915059E-05,
+              "RestartSolver": false
+            },
+            {
+              "X": 0.1666667,
+              "Y": 5.486795E-05,
+              "RestartSolver": false
+            },
+            {
+              "X": 0.25,
+              "Y": 0.0001571905,
+              "RestartSolver": false
+            },
+            {
+              "X": 0.3333333,
+              "Y": 0.0004502473,
+              "RestartSolver": false
+            },
+            {
+              "X": 0.4166667,
+              "Y": 0.001288958,
+              "RestartSolver": false
+            },
+            {
+              "X": 0.5,
+              "Y": 0.00368424,
+              "RestartSolver": false
+            },
+            {
+              "X": 0.5833333,
+              "Y": 0.01048397,
+              "RestartSolver": false
+            },
+            {
+              "X": 0.6666667,
+              "Y": 0.02946235,
+              "RestartSolver": false
+            },
+            {
+              "X": 0.75,
+              "Y": 0.0800178,
+              "RestartSolver": false
+            },
+            {
+              "X": 0.8333333,
+              "Y": 0.1994918,
+              "RestartSolver": false
+            },
+            {
+              "X": 0.9166667,
+              "Y": 0.4165768,
+              "RestartSolver": false
+            },
+            {
+              "X": 1.0,
+              "Y": 0.6716791,
+              "RestartSolver": false
+            },
+            {
+              "X": 1.083333,
+              "Y": 0.8542612,
+              "RestartSolver": false
+            },
+            {
+              "X": 1.166667,
+              "Y": 0.943803,
+              "RestartSolver": false
+            },
+            {
+              "X": 1.25,
+              "Y": 0.9796414,
+              "RestartSolver": false
+            },
+            {
+              "X": 1.333333,
+              "Y": 0.992799,
+              "RestartSolver": false
+            },
+            {
+              "X": 1.416667,
+              "Y": 0.9974749,
+              "RestartSolver": false
+            },
+            {
+              "X": 1.5,
+              "Y": 0.9991173,
+              "RestartSolver": false
+            },
+            {
+              "X": 1.583333,
+              "Y": 0.9996917,
+              "RestartSolver": false
+            },
+            {
+              "X": 1.666667,
+              "Y": 0.9998924,
+              "RestartSolver": false
+            },
+            {
+              "X": 1.75,
+              "Y": 0.9999624,
+              "RestartSolver": false
+            },
+            {
+              "X": 1.833333,
+              "Y": 0.9999869,
+              "RestartSolver": false
+            },
+            {
+              "X": 3.333333,
+              "Y": 1.0,
+              "RestartSolver": false
+            }
+          ]
+        }
+      }
+    },
+    {
+      "Type": "Enzyme",
+      "Species": "Human",
+      "Molecule": "UGT1A4",
+      "Category": "European (P-gp modified, new ref. conc.)",
+      "Parameters": [
+        {
+          "Path": "Organism|Liver|Pericentral|Intracellular|UGT1A4|Relative expression",
+          "Value": 1.0
+        },
+        {
+          "Path": "Organism|Liver|Periportal|Intracellular|UGT1A4|Relative expression",
+          "Value": 1.0
+        },
+        {
+          "Path": "UGT1A4|Reference concentration",
+          "Value": 2.32,
+          "Unit": "µmol/l",
+          "ValueOrigin": {
+            "Source": "Unknown"
+          }
+        },
+        {
+          "Path": "UGT1A4|t1/2 (intestine)",
+          "Value": 23.0,
+          "Unit": "h"
+        },
+        {
+          "Path": "UGT1A4|t1/2 (liver)",
+          "Value": 36.0,
+          "Unit": "h"
+        }
+      ],
+      "Localization": "Intracellular, BloodCellsIntracellular, VascEndosome",
+      "Ontogeny": {
+        "Name": "UGT1A4"
+      }
+    },
+    {
+      "Type": "Enzyme",
+      "Species": "Human",
+      "Molecule": "CES1",
+      "Category": "46.1/2_Judge et al 2010_European_male_CES2 (intestine)",
+      "Parameters": [
+        {
+          "Path": "CES1|Reference concentration",
+          "Value": 42.0,
+          "Unit": "µmol/l",
+          "ValueOrigin": {
+            "Source": "Unknown"
+          }
+        },
+        {
+          "Path": "CES1|Relative expression in blood cells",
+          "Value": 0.0087615526802
+        },
+        {
+          "Path": "CES1|Relative expression in plasma",
+          "Value": 0.0087615526802
+        },
+        {
+          "Path": "CES1|t1/2 (intestine)",
+          "Value": 23.0,
+          "Unit": "h"
+        },
+        {
+          "Path": "CES1|t1/2 (liver)",
+          "Value": 36.0,
+          "Unit": "h"
+        },
+        {
+          "Path": "Organism|Bone|Intracellular|CES1|Relative expression",
+          "Value": 0.0087800369686
+        },
+        {
+          "Path": "Organism|Brain|Intracellular|CES1|Relative expression",
+          "Value": 0.00051756007394
+        },
+        {
+          "Path": "Organism|Gonads|Intracellular|CES1|Relative expression",
+          "Value": 0.0048243992606
+        },
+        {
+          "Path": "Organism|Heart|Intracellular|CES1|Relative expression",
+          "Value": 0.0369685767
+        },
+        {
+          "Path": "Organism|Kidney|Intracellular|CES1|Relative expression",
+          "Value": 0.0013567467652
+        },
+        {
+          "Path": "Organism|LargeIntestine|Intracellular|CES1|Relative expression",
+          "Value": 0.0055268022181
+        },
+        {
+          "Path": "Organism|LargeIntestine|Mucosa|ColonAscendens|Intracellular|CES1|Relative expression",
+          "Value": 0.0055268022181
+        },
+        {
+          "Path": "Organism|LargeIntestine|Mucosa|ColonDescendens|Intracellular|CES1|Relative expression",
+          "Value": 0.0055268022181
+        },
+        {
+          "Path": "Organism|LargeIntestine|Mucosa|ColonSigmoid|Intracellular|CES1|Relative expression",
+          "Value": 0.0055268022181
+        },
+        {
+          "Path": "Organism|LargeIntestine|Mucosa|ColonTransversum|Intracellular|CES1|Relative expression",
+          "Value": 0.0055268022181
+        },
+        {
+          "Path": "Organism|Liver|Pericentral|Intracellular|CES1|Relative expression",
+          "Value": 1.0
+        },
+        {
+          "Path": "Organism|Liver|Periportal|Intracellular|CES1|Relative expression",
+          "Value": 1.0
+        },
+        {
+          "Path": "Organism|Lung|Intracellular|CES1|Relative expression",
+          "Value": 0.0580406654
+        },
+        {
+          "Path": "Organism|Muscle|Intracellular|CES1|Relative expression",
+          "Value": 0.0044916820702
+        },
+        {
+          "Path": "Organism|Pancreas|Intracellular|CES1|Relative expression",
+          "Value": 0.0037153419593
+        },
+        {
+          "Path": "Organism|SmallIntestine|Intracellular|CES1|Relative expression",
+          "Value": 0.004584103512
+        },
+        {
+          "Path": "Organism|SmallIntestine|Mucosa|Duodenum|Intracellular|CES1|Relative expression",
+          "Value": 0.004584103512
+        },
+        {
+          "Path": "Organism|SmallIntestine|Mucosa|LowerIleum|Intracellular|CES1|Relative expression",
+          "Value": 0.004584103512
+        },
+        {
+          "Path": "Organism|SmallIntestine|Mucosa|LowerJejunum|Intracellular|CES1|Relative expression",
+          "Value": 0.004584103512
+        },
+        {
+          "Path": "Organism|SmallIntestine|Mucosa|UpperIleum|Intracellular|CES1|Relative expression",
+          "Value": 0.004584103512
+        },
+        {
+          "Path": "Organism|SmallIntestine|Mucosa|UpperJejunum|Intracellular|CES1|Relative expression",
+          "Value": 0.004584103512
+        },
+        {
+          "Path": "Organism|Spleen|Intracellular|CES1|Relative expression",
+          "Value": 0.0123475046
+        },
+        {
+          "Path": "Organism|Stomach|Intracellular|CES1|Relative expression",
+          "Value": 0.0223659889
+        }
+      ],
+      "Localization": "Intracellular, BloodCellsIntracellular, VascEndosome"
+    },
+    {
+      "Type": "Enzyme",
+      "Species": "Human",
+      "Molecule": "CES2",
+      "Category": "46.1/2_Judge et al 2010_European_male_CES2 (intestine)",
+      "Parameters": [
+        {
+          "Path": "CES2|Reference concentration",
+          "Value": 1.02,
+          "Unit": "µmol/l",
+          "ValueOrigin": {
+            "Source": "Unknown"
+          }
+        },
+        {
+          "Path": "CES2|t1/2 (intestine)",
+          "Value": 23.0,
+          "Unit": "h"
+        },
+        {
+          "Path": "CES2|t1/2 (liver)",
+          "Value": 36.0,
+          "Unit": "h"
+        },
+        {
+          "Path": "Organism|LargeIntestine|Intracellular|CES2|Relative expression",
+          "Value": 0.4692307692
+        },
+        {
+          "Path": "Organism|LargeIntestine|Mucosa|ColonAscendens|Intracellular|CES2|Relative expression",
+          "Value": 0.4692307692
+        },
+        {
+          "Path": "Organism|LargeIntestine|Mucosa|ColonDescendens|Intracellular|CES2|Relative expression",
+          "Value": 0.4692307692
+        },
+        {
+          "Path": "Organism|LargeIntestine|Mucosa|ColonSigmoid|Intracellular|CES2|Relative expression",
+          "Value": 0.4692307692
+        },
+        {
+          "Path": "Organism|LargeIntestine|Mucosa|ColonTransversum|Intracellular|CES2|Relative expression",
+          "Value": 0.4692307692
+        },
+        {
+          "Path": "Organism|SmallIntestine|Intracellular|CES2|Relative expression",
+          "Value": 1.0
+        },
+        {
+          "Path": "Organism|SmallIntestine|Mucosa|Duodenum|Intracellular|CES2|Relative expression",
+          "Value": 1.0
+        },
+        {
+          "Path": "Organism|SmallIntestine|Mucosa|LowerIleum|Intracellular|CES2|Relative expression",
+          "Value": 1.0
+        },
+        {
+          "Path": "Organism|SmallIntestine|Mucosa|LowerJejunum|Intracellular|CES2|Relative expression",
+          "Value": 1.0
+        },
+        {
+          "Path": "Organism|SmallIntestine|Mucosa|UpperIleum|Intracellular|CES2|Relative expression",
+          "Value": 1.0
+        },
+        {
+          "Path": "Organism|SmallIntestine|Mucosa|UpperJejunum|Intracellular|CES2|Relative expression",
+          "Value": 1.0
+        }
+      ],
+      "Localization": "Intracellular, BloodCellsIntracellular, VascEndosome"
+    },
+    {
+      "Type": "Enzyme",
+      "Species": "Human",
+      "Molecule": "UGT2B15",
+      "Category": "Tennezé 1999 (122) EM, n=36",
+      "Parameters": [
+        {
+          "Path": "Organism|Bone|Intracellular|UGT2B15|Relative expression",
+          "Value": 5.8295964126E-06
+        },
+        {
+          "Path": "Organism|Brain|Intracellular|UGT2B15|Relative expression",
+          "Value": 3.1390134529E-06
+        },
+        {
+          "Path": "Organism|Gonads|Intracellular|UGT2B15|Relative expression",
+          "Value": 0.0034753363229
+        },
+        {
+          "Path": "Organism|Heart|Intracellular|UGT2B15|Relative expression",
+          "Value": 0.00011278026906
+        },
+        {
+          "Path": "Organism|Kidney|Intracellular|UGT2B15|Relative expression",
+          "Value": 4.1031390135E-05
+        },
+        {
+          "Path": "Organism|LargeIntestine|Intracellular|UGT2B15|Relative expression",
+          "Value": 0.0007600896861
+        },
+        {
+          "Path": "Organism|LargeIntestine|Mucosa|ColonAscendens|Intracellular|UGT2B15|Relative expression",
+          "Value": 0.0007600896861
+        },
+        {
+          "Path": "Organism|LargeIntestine|Mucosa|ColonDescendens|Intracellular|UGT2B15|Relative expression",
+          "Value": 0.0007600896861
+        },
+        {
+          "Path": "Organism|LargeIntestine|Mucosa|ColonSigmoid|Intracellular|UGT2B15|Relative expression",
+          "Value": 0.0007600896861
+        },
+        {
+          "Path": "Organism|LargeIntestine|Mucosa|ColonTransversum|Intracellular|UGT2B15|Relative expression",
+          "Value": 0.0007600896861
+        },
+        {
+          "Path": "Organism|Liver|Pericentral|Intracellular|UGT2B15|Relative expression",
+          "Value": 1.0
+        },
+        {
+          "Path": "Organism|Liver|Periportal|Intracellular|UGT2B15|Relative expression",
+          "Value": 1.0
+        },
+        {
+          "Path": "Organism|Lung|Intracellular|UGT2B15|Relative expression",
+          "Value": 5.7623318386E-05
+        },
+        {
+          "Path": "Organism|Muscle|Intracellular|UGT2B15|Relative expression",
+          "Value": 7.1748878924E-05
+        },
+        {
+          "Path": "Organism|Pancreas|Intracellular|UGT2B15|Relative expression",
+          "Value": 0.021793722
+        },
+        {
+          "Path": "Organism|SmallIntestine|Intracellular|UGT2B15|Relative expression",
+          "Value": 0.0013430493274
+        },
+        {
+          "Path": "Organism|SmallIntestine|Mucosa|Duodenum|Intracellular|UGT2B15|Relative expression",
+          "Value": 0.0013430493274
+        },
+        {
+          "Path": "Organism|SmallIntestine|Mucosa|LowerIleum|Intracellular|UGT2B15|Relative expression",
+          "Value": 0.0013430493274
+        },
+        {
+          "Path": "Organism|SmallIntestine|Mucosa|LowerJejunum|Intracellular|UGT2B15|Relative expression",
+          "Value": 0.0013430493274
+        },
+        {
+          "Path": "Organism|SmallIntestine|Mucosa|UpperIleum|Intracellular|UGT2B15|Relative expression",
+          "Value": 0.0013430493274
+        },
+        {
+          "Path": "Organism|SmallIntestine|Mucosa|UpperJejunum|Intracellular|UGT2B15|Relative expression",
+          "Value": 0.0013430493274
+        },
+        {
+          "Path": "Organism|Spleen|Intracellular|UGT2B15|Relative expression",
+          "Value": 6.1883408072E-05
+        },
+        {
+          "Path": "Organism|Stomach|Intracellular|UGT2B15|Relative expression",
+          "Value": 0.0260089686
+        },
+        {
+          "Path": "UGT2B15|Reference concentration",
+          "Value": 2.484,
+          "Unit": "µmol/l",
+          "ValueOrigin": {
+            "Source": "Unknown"
+          }
+        },
+        {
+          "Path": "UGT2B15|t1/2 (intestine)",
+          "Value": 23.0,
+          "Unit": "h"
+        },
+        {
+          "Path": "UGT2B15|t1/2 (liver)",
+          "Value": 36.0,
+          "Unit": "h"
+        }
+      ],
+      "Localization": "Intracellular, BloodCellsIntracellular, VascEndosome"
+    }
+  ],
+  "Individuals": [
+    {
+      "Name": "Härtter 2012_DDI Rifampicin",
+      "Seed": 2099975312,
+      "OriginData": {
+        "CalculationMethods": [
+          "SurfaceAreaPlsInt_VAR1",
+          "Body surface area - Mosteller"
+        ],
+        "Species": "Human",
+        "Population": "European_ICRP_2002",
+        "Gender": "FEMALE",
+        "Age": {
+          "Value": 32.9,
+          "Unit": "year(s)"
+        },
+        "Weight": {
+          "Value": 66.2,
+          "Unit": "kg"
+        }
+      },
+      "Parameters": [
+        {
+          "Path": "Organism|Liver|EHC continuous fraction",
+          "Value": 1.0,
+          "ValueOrigin": {
+            "Source": "Unknown"
+          }
+        }
+      ],
+      "ExpressionProfiles": [
+        "AADAC|Human|European (P-gp modified, new ref. conc.)",
+        "ATP1A2|Human|European (P-gp modified, new ref. conc.)",
+        "CYP3A4|Human|European (P-gp modified, new ref. conc.)",
+        "GABRG2|Human|European (P-gp modified, new ref. conc.)",
+        "OATP1B1|Human|European (P-gp modified, new ref. conc.)",
+        "P-gp|Human|European (P-gp modified, new ref. conc.)",
+        "UGT1A4|Human|European (P-gp modified, new ref. conc.)",
+        "CES1|Human|46.1/2_Judge et al 2010_European_male_CES2 (intestine)",
+        "CES2|Human|46.1/2_Judge et al 2010_European_male_CES2 (intestine)",
+        "UGT2B15|Human|Tennezé 1999 (122) EM, n=36"
+      ]
+    },
+    {
+      "Name": "Prueksaritanont 2017_DDI cocktail",
+      "Seed": 1641242906,
+      "OriginData": {
+        "CalculationMethods": [
+          "SurfaceAreaPlsInt_VAR1",
+          "Body surface area - Mosteller"
+        ],
+        "Species": "Human",
+        "Population": "WhiteAmerican_NHANES_1997",
+        "Gender": "MALE",
+        "Age": {
+          "Value": 30.0,
+          "Unit": "year(s)"
+        }
+      },
+      "Parameters": [
+        {
+          "Path": "Organism|Liver|EHC continuous fraction",
+          "Value": 1.0,
+          "ValueOrigin": {
+            "Source": "Unknown"
+          }
+        }
+      ],
+      "ExpressionProfiles": [
+        "AADAC|Human|European (P-gp modified, new ref. conc.)",
+        "ATP1A2|Human|European (P-gp modified, new ref. conc.)",
+        "CYP3A4|Human|European (P-gp modified, new ref. conc.)",
+        "GABRG2|Human|European (P-gp modified, new ref. conc.)",
+        "OATP1B1|Human|European (P-gp modified, new ref. conc.)",
+        "P-gp|Human|European (P-gp modified, new ref. conc.)",
+        "UGT1A4|Human|European (P-gp modified, new ref. conc.)",
+        "CES1|Human|46.1/2_Judge et al 2010_European_male_CES2 (intestine)",
+        "CES2|Human|46.1/2_Judge et al 2010_European_male_CES2 (intestine)",
+        "UGT2B15|Human|Tennezé 1999 (122) EM, n=36"
+      ]
+    },
+    {
+      "Name": "Rattanacheeworn 2021_DDI Rifampicin",
+      "Seed": 1755490937,
+      "OriginData": {
+        "CalculationMethods": [
+          "SurfaceAreaPlsInt_VAR1",
+          "Body surface area - Mosteller"
+        ],
+        "Species": "Human",
+        "Population": "Asian_Tanaka_1996",
+        "Gender": "FEMALE",
+        "Age": {
+          "Value": 30.0,
+          "Unit": "year(s)"
+        },
+        "Weight": {
+          "Value": 54.2,
+          "Unit": "kg"
+        }
+      },
+      "Parameters": [
+        {
+          "Path": "Organism|Liver|EHC continuous fraction",
+          "Value": 1.0,
+          "ValueOrigin": {
+            "Source": "Unknown"
+          }
+        }
+      ],
+      "ExpressionProfiles": [
+        "AADAC|Human|European (P-gp modified, new ref. conc.)",
+        "ATP1A2|Human|European (P-gp modified, new ref. conc.)",
+        "CYP3A4|Human|European (P-gp modified, new ref. conc.)",
+        "GABRG2|Human|European (P-gp modified, new ref. conc.)",
+        "OATP1B1|Human|European (P-gp modified, new ref. conc.)",
+        "P-gp|Human|European (P-gp modified, new ref. conc.)",
+        "UGT1A4|Human|European (P-gp modified, new ref. conc.)",
+        "CES1|Human|46.1/2_Judge et al 2010_European_male_CES2 (intestine)",
+        "CES2|Human|46.1/2_Judge et al 2010_European_male_CES2 (intestine)",
+        "UGT2B15|Human|Tennezé 1999 (122) EM, n=36"
+      ]
+    }
+  ],
+  "Compounds": [
+    {
+      "Name": "DabiEtex",
+      "IsSmallMolecule": true,
+      "PlasmaProteinBindingPartner": "Albumin",
+      "Lipophilicity": [
+        {
+          "Name": "Measurement",
+          "Parameters": [
+            {
+              "Name": "Lipophilicity",
+              "Value": 1.8088312812,
+              "Unit": "Log Units",
+              "ValueOrigin": {
+                "Source": "ParameterIdentification",
+                "Method": "ParameterIdentification",
+                "Description": "Value updated from '#11 - P-gp 0.46, DabiGluc logP -0.80, CESlink' on 2026-03-05 10:32"
+              }
+            }
+          ]
+        }
+      ],
+      "FractionUnbound": [
+        {
+          "Name": "Measurement",
+          "Species": "Human",
+          "Parameters": [
+            {
+              "Name": "Fraction unbound (plasma, reference value)",
+              "Value": 0.07
+            }
+          ]
+        }
+      ],
+      "Solubility": [
+        {
+          "Name": "Measurement",
+          "Parameters": [
+            {
+              "Name": "Solubility at reference pH",
+              "Value": 1.8,
+              "Unit": "mg/ml"
+            },
+            {
+              "Name": "Reference pH",
+              "Value": 7.0
+            }
+          ]
+        }
+      ],
+      "IntestinalPermeability": [
+        {
+          "Name": "Fit",
+          "Parameters": [
+            {
+              "Name": "Specific intestinal permeability (transcellular)",
+              "Value": 1.85E-07,
+              "Unit": "cm/min",
+              "ValueOrigin": {
+                "Source": "Unknown"
+              }
+            }
+          ]
+        }
+      ],
+      "Permeability": [
+        {
+          "Name": "FIT",
+          "IsDefault": false
+        }
+      ],
+      "PkaTypes": [
+        {
+          "Type": "Base",
+          "Pka": 4.0
+        },
+        {
+          "Type": "Base",
+          "Pka": 6.7
+        }
+      ],
+      "Processes": [
+        {
+          "InternalName": "ActiveTransportSpecific_MM",
+          "DataSource": "FIT",
+          "Molecule": "ABCB1",
+          "Parameters": [
+            {
+              "Name": "Km",
+              "Value": 0.08,
+              "Unit": "µmol/l"
+            },
+            {
+              "Name": "kcat",
+              "Value": 0.46,
+              "Unit": "1/min",
+              "ValueOrigin": {
+                "Source": "ParameterIdentification",
+                "Method": "ParameterIdentification",
+                "Description": "Value updated from '#11 - P-gp 0.46, DabiGluc logP -0.80, CESlink' on 2026-03-05 10:32"
+              }
+            }
+          ],
+          "Description": "A transporter mediated unidirectional transfer of a compound across a cellular membrane is described as saturable process following Michaelis-Menten type kinetics. The corresponding kcat value is calculated from a specific Vmax as input value."
+        },
+        {
+          "InternalName": "MetabolizationLiverMicrosomes_MM",
+          "DataSource": "FIT",
+          "Molecule": "CES1",
+          "Metabolite": "Dabigatran",
+          "Parameters": [
+            {
+              "Name": "Km",
+              "Value": 24.9,
+              "Unit": "µmol/l"
+            },
+            {
+              "Name": "kcat",
+              "Value": 10.8149677921,
+              "Unit": "1/min",
+              "ValueOrigin": {
+                "Source": "ParameterIdentification",
+                "Method": "ParameterIdentification",
+                "Description": "Value updated from '#11 - P-gp 0.46, DabiGluc logP -0.80, CESlink' on 2026-03-05 10:32"
+              }
+            }
+          ]
+        },
+        {
+          "InternalName": "MetabolizationLiverMicrosomes_MM",
+          "DataSource": "FIT",
+          "Molecule": "CES2",
+          "Metabolite": "Dabigatran",
+          "Parameters": [
+            {
+              "Name": "Km",
+              "Value": 5.5,
+              "Unit": "µmol/l"
+            },
+            {
+              "Name": "kcat",
+              "Value": 0.7209978528,
+              "Unit": "1/min",
+              "ValueOrigin": {
+                "Source": "ParameterIdentification",
+                "Method": "ParameterIdentification",
+                "Description": "Value updated from '#11 - P-gp 0.46, DabiGluc logP -0.80, CESlink' on 2026-03-05 10:32"
+              }
+            }
+          ]
+        },
+        {
+          "InternalName": "GlomerularFiltration",
+          "DataSource": "DabiEtex",
+          "Species": "Human",
+          "Parameters": [
+            {
+              "Name": "GFR fraction",
+              "Value": 1.00
+            }
+          ]
+        }
+      ],
+      "CalculationMethods": [
+        "Cellular partition coefficient method - Rodgers and Rowland",
+        "Cellular permeability - PK-Sim Standard"
+      ],
+      "Parameters": [
+        {
+          "Name": "Molecular weight",
+          "Value": 627.73,
+          "Unit": "g/mol"
+        }
+      ]
+    },
+    {
+      "Name": "Dabigatran",
+      "IsSmallMolecule": true,
+      "PlasmaProteinBindingPartner": "Albumin",
+      "Lipophilicity": [
+        {
+          "Name": "Measurement",
+          "Parameters": [
+            {
+              "Name": "Lipophilicity",
+              "Value": 1.1436481967,
+              "Unit": "Log Units",
+              "ValueOrigin": {
+                "Source": "ParameterIdentification",
+                "Method": "ParameterIdentification",
+                "Description": "Value updated from '#7 - iv (logP, logP, UGT, GFR)_best iv' on 2025-08-30 15:56"
+              }
+            }
+          ]
+        }
+      ],
+      "FractionUnbound": [
+        {
+          "Name": "Measurement",
+          "Species": "Human",
+          "Parameters": [
+            {
+              "Name": "Fraction unbound (plasma, reference value)",
+              "Value": 0.65
+            }
+          ]
+        }
+      ],
+      "Solubility": [
+        {
+          "Name": "Measurement",
+          "Parameters": [
+            {
+              "Name": "Solubility at reference pH",
+              "Value": 17.0,
+              "Unit": "mg/l"
+            },
+            {
+              "Name": "Reference pH",
+              "Value": 7.0
+            }
+          ]
+        }
+      ],
+      "Permeability": [
+        {
+          "Name": "FIT",
+          "IsDefault": false,
+          "Parameters": [
+            {
+              "Name": "Permeability",
+              "Value": 4.6547688496E-06,
+              "Unit": "dm/min",
+              "ValueOrigin": {
+                "Source": "ParameterIdentification",
+                "Method": "ParameterIdentification",
+                "Description": "Value updated from '#1 update' on 2025-08-14 16:39"
+              }
+            }
+          ]
+        }
+      ],
+      "PkaTypes": [
+        {
+          "Type": "Base",
+          "Pka": 12.4
+        },
+        {
+          "Type": "Acid",
+          "Pka": 4.4
+        },
+        {
+          "Type": "Base",
+          "Pka": 4.1
+        }
+      ],
+      "Processes": [
+        {
+          "InternalName": "MetabolizationLiverMicrosomes_MM",
+          "DataSource": "FIT",
+          "Molecule": "UGT2B15",
+          "Metabolite": "DabiGluc",
+          "Parameters": [
+            {
+              "Name": "Km",
+              "Value": 512.0,
+              "Unit": "µmol/l"
+            },
+            {
+              "Name": "kcat",
+              "Value": 4.2993761606,
+              "Unit": "1/min",
+              "ValueOrigin": {
+                "Source": "ParameterIdentification",
+                "Method": "ParameterIdentification",
+                "Description": "Value updated from '#7 - iv (logP, logP, UGT, GFR)_best iv' on 2025-08-30 15:56"
+              }
+            }
+          ]
+        },
+        {
+          "InternalName": "GlomerularFiltration",
+          "DataSource": "Dabi",
+          "Species": "Human",
+          "Parameters": [
+            {
+              "Name": "GFR fraction",
+              "Value": 1.2278243749,
+              "ValueOrigin": {
+                "Source": "ParameterIdentification",
+                "Method": "ParameterIdentification",
+                "Description": "Value updated from '#7 - iv (logP, logP, UGT, GFR)_best iv' on 2025-08-30 15:56"
+              }
+            }
+          ]
+        }
+      ],
+      "CalculationMethods": [
+        "Cellular partition coefficient method - Rodgers and Rowland",
+        "Cellular permeability - PK-Sim Standard"
+      ],
+      "Parameters": [
+        {
+          "Name": "Molecular weight",
+          "Value": 471.51,
+          "Unit": "g/mol"
+        }
+      ]
+    },
+    {
+      "Name": "DabiGluc",
+      "IsSmallMolecule": true,
+      "PlasmaProteinBindingPartner": "Albumin",
+      "Lipophilicity": [
+        {
+          "Name": "Measurement",
+          "Parameters": [
+            {
+              "Name": "Lipophilicity",
+              "Value": -0.8,
+              "Unit": "Log Units",
+              "ValueOrigin": {
+                "Source": "ParameterIdentification",
+                "Method": "ParameterIdentification",
+                "Description": "Value updated from '#11 - P-gp 0.46, DabiGluc logP -0.80, CESlink' on 2026-03-04 18:22"
+              }
+            }
+          ]
+        }
+      ],
+      "FractionUnbound": [
+        {
+          "Name": "Measurement",
+          "Species": "Human",
+          "Parameters": [
+            {
+              "Name": "Fraction unbound (plasma, reference value)",
+              "Value": 0.65
+            }
+          ]
+        }
+      ],
+      "Solubility": [
+        {
+          "Name": "Measurement",
+          "Parameters": [
+            {
+              "Name": "Solubility at reference pH",
+              "Value": 1.8,
+              "Unit": "mg/ml"
+            },
+            {
+              "Name": "Reference pH",
+              "Value": 7.0
+            }
+          ]
+        }
+      ],
+      "Permeability": [
+        {
+          "Name": "FIT",
+          "IsDefault": false
+        }
+      ],
+      "PkaTypes": [
+        {
+          "Type": "Base",
+          "Pka": 12.4
+        },
+        {
+          "Type": "Acid",
+          "Pka": 4.4
+        },
+        {
+          "Type": "Base",
+          "Pka": 4.1
+        }
+      ],
+      "Processes": [
+        {
+          "InternalName": "GlomerularFiltration",
+          "DataSource": "DabiGluc",
+          "Species": "Human",
+          "Parameters": [
+            {
+              "Name": "GFR fraction",
+              "Value": 6.36
+            }
+          ]
+        }
+      ],
+      "CalculationMethods": [
+        "Cellular partition coefficient method - Rodgers and Rowland",
+        "Cellular permeability - PK-Sim Standard"
+      ],
+      "Parameters": [
+        {
+          "Name": "Molecular weight",
+          "Value": 647.23,
+          "Unit": "g/mol"
+        }
+      ]
+    },
+    {
+      "Name": "Rifampicin",
+      "IsSmallMolecule": true,
+      "PlasmaProteinBindingPartner": "Albumin",
+      "Lipophilicity": [
+        {
+          "Name": "Optimized",
+          "Parameters": [
+            {
+              "Name": "Lipophilicity",
+              "Value": 2.5,
+              "Unit": "Log Units",
+              "ValueOrigin": {
+                "Source": "Publication",
+                "Method": "ParameterIdentification",
+                "Description": "Hanke et al. 2018"
+              }
+            }
+          ]
+        }
+      ],
+      "FractionUnbound": [
+        {
+          "Name": "Templeton 2011",
+          "Species": "Human",
+          "Parameters": [
+            {
+              "Name": "Fraction unbound (plasma, reference value)",
+              "Value": 17.0,
+              "Unit": "%",
+              "ValueOrigin": {
+                "Source": "Publication",
+                "Method": "InVitro",
+                "Description": "Templeton 2011 (equilibrium dialysis)"
+              }
+            }
+          ]
+        }
+      ],
+      "Solubility": [
+        {
+          "Name": "Aqueous solubility",
+          "Parameters": [
+            {
+              "Name": "Solubility at reference pH",
+              "Value": 2800.0,
+              "Unit": "mg/l",
+              "ValueOrigin": {
+                "Source": "Publication",
+                "Description": "Boman 1974"
+              }
+            },
+            {
+              "Name": "Reference pH",
+              "Value": 7.5,
+              "ValueOrigin": {
+                "Source": "Publication",
+                "Description": "Boman 1974"
+              }
+            }
+          ]
+        }
+      ],
+      "IntestinalPermeability": [
+        {
+          "Name": "Optimized",
+          "Parameters": [
+            {
+              "Name": "Specific intestinal permeability (transcellular)",
+              "Value": 1.24E-05,
+              "Unit": "cm/min",
+              "ValueOrigin": {
+                "Source": "Publication",
+                "Method": "ParameterIdentification",
+                "Description": "Hanke et al. 2018"
+              }
+            }
+          ]
+        }
+      ],
+      "PkaTypes": [
+        {
+          "Type": "Base",
+          "Pka": 7.9,
+          "ValueOrigin": {
+            "Source": "Database",
+            "Description": "DrugBank DB01045"
+          }
+        },
+        {
+          "Type": "Acid",
+          "Pka": 1.7,
+          "ValueOrigin": {
+            "Source": "Database",
+            "Description": "DrugBank DB01045"
+          }
+        }
+      ],
+      "Processes": [
+        {
+          "InternalName": "MetabolizationSpecific_MM",
+          "DataSource": "Nakajima 2011",
+          "Molecule": "AADAC",
+          "Parameters": [
+            {
+              "Name": "Enzyme concentration",
+              "Value": 1.0,
+              "Unit": "µmol/l"
+            },
+            {
+              "Name": "Vmax",
+              "Value": 6.5,
+              "Unit": "µmol/l/min"
+            },
+            {
+              "Name": "Km",
+              "Value": 195.1,
+              "Unit": "µmol/l"
+            },
+            {
+              "Name": "kcat",
+              "Value": 9.865,
+              "Unit": "1/min",
+              "ValueOrigin": {
+                "Source": "Publication",
+                "Method": "ParameterIdentification",
+                "Description": "Hanke et al. 2018"
+              }
+            }
+          ]
+        },
+        {
+          "InternalName": "ActiveTransportSpecific_MM",
+          "DataSource": "Collett 2004",
+          "Molecule": "P-gp",
+          "Parameters": [
+            {
+              "Name": "Transporter concentration",
+              "Value": 60.0,
+              "Unit": "nmol/l"
+            },
+            {
+              "Name": "Vmax",
+              "Value": 2.87,
+              "Unit": "µmol/l/min"
+            },
+            {
+              "Name": "Km",
+              "Value": 55.0,
+              "Unit": "µmol/l"
+            },
+            {
+              "Name": "kcat",
+              "Value": 0.6088,
+              "Unit": "1/min",
+              "ValueOrigin": {
+                "Source": "Unknown"
+              }
+            }
+          ]
+        },
+        {
+          "InternalName": "ActiveTransportSpecific_MM",
+          "DataSource": "Tirona 2003",
+          "Molecule": "OATP1B1",
+          "Parameters": [
+            {
+              "Name": "Transporter concentration",
+              "Value": 109.6,
+              "Unit": "µmol/l"
+            },
+            {
+              "Name": "Vmax",
+              "Value": 0.372,
+              "Unit": "µmol/l/min"
+            },
+            {
+              "Name": "Km",
+              "Value": 1.5,
+              "Unit": "µmol/l"
+            },
+            {
+              "Name": "kcat",
+              "Value": 5.21004653,
+              "Unit": "1/min",
+              "ValueOrigin": {
+                "Source": "Unknown"
+              }
+            }
+          ]
+        },
+        {
+          "InternalName": "GlomerularFiltration",
+          "DataSource": "GFR",
+          "Species": "Human",
+          "Parameters": [
+            {
+              "Name": "GFR fraction",
+              "Value": 1.0,
+              "ValueOrigin": {
+                "Source": "Publication",
+                "Method": "Assumption",
+                "Description": "Hanke et al. 2018"
+              }
+            }
+          ]
+        },
+        {
+          "InternalName": "CompetitiveInhibition",
+          "DataSource": "Kajosaari 2005",
+          "Molecule": "CYP3A4",
+          "Parameters": [
+            {
+              "Name": "Ki",
+              "Value": 18.5,
+              "Unit": "µmol/l",
+              "ValueOrigin": {
+                "Source": "Publication",
+                "Description": "Kajosaari et al. 2005"
+              }
+            }
+          ]
+        },
+        {
+          "InternalName": "CompetitiveInhibition",
+          "DataSource": "Reitman 2011",
+          "Molecule": "P-gp",
+          "Parameters": [
+            {
+              "Name": "Ki",
+              "Value": 9.1,
+              "Unit": "µmol/l",
+              "ValueOrigin": {
+                "Source": "Publication",
+                "Method": "Assumption",
+                "Description": "Reitman 2011 (IC50 = Ki (169 µM / (1+ (0.1 µM / 177 µM) )"
+              }
+            }
+          ]
+        },
+        {
+          "InternalName": "Induction",
+          "DataSource": "Templeton 2011",
+          "Molecule": "CYP3A4",
+          "Parameters": [
+            {
+              "Name": "EC50",
+              "Value": 0.34,
+              "Unit": "µmol/l",
+              "ValueOrigin": {
+                "Source": "Publication",
+                "Description": "Templeton 2011 (weighted mean for FHH)"
+              }
+            },
+            {
+              "Name": "Emax",
+              "Value": 9.0,
+              "ValueOrigin": {
+                "Source": "Publication",
+                "Description": "Templeton 2011 (weighted mean for FHH)"
+              }
+            }
+          ]
+        },
+        {
+          "InternalName": "Induction",
+          "DataSource": "Greiner 1999",
+          "Molecule": "P-gp",
+          "Parameters": [
+            {
+              "Name": "EC50",
+              "Value": 0.34,
+              "Unit": "µmol/l",
+              "ValueOrigin": {
+                "Source": "Publication",
+                "Method": "Assumption",
+                "Description": "Hanke et al. 2018"
+              }
+            },
+            {
+              "Name": "Emax",
+              "Value": 2.5,
+              "ValueOrigin": {
+                "Source": "Publication",
+                "Method": "Assumption",
+                "Description": "Greiner et al. 1999"
+              }
+            }
+          ]
+        },
+        {
+          "InternalName": "Induction",
+          "DataSource": "Dixit 2007",
+          "Molecule": "OATP1B1",
+          "Parameters": [
+            {
+              "Name": "EC50",
+              "Value": 0.34,
+              "Unit": "µmol/l",
+              "ValueOrigin": {
+                "Source": "Publication",
+                "Method": "Assumption",
+                "Description": "Hanke et al. 2018"
+              }
+            },
+            {
+              "Name": "Emax",
+              "Value": 0.383,
+              "ValueOrigin": {
+                "Source": "Publication",
+                "Method": "ParameterIdentification",
+                "Description": "Hanke et al. 2018"
+              }
+            }
+          ]
+        },
+        {
+          "InternalName": "Induction",
+          "DataSource": "Assumed",
+          "Molecule": "AADAC",
+          "Parameters": [
+            {
+              "Name": "EC50",
+              "Value": 0.34,
+              "Unit": "µmol/l",
+              "ValueOrigin": {
+                "Source": "Publication",
+                "Method": "Assumption",
+                "Description": "Hanke et al. 2018"
+              }
+            },
+            {
+              "Name": "Emax",
+              "Value": 0.985,
+              "ValueOrigin": {
+                "Source": "Publication",
+                "Method": "ParameterIdentification",
+                "Description": "Hanke et al. 2018"
+              }
+            }
+          ]
+        },
+        {
+          "InternalName": "CompetitiveInhibition",
+          "DataSource": "Kajosaari 2005",
+          "Molecule": "CYP2C8",
+          "Parameters": [
+            {
+              "Name": "Ki",
+              "Value": 30.2,
+              "Unit": "µmol/l",
+              "ValueOrigin": {
+                "Source": "Publication",
+                "Description": "Kajosaari et al. 2005"
+              }
+            }
+          ]
+        },
+        {
+          "InternalName": "CompetitiveInhibition",
+          "DataSource": "Hirano 2006",
+          "Molecule": "OATP1B1",
+          "Parameters": [
+            {
+              "Name": "Ki",
+              "Value": 0.477,
+              "Unit": "µmol/l",
+              "ValueOrigin": {
+                "Source": "Publication",
+                "Description": "Hirano M, Maeda K, Shitara Y, Sugiyama Y. Drug-drug interaction between pitavastatin and various drugs via OATP1B1. Drug Metab Dispos. 2006;34:1229–36"
+              }
+            }
+          ]
+        },
+        {
+          "InternalName": "Induction",
+          "DataSource": "Buckley 2014",
+          "Molecule": "CYP2C8",
+          "Parameters": [
+            {
+              "Name": "EC50",
+              "Value": 0.34,
+              "Unit": "µmol/l",
+              "ValueOrigin": {
+                "Source": "Publication",
+                "Description": "Templeton IE, Houston JB, Galetin A. Predictive utility of in vitro rifampin induction data generated in fresh and cryopreserved human hepatocytes, Fa2N-4, and HepaRG cells. Drug Metab Dispos. 2011;39:1921–9; Shou M, Hayashi M, Pan Y, Xu Y, Morrissey K, Xu L, et al. Modeling, prediction, and in vitro in vivo correlation of CYP3A4 induction. Drug Metab Dispos. 2008;36:2355–70. "
+              }
+            },
+            {
+              "Name": "Emax",
+              "Value": 3.2,
+              "ValueOrigin": {
+                "Source": "Publication",
+                "Description": "Buckley DB, Wiegand CM, Prentiss PL, Fahmi OA. Time-course of cytochrome P450 (CYP450) induction in cultured human hepatocytes: Evaluation of activity and mRNA expression profiles for six inducible CYP450 enzymes. ISSX. 2013"
+              }
+            }
+          ]
+        },
+        {
+          "InternalName": "Induction",
+          "DataSource": "Chen 2010",
+          "Molecule": "CYP1A2",
+          "Parameters": [
+            {
+              "Name": "EC50",
+              "Value": 0.34,
+              "Unit": "µmol/l"
+            },
+            {
+              "Name": "Emax",
+              "Value": 0.65
+            }
+          ]
+        },
+        {
+          "InternalName": "Induction",
+          "DataSource": "Rae 2001",
+          "Molecule": "CYP2E1",
+          "Parameters": [
+            {
+              "Name": "EC50",
+              "Value": 0.34,
+              "Unit": "µmol/l"
+            },
+            {
+              "Name": "Emax",
+              "Value": 0.8
+            }
+          ]
+        },
+        {
+          "InternalName": "CompetitiveInhibition",
+          "DataSource": "Annaert 2010",
+          "Molecule": "OATP1B3",
+          "Parameters": [
+            {
+              "Name": "Ki",
+              "Value": 0.9,
+              "Unit": "µmol/l"
+            }
+          ]
+        }
+      ],
+      "CalculationMethods": [
+        "Cellular partition coefficient method - Rodgers and Rowland",
+        "Cellular permeability - PK-Sim Standard"
+      ],
+      "Parameters": [
+        {
+          "Name": "Molecular weight",
+          "Value": 822.94,
+          "Unit": "g/mol"
+        }
+      ]
+    }
+  ],
+  "Formulations": [
+    {
+      "Name": "DabiEtex_Capsule",
+      "FormulationType": "Formulation_Tablet_Weibull",
+      "Parameters": [
+        {
+          "Name": "Dissolution time (50% dissolved)",
+          "Value": 1.0579,
+          "Unit": "min"
+        },
+        {
+          "Name": "Dissolution shape",
+          "Value": 0.2628
+        },
+        {
+          "Name": "Use as suspension",
+          "Value": 0.0
+        }
+      ]
+    },
+    {
+      "Name": "Solution",
+      "FormulationType": "Formulation_Dissolved"
+    }
+  ],
+  "Protocols": [
+    {
+      "Name": "Rifampicin DDI - Dabigatran",
+      "DosingInterval": "Single",
+      "Schemas": [
+        {
+          "Name": "Schema 1",
+          "SchemaItems": [
+            {
+              "Name": "Schema Item 1",
+              "ApplicationType": "Oral",
+              "FormulationKey": "Formulation",
+              "Parameters": [
+                {
+                  "Name": "InputDose",
+                  "Value": 150.0,
+                  "Unit": "mg"
+                }
+              ]
+            }
+          ],
+          "Parameters": [
+            {
+              "Name": "Start time",
+              "Value": 0.0,
+              "Unit": "h"
+            },
+            {
+              "Name": "NumberOfRepetitions",
+              "Value": 1.0
+            },
+            {
+              "Name": "TimeBetweenRepetitions",
+              "Value": 0.0,
+              "Unit": "h"
+            }
+          ]
+        },
+        {
+          "Name": "Schema 2",
+          "SchemaItems": [
+            {
+              "Name": "Schema Item 1",
+              "ApplicationType": "Oral",
+              "FormulationKey": "Formulation",
+              "Parameters": [
+                {
+                  "Name": "InputDose",
+                  "Value": 150.0,
+                  "Unit": "mg"
+                }
+              ]
+            }
+          ],
+          "Parameters": [
+            {
+              "Name": "Start time",
+              "Value": 192.0,
+              "Unit": "h"
+            },
+            {
+              "Name": "NumberOfRepetitions",
+              "Value": 1.0
+            },
+            {
+              "Name": "TimeBetweenRepetitions",
+              "Value": 0.0,
+              "Unit": "h"
+            }
+          ]
+        },
+        {
+          "Name": "Schema 3",
+          "SchemaItems": [
+            {
+              "Name": "Schema Item 1",
+              "ApplicationType": "Oral",
+              "FormulationKey": "Formulation",
+              "Parameters": [
+                {
+                  "Name": "InputDose",
+                  "Value": 150.0,
+                  "Unit": "mg"
+                }
+              ]
+            }
+          ],
+          "Parameters": [
+            {
+              "Name": "Start time",
+              "Value": 360.0,
+              "Unit": "h"
+            },
+            {
+              "Name": "NumberOfRepetitions",
+              "Value": 1.0
+            },
+            {
+              "Name": "TimeBetweenRepetitions",
+              "Value": 0.0,
+              "Unit": "h"
+            }
+          ]
+        },
+        {
+          "Name": "Schema 4",
+          "SchemaItems": [
+            {
+              "Name": "Schema Item 1",
+              "ApplicationType": "Oral",
+              "FormulationKey": "Formulation",
+              "Parameters": [
+                {
+                  "Name": "InputDose",
+                  "Value": 150.0,
+                  "Unit": "mg"
+                }
+              ]
+            }
+          ],
+          "Parameters": [
+            {
+              "Name": "Start time",
+              "Value": 528.0,
+              "Unit": "h"
+            },
+            {
+              "Name": "NumberOfRepetitions",
+              "Value": 1.0
+            },
+            {
+              "Name": "TimeBetweenRepetitions",
+              "Value": 0.0,
+              "Unit": "h"
+            }
+          ]
+        }
+      ],
+      "TimeUnit": "h"
+    },
+    {
+      "Name": "Rifampicin DDI - Rifampicin",
+      "DosingInterval": "Single",
+      "Schemas": [
+        {
+          "Name": "Schema 1",
+          "SchemaItems": [
+            {
+              "Name": "Schema Item 1",
+              "ApplicationType": "Oral",
+              "FormulationKey": "Formulation",
+              "Parameters": [
+                {
+                  "Name": "InputDose",
+                  "Value": 600.0,
+                  "Unit": "mg"
+                }
+              ]
+            }
+          ],
+          "Parameters": [
+            {
+              "Name": "Start time",
+              "Value": 36.0,
+              "Unit": "h"
+            },
+            {
+              "Name": "NumberOfRepetitions",
+              "Value": 1.0
+            },
+            {
+              "Name": "TimeBetweenRepetitions",
+              "Value": 0.0,
+              "Unit": "h"
+            }
+          ]
+        },
+        {
+          "Name": "Schema 2",
+          "SchemaItems": [
+            {
+              "Name": "Schema Item 1",
+              "ApplicationType": "Oral",
+              "FormulationKey": "Formulation",
+              "Parameters": [
+                {
+                  "Name": "InputDose",
+                  "Value": 600.0,
+                  "Unit": "mg"
+                }
+              ]
+            }
+          ],
+          "Parameters": [
+            {
+              "Name": "Start time",
+              "Value": 60.0,
+              "Unit": "h"
+            },
+            {
+              "Name": "NumberOfRepetitions",
+              "Value": 1.0
+            },
+            {
+              "Name": "TimeBetweenRepetitions",
+              "Value": 0.0,
+              "Unit": "h"
+            }
+          ]
+        },
+        {
+          "Name": "Schema 3",
+          "SchemaItems": [
+            {
+              "Name": "Schema Item 1",
+              "ApplicationType": "Oral",
+              "FormulationKey": "Formulation",
+              "Parameters": [
+                {
+                  "Name": "InputDose",
+                  "Value": 600.0,
+                  "Unit": "mg"
+                }
+              ]
+            }
+          ],
+          "Parameters": [
+            {
+              "Name": "Start time",
+              "Value": 84.0,
+              "Unit": "h"
+            },
+            {
+              "Name": "NumberOfRepetitions",
+              "Value": 1.0
+            },
+            {
+              "Name": "TimeBetweenRepetitions",
+              "Value": 0.0,
+              "Unit": "h"
+            }
+          ]
+        },
+        {
+          "Name": "Schema 4",
+          "SchemaItems": [
+            {
+              "Name": "Schema Item 1",
+              "ApplicationType": "Oral",
+              "FormulationKey": "Formulation",
+              "Parameters": [
+                {
+                  "Name": "InputDose",
+                  "Value": 600.0,
+                  "Unit": "mg"
+                }
+              ]
+            }
+          ],
+          "Parameters": [
+            {
+              "Name": "Start time",
+              "Value": 108.0,
+              "Unit": "h"
+            },
+            {
+              "Name": "NumberOfRepetitions",
+              "Value": 1.0
+            },
+            {
+              "Name": "TimeBetweenRepetitions",
+              "Value": 0.0,
+              "Unit": "h"
+            }
+          ]
+        },
+        {
+          "Name": "Schema 5",
+          "SchemaItems": [
+            {
+              "Name": "Schema Item 1",
+              "ApplicationType": "Oral",
+              "FormulationKey": "Formulation",
+              "Parameters": [
+                {
+                  "Name": "InputDose",
+                  "Value": 600.0,
+                  "Unit": "mg"
+                }
+              ]
+            }
+          ],
+          "Parameters": [
+            {
+              "Name": "Start time",
+              "Value": 132.0,
+              "Unit": "h"
+            },
+            {
+              "Name": "NumberOfRepetitions",
+              "Value": 1.0
+            },
+            {
+              "Name": "TimeBetweenRepetitions",
+              "Value": 0.0,
+              "Unit": "h"
+            }
+          ]
+        },
+        {
+          "Name": "Schema 6",
+          "SchemaItems": [
+            {
+              "Name": "Schema Item 1",
+              "ApplicationType": "Oral",
+              "FormulationKey": "Formulation",
+              "Parameters": [
+                {
+                  "Name": "InputDose",
+                  "Value": 600.0,
+                  "Unit": "mg"
+                }
+              ]
+            }
+          ],
+          "Parameters": [
+            {
+              "Name": "Start time",
+              "Value": 156.0,
+              "Unit": "h"
+            },
+            {
+              "Name": "NumberOfRepetitions",
+              "Value": 1.0
+            },
+            {
+              "Name": "TimeBetweenRepetitions",
+              "Value": 0.0,
+              "Unit": "h"
+            }
+          ]
+        },
+        {
+          "Name": "Schema 7",
+          "SchemaItems": [
+            {
+              "Name": "Schema Item 1",
+              "ApplicationType": "Oral",
+              "FormulationKey": "Formulation",
+              "Parameters": [
+                {
+                  "Name": "InputDose",
+                  "Value": 600.0,
+                  "Unit": "mg"
+                }
+              ]
+            }
+          ],
+          "Parameters": [
+            {
+              "Name": "Start time",
+              "Value": 180.0,
+              "Unit": "h"
+            },
+            {
+              "Name": "NumberOfRepetitions",
+              "Value": 1.0
+            },
+            {
+              "Name": "TimeBetweenRepetitions",
+              "Value": 0.0,
+              "Unit": "h"
+            }
+          ]
+        }
+      ],
+      "TimeUnit": "h"
+    },
+    {
+      "Name": "Cocktail DDI, Prueksaritanont 2017 - Dabigatran",
+      "DosingInterval": "Single",
+      "Schemas": [
+        {
+          "Name": "Schema 1",
+          "SchemaItems": [
+            {
+              "Name": "Schema Item 1",
+              "ApplicationType": "Oral",
+              "FormulationKey": "Formulation",
+              "Parameters": [
+                {
+                  "Name": "Start time",
+                  "Value": 0.0,
+                  "Unit": "h"
+                },
+                {
+                  "Name": "InputDose",
+                  "Value": 0.375,
+                  "Unit": "mg"
+                },
+                {
+                  "Name": "Volume of water/body weight",
+                  "Value": 3.0,
+                  "Unit": "ml/kg"
+                }
+              ]
+            }
+          ],
+          "Parameters": [
+            {
+              "Name": "Start time",
+              "Value": 72.0,
+              "Unit": "h"
+            },
+            {
+              "Name": "NumberOfRepetitions",
+              "Value": 1.0
+            },
+            {
+              "Name": "TimeBetweenRepetitions",
+              "Value": 0.0,
+              "Unit": "h"
+            }
+          ]
+        }
+      ],
+      "TimeUnit": "h"
+    },
+    {
+      "Name": "Cocktail DDI, Prueksaritanont 2017 - Rifampicin",
+      "DosingInterval": "Single",
+      "Schemas": [
+        {
+          "Name": "Schema 1",
+          "SchemaItems": [
+            {
+              "Name": "Schema Item 1",
+              "ApplicationType": "Oral",
+              "FormulationKey": "Formulation",
+              "Parameters": [
+                {
+                  "Name": "Start time",
+                  "Value": 0.0,
+                  "Unit": "h"
+                },
+                {
+                  "Name": "InputDose",
+                  "Value": 600.0,
+                  "Unit": "mg"
+                },
+                {
+                  "Name": "Volume of water/body weight",
+                  "Value": 0.0,
+                  "Unit": "ml/kg"
+                }
+              ]
+            }
+          ],
+          "Parameters": [
+            {
+              "Name": "Start time",
+              "Value": 72.0,
+              "Unit": "h"
+            },
+            {
+              "Name": "NumberOfRepetitions",
+              "Value": 1.0
+            },
+            {
+              "Name": "TimeBetweenRepetitions",
+              "Value": 0.0,
+              "Unit": "h"
+            }
+          ]
+        }
+      ],
+      "TimeUnit": "h"
+    },
+    {
+      "Name": "Cocktail DDI, Rattanacheeworn 2021 - Rifampicin",
+      "DosingInterval": "Single",
+      "Schemas": [
+        {
+          "Name": "Schema 1",
+          "SchemaItems": [
+            {
+              "Name": "Schema Item 1",
+              "ApplicationType": "Oral",
+              "FormulationKey": "Formulation",
+              "Parameters": [
+                {
+                  "Name": "Start time",
+                  "Value": 0.0,
+                  "Unit": "h"
+                },
+                {
+                  "Name": "InputDose",
+                  "Value": 450.0,
+                  "Unit": "mg"
+                },
+                {
+                  "Name": "Volume of water/body weight",
+                  "Value": 0.0,
+                  "Unit": "ml/kg"
+                }
+              ]
+            }
+          ],
+          "Parameters": [
+            {
+              "Name": "Start time",
+              "Value": 0.0,
+              "Unit": "h"
+            },
+            {
+              "Name": "NumberOfRepetitions",
+              "Value": 1.0
+            },
+            {
+              "Name": "TimeBetweenRepetitions",
+              "Value": 0.0,
+              "Unit": "h"
+            }
+          ]
+        }
+      ],
+      "TimeUnit": "h"
+    },
+    {
+      "Name": "Cocktail DDI, Rattanacheeworn 2021 - Dabigatran",
+      "DosingInterval": "Single",
+      "Schemas": [
+        {
+          "Name": "Schema 1",
+          "SchemaItems": [
+            {
+              "Name": "Schema Item 1",
+              "ApplicationType": "Oral",
+              "FormulationKey": "Formulation",
+              "Parameters": [
+                {
+                  "Name": "Start time",
+                  "Value": 0.0,
+                  "Unit": "h"
+                },
+                {
+                  "Name": "InputDose",
+                  "Value": 0.75,
+                  "Unit": "mg"
+                },
+                {
+                  "Name": "Volume of water/body weight",
+                  "Value": 4.5,
+                  "Unit": "ml/kg"
+                }
+              ]
+            }
+          ],
+          "Parameters": [
+            {
+              "Name": "Start time",
+              "Value": 0.0,
+              "Unit": "h"
+            },
+            {
+              "Name": "NumberOfRepetitions",
+              "Value": 1.0
+            },
+            {
+              "Name": "TimeBetweenRepetitions",
+              "Value": 0.0,
+              "Unit": "h"
+            }
+          ]
+        }
+      ],
+      "TimeUnit": "h"
+    }
+  ],
+  "ObserverSets": [
+    {
+      "Name": "SUM",
+      "Observers": [
+        {
+          "Name": "SUM",
+          "Dimension": "Concentration (mass)",
+          "ContainerCriteria": [
+            {
+              "Tag": "PeripheralVenousBlood",
+              "Type": "In container"
+            }
+          ],
+          "Formula": {
+            "Name": "SumMetabolites",
+            "Formula": "fQ_art*(C_pls_art_1*MW_1+C_pls_art_2*MW_2)+fQ_bon*(C_pls_bon_1*MW_1+C_pls_bon_2*MW_2)+fQ_fat*(C_pls_fat_1*MW_1+C_pls_fat_2*MW_2)+fQ_mus*(C_pls_mus_1*MW_1+C_pls_mus_2*MW_2)+fQ_skn*(C_pls_skn_1*MW_1+C_pls_skn_2*MW_2)",
+            "References": [
+              {
+                "Alias": "C_pls_art_1",
+                "Dimension": "Concentration (molar)",
+                "Path": "Organism|ArterialBlood|Plasma|MOLECULE|Concentration"
+              },
+              {
+                "Alias": "C_pls_art_2",
+                "Dimension": "Concentration (molar)",
+                "Path": "Organism|ArterialBlood|Plasma|DabiGluc|Concentration"
+              },
+              {
+                "Alias": "C_pls_bon_1",
+                "Dimension": "Concentration (molar)",
+                "Path": "Organism|Bone|Plasma|MOLECULE|Concentration"
+              },
+              {
+                "Alias": "C_pls_bon_2",
+                "Dimension": "Concentration (molar)",
+                "Path": "Organism|Bone|Plasma|DabiGluc|Concentration"
+              },
+              {
+                "Alias": "C_pls_fat_1",
+                "Dimension": "Concentration (molar)",
+                "Path": "Organism|Fat|Plasma|MOLECULE|Concentration"
+              },
+              {
+                "Alias": "C_pls_fat_2",
+                "Dimension": "Concentration (molar)",
+                "Path": "Organism|Fat|Plasma|DabiGluc|Concentration"
+              },
+              {
+                "Alias": "C_pls_mus_1",
+                "Dimension": "Concentration (molar)",
+                "Path": "Organism|Muscle|Plasma|MOLECULE|Concentration"
+              },
+              {
+                "Alias": "C_pls_mus_2",
+                "Dimension": "Concentration (molar)",
+                "Path": "Organism|Muscle|Plasma|DabiGluc|Concentration"
+              },
+              {
+                "Alias": "C_pls_skn_1",
+                "Dimension": "Concentration (molar)",
+                "Path": "Organism|Skin|Plasma|MOLECULE|Concentration"
+              },
+              {
+                "Alias": "C_pls_skn_2",
+                "Dimension": "Concentration (molar)",
+                "Path": "Organism|Skin|Plasma|DabiGluc|Concentration"
+              },
+              {
+                "Alias": "fQ_art",
+                "Dimension": "Fraction",
+                "Path": "Organism|ArterialBlood|Peripheral blood flow fraction"
+              },
+              {
+                "Alias": "fQ_bon",
+                "Dimension": "Fraction",
+                "Path": "Organism|Bone|Peripheral blood flow fraction"
+              },
+              {
+                "Alias": "fQ_fat",
+                "Dimension": "Fraction",
+                "Path": "Organism|Fat|Peripheral blood flow fraction"
+              },
+              {
+                "Alias": "fQ_mus",
+                "Dimension": "Fraction",
+                "Path": "Organism|Muscle|Peripheral blood flow fraction"
+              },
+              {
+                "Alias": "fQ_skn",
+                "Dimension": "Fraction",
+                "Path": "Organism|Skin|Peripheral blood flow fraction"
+              },
+              {
+                "Alias": "MW_1",
+                "Dimension": "Molecular weight",
+                "Path": "MOLECULE|Molecular weight"
+              },
+              {
+                "Alias": "MW_2",
+                "Dimension": "Molecular weight",
+                "Path": "DabiGluc|Molecular weight"
+              }
+            ],
+            "Dimension": "Concentration (mass)"
+          },
+          "MoleculeList": {
+            "ForAll": false,
+            "MoleculeNamesToInclude": [
+              "Dabigatran"
+            ]
+          },
+          "Type": "Container"
+        }
+      ]
+    },
+    {
+      "Name": "FeToUrine",
+      "Observers": [
+        {
+          "Name": "Fraction excreted to urine po",
+          "Dimension": "Fraction",
+          "ContainerCriteria": [
+            {
+              "Tag": "Urine",
+              "Type": "MatchTag"
+            }
+          ],
+          "Formula": {
+            "Name": "FeToUrine",
+            "Formula": "Dose>0 ? M/Dose : 0",
+            "References": [
+              {
+                "Alias": "M",
+                "Dimension": "Amount",
+                "Path": ".."
+              },
+              {
+                "Alias": "Dose",
+                "Dimension": "Amount",
+                "Path": "DabiEtex|Total drug mass"
+              }
+            ],
+            "Dimension": "Fraction"
+          },
+          "MoleculeList": {
+            "ForAll": false,
+            "MoleculeNamesToInclude": [
+              "Dabigatran",
+              "DabiEtex",
+              "DabiGluc"
+            ]
+          },
+          "Type": "Amount"
+        }
+      ]
+    },
+    {
+      "Name": "FeToUrine_iv",
+      "Observers": [
+        {
+          "Name": "Fraction excreted to urine iv",
+          "Dimension": "Fraction",
+          "ContainerCriteria": [
+            {
+              "Tag": "Urine",
+              "Type": "MatchTag"
+            }
+          ],
+          "Formula": {
+            "Name": "FeToUrine_iv",
+            "Formula": "Dose>0 ? M/Dose : 0",
+            "References": [
+              {
+                "Alias": "M",
+                "Dimension": "Amount",
+                "Path": ".."
+              },
+              {
+                "Alias": "Dose",
+                "Dimension": "Amount",
+                "Path": "Dabigatran|Total drug mass"
+              }
+            ],
+            "Dimension": "Fraction"
+          },
+          "MoleculeList": {
+            "ForAll": false,
+            "MoleculeNamesToInclude": [
+              "Dabigatran",
+              "DabiGluc"
+            ]
+          },
+          "Type": "Amount"
+        }
+      ]
+    }
+  ],
+  "Simulations": [
+    {
+      "Name": "Härtter 2012 - DDI Rifampicin",
+      "Model": "4Comp",
+      "ObservedData": [
+        "Härtter 2012_Rifa-Dabi_DDI_SUM",
+        "Härtter 2012_Rifa-Dabi_DDI_Dabigatran"
+      ],
+      "Solver": {
+        "RelTol": 1E-09
+      },
+      "OutputSchema": [
+        {
+          "Parameters": [
+            {
+              "Name": "Start time",
+              "Value": 0.0,
+              "Unit": "h",
+              "ValueOrigin": {
+                "Source": "Unknown"
+              }
+            },
+            {
+              "Name": "End time",
+              "Value": 300.0,
+              "Unit": "h",
+              "ValueOrigin": {
+                "Source": "Unknown"
+              }
+            },
+            {
+              "Name": "Resolution",
+              "Value": 10.0,
+              "Unit": "pts/h",
+              "ValueOrigin": {
+                "Source": "Unknown"
+              }
+            }
+          ]
+        }
+      ],
+      "Parameters": [
+        {
+          "Path": "Applications|Rifampicin DDI - Dabigatran|DabiEtex_Capsule|Application_1|ProtocolSchemaItem|Volume of water/body weight",
+          "Value": 3.5,
+          "Unit": "ml/kg"
+        },
+        {
+          "Path": "Applications|Rifampicin DDI - Dabigatran|DabiEtex_Capsule|Application_2|ProtocolSchemaItem|Volume of water/body weight",
+          "Value": 3.5,
+          "Unit": "ml/kg"
+        },
+        {
+          "Path": "Applications|Rifampicin DDI - Dabigatran|DabiEtex_Capsule|Application_3|ProtocolSchemaItem|Volume of water/body weight",
+          "Value": 3.5,
+          "Unit": "ml/kg"
+        },
+        {
+          "Path": "Applications|Rifampicin DDI - Dabigatran|DabiEtex_Capsule|Application_4|ProtocolSchemaItem|Volume of water/body weight",
+          "Value": 3.5,
+          "Unit": "ml/kg"
+        },
+        {
+          "Path": "Applications|Rifampicin DDI - Rifampicin|Solution|Application_1|ProtocolSchemaItem|Volume of water/body weight",
+          "Value": 3.5,
+          "Unit": "ml/kg"
+        },
+        {
+          "Path": "Applications|Rifampicin DDI - Rifampicin|Solution|Application_2|ProtocolSchemaItem|Volume of water/body weight",
+          "Value": 3.5,
+          "Unit": "ml/kg"
+        },
+        {
+          "Path": "Applications|Rifampicin DDI - Rifampicin|Solution|Application_3|ProtocolSchemaItem|Volume of water/body weight",
+          "Value": 3.5,
+          "Unit": "ml/kg"
+        },
+        {
+          "Path": "Applications|Rifampicin DDI - Rifampicin|Solution|Application_4|ProtocolSchemaItem|Volume of water/body weight",
+          "Value": 3.5,
+          "Unit": "ml/kg"
+        },
+        {
+          "Path": "Applications|Rifampicin DDI - Rifampicin|Solution|Application_5|ProtocolSchemaItem|Volume of water/body weight",
+          "Value": 3.5,
+          "Unit": "ml/kg"
+        },
+        {
+          "Path": "Applications|Rifampicin DDI - Rifampicin|Solution|Application_6|ProtocolSchemaItem|Volume of water/body weight",
+          "Value": 3.5,
+          "Unit": "ml/kg"
+        },
+        {
+          "Path": "Applications|Rifampicin DDI - Rifampicin|Solution|Application_7|ProtocolSchemaItem|Volume of water/body weight",
+          "Value": 3.5,
+          "Unit": "ml/kg"
+        },
+        {
+          "Path": "Dabigatran|Blood/Plasma concentration ratio",
+          "Value": 0.67,
+          "ValueOrigin": {
+            "Source": "Unknown"
+          }
+        }
+      ],
+      "OutputSelections": [
+        "Organism|PeripheralVenousBlood|Rifampicin|Plasma (Peripheral Venous Blood)",
+        "Organism|PeripheralVenousBlood|Dabigatran|Plasma (Peripheral Venous Blood)",
+        "Organism|PeripheralVenousBlood|Dabigatran|SUM"
+      ],
+      "Individual": "Härtter 2012_DDI Rifampicin",
+      "Compounds": [
+        {
+          "Name": "Rifampicin",
+          "CalculationMethods": [
+            "Cellular partition coefficient method - Rodgers and Rowland",
+            "Cellular permeability - PK-Sim Standard"
+          ],
+          "Alternatives": [
+            {
+              "AlternativeName": "Optimized",
+              "GroupName": "COMPOUND_INTESTINAL_PERMEABILITY"
+            }
+          ],
+          "Processes": [
+            {
+              "Name": "AADAC-Nakajima 2011",
+              "MoleculeName": "AADAC"
+            },
+            {
+              "MoleculeName": "CYP3A4"
+            },
+            {
+              "MoleculeName": "UGT1A4"
+            },
+            {
+              "MoleculeName": "CES1"
+            },
+            {
+              "MoleculeName": "CES2"
+            },
+            {
+              "MoleculeName": "UGT2B15"
+            },
+            {
+              "Name": "OATP1B1-Tirona 2003",
+              "MoleculeName": "OATP1B1"
+            },
+            {
+              "Name": "P-gp-Collett 2004",
+              "MoleculeName": "P-gp"
+            },
+            {
+              "Name": "Glomerular Filtration-GFR",
+              "SystemicProcessType": "GFR"
+            }
+          ],
+          "Protocol": {
+            "Name": "Rifampicin DDI - Rifampicin",
+            "Formulations": [
+              {
+                "Name": "Solution",
+                "Key": "Formulation"
+              }
+            ]
+          }
+        },
+        {
+          "Name": "DabiEtex",
+          "CalculationMethods": [
+            "Cellular partition coefficient method - Rodgers and Rowland",
+            "Cellular permeability - PK-Sim Standard"
+          ],
+          "Alternatives": [
+            {
+              "AlternativeName": "Calculated",
+              "GroupName": "COMPOUND_PERMEABILITY"
+            },
+            {
+              "AlternativeName": "Calculated",
+              "GroupName": "COMPOUND_INTESTINAL_PERMEABILITY"
+            }
+          ],
+          "Processes": [
+            {
+              "MoleculeName": "AADAC"
+            },
+            {
+              "MoleculeName": "CYP3A4"
+            },
+            {
+              "MoleculeName": "UGT1A4"
+            },
+            {
+              "Name": "CES1-FIT",
+              "MoleculeName": "CES1",
+              "MetaboliteName": "Dabigatran"
+            },
+            {
+              "Name": "CES2-FIT",
+              "MoleculeName": "CES2",
+              "MetaboliteName": "Dabigatran"
+            },
+            {
+              "MoleculeName": "UGT2B15"
+            },
+            {
+              "MoleculeName": "OATP1B1"
+            },
+            {
+              "Name": "ABCB1-FIT",
+              "MoleculeName": "P-gp"
+            },
+            {
+              "Name": "Glomerular Filtration-DabiEtex",
+              "SystemicProcessType": "GFR"
+            }
+          ],
+          "Protocol": {
+            "Name": "Rifampicin DDI - Dabigatran",
+            "Formulations": [
+              {
+                "Name": "DabiEtex_Capsule",
+                "Key": "Formulation"
+              }
+            ]
+          }
+        },
+        {
+          "Name": "Dabigatran",
+          "CalculationMethods": [
+            "Cellular partition coefficient method - Rodgers and Rowland",
+            "Cellular permeability - PK-Sim Standard"
+          ],
+          "Alternatives": [
+            {
+              "AlternativeName": "Calculated",
+              "GroupName": "COMPOUND_PERMEABILITY"
+            }
+          ],
+          "Processes": [
+            {
+              "MoleculeName": "AADAC"
+            },
+            {
+              "MoleculeName": "CYP3A4"
+            },
+            {
+              "MoleculeName": "UGT1A4"
+            },
+            {
+              "MoleculeName": "CES1"
+            },
+            {
+              "MoleculeName": "CES2"
+            },
+            {
+              "Name": "UGT2B15-FIT",
+              "MoleculeName": "UGT2B15",
+              "MetaboliteName": "DabiGluc"
+            },
+            {
+              "Name": "Glomerular Filtration-Dabi",
+              "SystemicProcessType": "GFR"
+            }
+          ]
+        },
+        {
+          "Name": "DabiGluc",
+          "CalculationMethods": [
+            "Cellular partition coefficient method - Rodgers and Rowland",
+            "Cellular permeability - PK-Sim Standard"
+          ],
+          "Alternatives": [
+            {
+              "AlternativeName": "Calculated",
+              "GroupName": "COMPOUND_PERMEABILITY"
+            }
+          ],
+          "Processes": [
+            {
+              "Name": "Glomerular Filtration-DabiGluc",
+              "SystemicProcessType": "GFR"
+            }
+          ]
+        }
+      ],
+      "ObserverSets": [
+        {
+          "Name": "SUM"
+        }
+      ],
+      "HasResults": true,
+      "IndividualAnalyses": [
+        {
+          "Axes": [
+            {
+              "Unit": "h",
+              "Dimension": "Time",
+              "Type": "X",
+              "GridLines": false,
+              "Visible": true,
+              "Min": 180.0,
+              "Max": 240.0,
+              "DefaultColor": "#FFFFFF",
+              "DefaultLineStyle": "None",
+              "Scaling": "Linear",
+              "NumberMode": "Normal"
+            },
+            {
+              "Unit": "ng/ml",
+              "Dimension": "Concentration (molar)",
+              "Type": "Y",
+              "GridLines": false,
+              "Visible": true,
+              "Min": 1.0,
+              "Max": 100.0,
+              "DefaultColor": "#FFFFFF",
+              "DefaultLineStyle": "Solid",
+              "Scaling": "Linear",
+              "NumberMode": "Normal"
+            }
+          ],
+          "Curves": [
+            {
+              "Name": "Dabigatran-Peripheral Venous Blood-Plasma-Concentration",
+              "X": "Time",
+              "Y": "Härtter 2012 - DDI Rifampicin|Organism|PeripheralVenousBlood|Dabigatran|Plasma (Peripheral Venous Blood)",
+              "CurveOptions": {
+                "Color": "#C00000",
+                "LegendIndex": 3
+              }
+            },
+            {
+              "Name": "Dabigatran-Peripheral Venous Blood-SUM-Concentration",
+              "X": "Time",
+              "Y": "Härtter 2012 - DDI Rifampicin|Organism|PeripheralVenousBlood|Dabigatran|SUM",
+              "CurveOptions": {
+                "Visible": false,
+                "Color": "#00C0C0",
+                "LegendIndex": 11
+              }
+            },
+            {
+              "Name": "Härtter 2012_Rifa-Dabi_DDI_SUM-Measurement",
+              "X": "Härtter 2012_Rifa-Dabi_DDI_SUM|Time",
+              "Y": "Härtter 2012_Rifa-Dabi_DDI_SUM|ObservedData||||Measurement",
+              "CurveOptions": {
+                "Visible": false,
+                "Color": "#00C0C0",
+                "LegendIndex": 13,
+                "LineStyle": "None",
+                "Symbol": "Circle"
+              }
+            },
+            {
+              "Name": "Härtter 2012_Rifa-Dabi_DDI_Dabigatran-Dabigatran-Measurement",
+              "X": "Härtter 2012_Rifa-Dabi_DDI_Dabigatran|Time",
+              "Y": "Härtter 2012_Rifa-Dabi_DDI_Dabigatran|ObservedData|||Dabigatran|Measurement",
+              "CurveOptions": {
+                "Color": "#C00000",
+                "LegendIndex": 12,
+                "LineStyle": "None",
+                "Symbol": "Circle"
+              }
+            }
+          ],
+          "Name": "Härtter 2012 - Dabigatran DDI Rifampicin - lin",
+          "FontAndSize": {
+            "Fonts": {
+              "AxisSize": 10,
+              "LegendSize": 8,
+              "TitleSize": 16,
+              "DescriptionSize": 12,
+              "OriginSize": 8,
+              "FontFamilyName": "Microsoft Sans Serif",
+              "WatermarkSize": 32
+            }
+          },
+          "Settings": {
+            "SideMarginsEnabled": true,
+            "LegendPosition": "None",
+            "BackColor": "#FFFFFF",
+            "DiagramBackColor": "#FFFFFF"
+          },
+          "OriginText": "Dabigatran-Model_V12_clean\nHärtter 2012 - DDI Rifampicin\n2026-05-13 11:16"
+        }
+      ],
+      "Interactions": [
+        {
+          "Name": "CYP3A4-Kajosaari 2005",
+          "MoleculeName": "CYP3A4",
+          "CompoundName": "Rifampicin"
+        },
+        {
+          "Name": "OATP1B1-Hirano 2006",
+          "MoleculeName": "OATP1B1",
+          "CompoundName": "Rifampicin"
+        },
+        {
+          "Name": "P-gp-Reitman 2011",
+          "MoleculeName": "P-gp",
+          "CompoundName": "Rifampicin"
+        },
+        {
+          "Name": "AADAC-Assumed",
+          "MoleculeName": "AADAC",
+          "CompoundName": "Rifampicin"
+        },
+        {
+          "Name": "CYP3A4-Templeton 2011",
+          "MoleculeName": "CYP3A4",
+          "CompoundName": "Rifampicin"
+        },
+        {
+          "Name": "OATP1B1-Dixit 2007",
+          "MoleculeName": "OATP1B1",
+          "CompoundName": "Rifampicin"
+        },
+        {
+          "Name": "P-gp-Greiner 1999",
+          "MoleculeName": "P-gp",
+          "CompoundName": "Rifampicin"
+        }
+      ]
+    },
+    {
+      "Name": "Prueksaritanont 2017 - DDI Control",
+      "Model": "4Comp",
+      "Solver": {},
+      "OutputSchema": [
+        {
+          "Parameters": [
+            {
+              "Name": "Start time",
+              "Value": 0.0,
+              "Unit": "h",
+              "ValueOrigin": {
+                "Source": "Unknown"
+              }
+            },
+            {
+              "Name": "End time",
+              "Value": 150.0,
+              "Unit": "h",
+              "ValueOrigin": {
+                "Source": "Unknown"
+              }
+            },
+            {
+              "Name": "Resolution",
+              "Value": 10.0,
+              "Unit": "pts/h",
+              "ValueOrigin": {
+                "Source": "Unknown"
+              }
+            }
+          ]
+        }
+      ],
+      "Parameters": [
+        {
+          "Path": "Applications|Cocktail DDI, Prueksaritanont 2017 - Dabigatran|Solution|Application_1|ProtocolSchemaItem|Volume of water/body weight",
+          "Value": 3.0,
+          "Unit": "ml/kg"
+        },
+        {
+          "Path": "Dabigatran|Blood/Plasma concentration ratio",
+          "Value": 0.67,
+          "ValueOrigin": {
+            "Source": "Unknown"
+          }
+        }
+      ],
+      "OutputSelections": [
+        "Organism|PeripheralVenousBlood|Dabigatran|Plasma (Peripheral Venous Blood)"
+      ],
+      "Individual": "Prueksaritanont 2017_DDI cocktail",
+      "Compounds": [
+        {
+          "Name": "DabiEtex",
+          "CalculationMethods": [
+            "Cellular partition coefficient method - Rodgers and Rowland",
+            "Cellular permeability - PK-Sim Standard"
+          ],
+          "Alternatives": [
+            {
+              "AlternativeName": "Calculated",
+              "GroupName": "COMPOUND_PERMEABILITY"
+            },
+            {
+              "AlternativeName": "Calculated",
+              "GroupName": "COMPOUND_INTESTINAL_PERMEABILITY"
+            }
+          ],
+          "Processes": [
+            {
+              "MoleculeName": "AADAC"
+            },
+            {
+              "MoleculeName": "CYP3A4"
+            },
+            {
+              "MoleculeName": "UGT1A4"
+            },
+            {
+              "Name": "CES1-FIT",
+              "MoleculeName": "CES1",
+              "MetaboliteName": "Dabigatran"
+            },
+            {
+              "Name": "CES2-FIT",
+              "MoleculeName": "CES2",
+              "MetaboliteName": "Dabigatran"
+            },
+            {
+              "MoleculeName": "UGT2B15"
+            },
+            {
+              "MoleculeName": "OATP1B1"
+            },
+            {
+              "Name": "ABCB1-FIT",
+              "MoleculeName": "P-gp"
+            },
+            {
+              "Name": "Glomerular Filtration-DabiEtex",
+              "SystemicProcessType": "GFR"
+            }
+          ],
+          "Protocol": {
+            "Name": "Cocktail DDI, Prueksaritanont 2017 - Dabigatran",
+            "Formulations": [
+              {
+                "Name": "Solution",
+                "Key": "Formulation"
+              }
+            ]
+          }
+        },
+        {
+          "Name": "Dabigatran",
+          "CalculationMethods": [
+            "Cellular partition coefficient method - Rodgers and Rowland",
+            "Cellular permeability - PK-Sim Standard"
+          ],
+          "Alternatives": [
+            {
+              "AlternativeName": "Calculated",
+              "GroupName": "COMPOUND_PERMEABILITY"
+            }
+          ],
+          "Processes": [
+            {
+              "MoleculeName": "AADAC"
+            },
+            {
+              "MoleculeName": "CYP3A4"
+            },
+            {
+              "MoleculeName": "UGT1A4"
+            },
+            {
+              "MoleculeName": "CES1"
+            },
+            {
+              "MoleculeName": "CES2"
+            },
+            {
+              "Name": "UGT2B15-FIT",
+              "MoleculeName": "UGT2B15",
+              "MetaboliteName": "DabiGluc"
+            },
+            {
+              "Name": "Glomerular Filtration-Dabi",
+              "SystemicProcessType": "GFR"
+            }
+          ]
+        },
+        {
+          "Name": "DabiGluc",
+          "CalculationMethods": [
+            "Cellular partition coefficient method - Rodgers and Rowland",
+            "Cellular permeability - PK-Sim Standard"
+          ],
+          "Alternatives": [
+            {
+              "AlternativeName": "Calculated",
+              "GroupName": "COMPOUND_PERMEABILITY"
+            }
+          ],
+          "Processes": [
+            {
+              "Name": "Glomerular Filtration-DabiGluc",
+              "SystemicProcessType": "GFR"
+            }
+          ]
+        }
+      ],
+      "ObserverSets": [
+        {
+          "Name": "SUM"
+        }
+      ],
+      "HasResults": true,
+      "IndividualAnalyses": [
+        {
+          "Axes": [
+            {
+              "Unit": "h",
+              "Dimension": "Time",
+              "Type": "X",
+              "GridLines": false,
+              "Visible": true,
+              "Min": 60.0,
+              "Max": 150.0,
+              "DefaultColor": "#FFFFFF",
+              "DefaultLineStyle": "None",
+              "Scaling": "Linear",
+              "NumberMode": "Normal"
+            },
+            {
+              "Unit": "ng/ml",
+              "Dimension": "Concentration (molar)",
+              "Type": "Y",
+              "GridLines": false,
+              "Visible": true,
+              "Min": 0.0,
+              "Max": 0.3,
+              "DefaultColor": "#FFFFFF",
+              "DefaultLineStyle": "Solid",
+              "Scaling": "Linear",
+              "NumberMode": "Normal"
+            }
+          ],
+          "Curves": [
+            {
+              "Name": "Dabigatran-Peripheral Venous Blood-Plasma-Concentration",
+              "X": "Time",
+              "Y": "Prueksaritanont 2017 - DDI Control|Organism|PeripheralVenousBlood|Dabigatran|Plasma (Peripheral Venous Blood)",
+              "CurveOptions": {
+                "Color": "#0000FF",
+                "LegendIndex": 2
+              }
+            }
+          ],
+          "Name": "Prueksaritanont 2017 - Dabigatran DDI Control - lin",
+          "FontAndSize": {
+            "Fonts": {
+              "AxisSize": 10,
+              "LegendSize": 8,
+              "TitleSize": 16,
+              "DescriptionSize": 12,
+              "OriginSize": 8,
+              "FontFamilyName": "Microsoft Sans Serif",
+              "WatermarkSize": 32
+            }
+          },
+          "Settings": {
+            "SideMarginsEnabled": true,
+            "LegendPosition": "None",
+            "BackColor": "#FFFFFF",
+            "DiagramBackColor": "#FFFFFF"
+          },
+          "OriginText": "Dabigatran-Model_V12\nPrueksaritanont 2017 - DDI Control\n2026-05-12 13:48"
+        }
+      ]
+    },
+    {
+      "Name": "Prueksaritanont 2017 - DDI Rifampicin",
+      "Model": "4Comp",
+      "Solver": {},
+      "OutputSchema": [
+        {
+          "Parameters": [
+            {
+              "Name": "Start time",
+              "Value": 0.0,
+              "Unit": "h",
+              "ValueOrigin": {
+                "Source": "Unknown"
+              }
+            },
+            {
+              "Name": "End time",
+              "Value": 150.0,
+              "Unit": "h",
+              "ValueOrigin": {
+                "Source": "Unknown"
+              }
+            },
+            {
+              "Name": "Resolution",
+              "Value": 10.0,
+              "Unit": "pts/h",
+              "ValueOrigin": {
+                "Source": "Unknown"
+              }
+            }
+          ]
+        }
+      ],
+      "Parameters": [
+        {
+          "Path": "Applications|Cocktail DDI, Prueksaritanont 2017 - Dabigatran|Solution|Application_1|ProtocolSchemaItem|Volume of water/body weight",
+          "Value": 3.0,
+          "Unit": "ml/kg"
+        },
+        {
+          "Path": "Applications|Cocktail DDI, Prueksaritanont 2017 - Rifampicin|Solution|Application_1|ProtocolSchemaItem|Volume of water/body weight",
+          "Value": 0.0,
+          "Unit": "ml/kg"
+        },
+        {
+          "Path": "Dabigatran|Blood/Plasma concentration ratio",
+          "Value": 0.67,
+          "ValueOrigin": {
+            "Source": "Unknown"
+          }
+        }
+      ],
+      "OutputSelections": [
+        "Organism|PeripheralVenousBlood|Dabigatran|Plasma (Peripheral Venous Blood)",
+        "Organism|PeripheralVenousBlood|Rifampicin|Plasma (Peripheral Venous Blood)"
+      ],
+      "Individual": "Prueksaritanont 2017_DDI cocktail",
+      "Compounds": [
+        {
+          "Name": "DabiEtex",
+          "CalculationMethods": [
+            "Cellular partition coefficient method - Rodgers and Rowland",
+            "Cellular permeability - PK-Sim Standard"
+          ],
+          "Alternatives": [
+            {
+              "AlternativeName": "Calculated",
+              "GroupName": "COMPOUND_PERMEABILITY"
+            },
+            {
+              "AlternativeName": "Calculated",
+              "GroupName": "COMPOUND_INTESTINAL_PERMEABILITY"
+            }
+          ],
+          "Processes": [
+            {
+              "MoleculeName": "AADAC"
+            },
+            {
+              "MoleculeName": "CYP3A4"
+            },
+            {
+              "MoleculeName": "UGT1A4"
+            },
+            {
+              "Name": "CES1-FIT",
+              "MoleculeName": "CES1",
+              "MetaboliteName": "Dabigatran"
+            },
+            {
+              "Name": "CES2-FIT",
+              "MoleculeName": "CES2",
+              "MetaboliteName": "Dabigatran"
+            },
+            {
+              "MoleculeName": "UGT2B15"
+            },
+            {
+              "MoleculeName": "OATP1B1"
+            },
+            {
+              "Name": "ABCB1-FIT",
+              "MoleculeName": "P-gp"
+            },
+            {
+              "Name": "Glomerular Filtration-DabiEtex",
+              "SystemicProcessType": "GFR"
+            }
+          ],
+          "Protocol": {
+            "Name": "Cocktail DDI, Prueksaritanont 2017 - Dabigatran",
+            "Formulations": [
+              {
+                "Name": "Solution",
+                "Key": "Formulation"
+              }
+            ]
+          }
+        },
+        {
+          "Name": "Dabigatran",
+          "CalculationMethods": [
+            "Cellular partition coefficient method - Rodgers and Rowland",
+            "Cellular permeability - PK-Sim Standard"
+          ],
+          "Alternatives": [
+            {
+              "AlternativeName": "Calculated",
+              "GroupName": "COMPOUND_PERMEABILITY"
+            }
+          ],
+          "Processes": [
+            {
+              "MoleculeName": "AADAC"
+            },
+            {
+              "MoleculeName": "CYP3A4"
+            },
+            {
+              "MoleculeName": "UGT1A4"
+            },
+            {
+              "MoleculeName": "CES1"
+            },
+            {
+              "MoleculeName": "CES2"
+            },
+            {
+              "Name": "UGT2B15-FIT",
+              "MoleculeName": "UGT2B15",
+              "MetaboliteName": "DabiGluc"
+            },
+            {
+              "Name": "Glomerular Filtration-Dabi",
+              "SystemicProcessType": "GFR"
+            }
+          ]
+        },
+        {
+          "Name": "DabiGluc",
+          "CalculationMethods": [
+            "Cellular partition coefficient method - Rodgers and Rowland",
+            "Cellular permeability - PK-Sim Standard"
+          ],
+          "Alternatives": [
+            {
+              "AlternativeName": "Calculated",
+              "GroupName": "COMPOUND_PERMEABILITY"
+            }
+          ],
+          "Processes": [
+            {
+              "Name": "Glomerular Filtration-DabiGluc",
+              "SystemicProcessType": "GFR"
+            }
+          ]
+        },
+        {
+          "Name": "Rifampicin",
+          "CalculationMethods": [
+            "Cellular partition coefficient method - Rodgers and Rowland",
+            "Cellular permeability - PK-Sim Standard"
+          ],
+          "Alternatives": [
+            {
+              "AlternativeName": "Optimized",
+              "GroupName": "COMPOUND_INTESTINAL_PERMEABILITY"
+            }
+          ],
+          "Processes": [
+            {
+              "Name": "AADAC-Nakajima 2011",
+              "MoleculeName": "AADAC"
+            },
+            {
+              "MoleculeName": "CYP3A4"
+            },
+            {
+              "MoleculeName": "UGT1A4"
+            },
+            {
+              "MoleculeName": "CES1"
+            },
+            {
+              "MoleculeName": "CES2"
+            },
+            {
+              "MoleculeName": "UGT2B15"
+            },
+            {
+              "Name": "OATP1B1-Tirona 2003",
+              "MoleculeName": "OATP1B1"
+            },
+            {
+              "Name": "P-gp-Collett 2004",
+              "MoleculeName": "P-gp"
+            },
+            {
+              "Name": "Glomerular Filtration-GFR",
+              "SystemicProcessType": "GFR"
+            }
+          ],
+          "Protocol": {
+            "Name": "Cocktail DDI, Prueksaritanont 2017 - Rifampicin",
+            "Formulations": [
+              {
+                "Name": "Solution",
+                "Key": "Formulation"
+              }
+            ]
+          }
+        }
+      ],
+      "ObserverSets": [
+        {
+          "Name": "SUM"
+        }
+      ],
+      "HasResults": true,
+      "IndividualAnalyses": [
+        {
+          "Axes": [
+            {
+              "Unit": "h",
+              "Dimension": "Time",
+              "Type": "X",
+              "GridLines": false,
+              "Visible": true,
+              "Min": 60.0,
+              "Max": 150.0,
+              "DefaultColor": "#FFFFFF",
+              "DefaultLineStyle": "None",
+              "Scaling": "Linear",
+              "NumberMode": "Normal"
+            },
+            {
+              "Unit": "ng/ml",
+              "Dimension": "Concentration (molar)",
+              "Type": "Y",
+              "GridLines": false,
+              "Visible": true,
+              "Min": 0.0,
+              "Max": 0.3,
+              "DefaultColor": "#FFFFFF",
+              "DefaultLineStyle": "Solid",
+              "Scaling": "Linear",
+              "NumberMode": "Normal"
+            }
+          ],
+          "Curves": [
+            {
+              "Name": "Dabigatran-Peripheral Venous Blood-Plasma-Concentration",
+              "X": "Time",
+              "Y": "Prueksaritanont 2017 - DDI Rifampicin|Organism|PeripheralVenousBlood|Dabigatran|Plasma (Peripheral Venous Blood)",
+              "CurveOptions": {
+                "Color": "#C00000",
+                "LegendIndex": 2
+              }
+            }
+          ],
+          "Name": "Prueksaritanont 2017 - Dabigatran DDI Rifampicin - lin",
+          "FontAndSize": {
+            "Fonts": {
+              "AxisSize": 10,
+              "LegendSize": 8,
+              "TitleSize": 16,
+              "DescriptionSize": 12,
+              "OriginSize": 8,
+              "FontFamilyName": "Microsoft Sans Serif",
+              "WatermarkSize": 32
+            }
+          },
+          "Settings": {
+            "SideMarginsEnabled": true,
+            "LegendPosition": "None",
+            "BackColor": "#FFFFFF",
+            "DiagramBackColor": "#FFFFFF"
+          },
+          "OriginText": "Dabigatran-Model_V12\nPrueksaritanont 2017 - DDI Rifampicin\n2026-05-12 13:47"
+        }
+      ],
+      "Interactions": [
+        {
+          "Name": "CYP3A4-Kajosaari 2005",
+          "MoleculeName": "CYP3A4",
+          "CompoundName": "Rifampicin"
+        },
+        {
+          "Name": "OATP1B1-Hirano 2006",
+          "MoleculeName": "OATP1B1",
+          "CompoundName": "Rifampicin"
+        },
+        {
+          "Name": "P-gp-Reitman 2011",
+          "MoleculeName": "P-gp",
+          "CompoundName": "Rifampicin"
+        },
+        {
+          "Name": "AADAC-Assumed",
+          "MoleculeName": "AADAC",
+          "CompoundName": "Rifampicin"
+        },
+        {
+          "Name": "CYP3A4-Templeton 2011",
+          "MoleculeName": "CYP3A4",
+          "CompoundName": "Rifampicin"
+        },
+        {
+          "Name": "OATP1B1-Dixit 2007",
+          "MoleculeName": "OATP1B1",
+          "CompoundName": "Rifampicin"
+        },
+        {
+          "Name": "P-gp-Greiner 1999",
+          "MoleculeName": "P-gp",
+          "CompoundName": "Rifampicin"
+        }
+      ]
+    },
+    {
+      "Name": "Rattanacheeworn 2021 - DDI Rifampicin",
+      "Model": "4Comp",
+      "Solver": {},
+      "OutputSchema": [
+        {
+          "Parameters": [
+            {
+              "Name": "Start time",
+              "Value": 0.0,
+              "Unit": "h",
+              "ValueOrigin": {
+                "Source": "Unknown"
+              }
+            },
+            {
+              "Name": "End time",
+              "Value": 50.0,
+              "Unit": "h",
+              "ValueOrigin": {
+                "Source": "Unknown"
+              }
+            },
+            {
+              "Name": "Resolution",
+              "Value": 10.0,
+              "Unit": "pts/h",
+              "ValueOrigin": {
+                "Source": "Unknown"
+              }
+            }
+          ]
+        }
+      ],
+      "Parameters": [
+        {
+          "Path": "Applications|Cocktail DDI, Rattanacheeworn 2021 - Dabigatran|Solution|Application_1|ProtocolSchemaItem|Volume of water/body weight",
+          "Value": 4.5,
+          "Unit": "ml/kg"
+        },
+        {
+          "Path": "Applications|Cocktail DDI, Rattanacheeworn 2021 - Rifampicin|Solution|Application_1|ProtocolSchemaItem|Volume of water/body weight",
+          "Value": 0.0,
+          "Unit": "ml/kg"
+        },
+        {
+          "Path": "Dabigatran|Blood/Plasma concentration ratio",
+          "Value": 0.67,
+          "ValueOrigin": {
+            "Source": "Unknown"
+          }
+        }
+      ],
+      "OutputSelections": [
+        "Organism|PeripheralVenousBlood|Dabigatran|Plasma (Peripheral Venous Blood)",
+        "Organism|PeripheralVenousBlood|Rifampicin|Plasma (Peripheral Venous Blood)"
+      ],
+      "Individual": "Rattanacheeworn 2021_DDI Rifampicin",
+      "Compounds": [
+        {
+          "Name": "DabiEtex",
+          "CalculationMethods": [
+            "Cellular partition coefficient method - Rodgers and Rowland",
+            "Cellular permeability - PK-Sim Standard"
+          ],
+          "Alternatives": [
+            {
+              "AlternativeName": "Calculated",
+              "GroupName": "COMPOUND_PERMEABILITY"
+            },
+            {
+              "AlternativeName": "Calculated",
+              "GroupName": "COMPOUND_INTESTINAL_PERMEABILITY"
+            }
+          ],
+          "Processes": [
+            {
+              "MoleculeName": "AADAC"
+            },
+            {
+              "MoleculeName": "CYP3A4"
+            },
+            {
+              "MoleculeName": "UGT1A4"
+            },
+            {
+              "Name": "CES1-FIT",
+              "MoleculeName": "CES1",
+              "MetaboliteName": "Dabigatran"
+            },
+            {
+              "Name": "CES2-FIT",
+              "MoleculeName": "CES2",
+              "MetaboliteName": "Dabigatran"
+            },
+            {
+              "MoleculeName": "UGT2B15"
+            },
+            {
+              "MoleculeName": "OATP1B1"
+            },
+            {
+              "Name": "ABCB1-FIT",
+              "MoleculeName": "P-gp"
+            },
+            {
+              "Name": "Glomerular Filtration-DabiEtex",
+              "SystemicProcessType": "GFR"
+            }
+          ],
+          "Protocol": {
+            "Name": "Cocktail DDI, Rattanacheeworn 2021 - Dabigatran",
+            "Formulations": [
+              {
+                "Name": "Solution",
+                "Key": "Formulation"
+              }
+            ]
+          }
+        },
+        {
+          "Name": "Dabigatran",
+          "CalculationMethods": [
+            "Cellular partition coefficient method - Rodgers and Rowland",
+            "Cellular permeability - PK-Sim Standard"
+          ],
+          "Alternatives": [
+            {
+              "AlternativeName": "Calculated",
+              "GroupName": "COMPOUND_PERMEABILITY"
+            }
+          ],
+          "Processes": [
+            {
+              "MoleculeName": "AADAC"
+            },
+            {
+              "MoleculeName": "CYP3A4"
+            },
+            {
+              "MoleculeName": "UGT1A4"
+            },
+            {
+              "MoleculeName": "CES1"
+            },
+            {
+              "MoleculeName": "CES2"
+            },
+            {
+              "Name": "UGT2B15-FIT",
+              "MoleculeName": "UGT2B15",
+              "MetaboliteName": "DabiGluc"
+            },
+            {
+              "Name": "Glomerular Filtration-Dabi",
+              "SystemicProcessType": "GFR"
+            }
+          ]
+        },
+        {
+          "Name": "DabiGluc",
+          "CalculationMethods": [
+            "Cellular partition coefficient method - Rodgers and Rowland",
+            "Cellular permeability - PK-Sim Standard"
+          ],
+          "Alternatives": [
+            {
+              "AlternativeName": "Calculated",
+              "GroupName": "COMPOUND_PERMEABILITY"
+            }
+          ],
+          "Processes": [
+            {
+              "Name": "Glomerular Filtration-DabiGluc",
+              "SystemicProcessType": "GFR"
+            }
+          ]
+        },
+        {
+          "Name": "Rifampicin",
+          "CalculationMethods": [
+            "Cellular partition coefficient method - Rodgers and Rowland",
+            "Cellular permeability - PK-Sim Standard"
+          ],
+          "Alternatives": [
+            {
+              "AlternativeName": "Optimized",
+              "GroupName": "COMPOUND_INTESTINAL_PERMEABILITY"
+            }
+          ],
+          "Processes": [
+            {
+              "Name": "AADAC-Nakajima 2011",
+              "MoleculeName": "AADAC"
+            },
+            {
+              "MoleculeName": "CYP3A4"
+            },
+            {
+              "MoleculeName": "UGT1A4"
+            },
+            {
+              "MoleculeName": "CES1"
+            },
+            {
+              "MoleculeName": "CES2"
+            },
+            {
+              "MoleculeName": "UGT2B15"
+            },
+            {
+              "Name": "OATP1B1-Tirona 2003",
+              "MoleculeName": "OATP1B1"
+            },
+            {
+              "Name": "P-gp-Collett 2004",
+              "MoleculeName": "P-gp"
+            },
+            {
+              "Name": "Glomerular Filtration-GFR",
+              "SystemicProcessType": "GFR"
+            }
+          ],
+          "Protocol": {
+            "Name": "Cocktail DDI, Rattanacheeworn 2021 - Rifampicin",
+            "Formulations": [
+              {
+                "Name": "Solution",
+                "Key": "Formulation"
+              }
+            ]
+          }
+        }
+      ],
+      "ObserverSets": [
+        {
+          "Name": "SUM"
+        }
+      ],
+      "HasResults": true,
+      "IndividualAnalyses": [
+        {
+          "Axes": [
+            {
+              "Unit": "h",
+              "Dimension": "Time",
+              "Type": "X",
+              "GridLines": false,
+              "Visible": true,
+              "DefaultColor": "#FFFFFF",
+              "DefaultLineStyle": "None",
+              "Scaling": "Linear",
+              "NumberMode": "Normal"
+            },
+            {
+              "Unit": "ng/ml",
+              "Dimension": "Concentration (molar)",
+              "Type": "Y",
+              "GridLines": false,
+              "Visible": true,
+              "Min": 0.0,
+              "Max": 0.5,
+              "DefaultColor": "#FFFFFF",
+              "DefaultLineStyle": "Solid",
+              "Scaling": "Linear",
+              "NumberMode": "Normal"
+            }
+          ],
+          "Curves": [
+            {
+              "Name": "Dabigatran-Peripheral Venous Blood-Plasma-Concentration",
+              "X": "Time",
+              "Y": "Rattanacheeworn 2021 - DDI Rifampicin|Organism|PeripheralVenousBlood|Dabigatran|Plasma (Peripheral Venous Blood)",
+              "CurveOptions": {
+                "Color": "#C00000",
+                "LegendIndex": 2
+              }
+            }
+          ],
+          "Name": "Rattanacheeworn 2021 - Dabigatran DDI Rifampicin - lin",
+          "FontAndSize": {
+            "Fonts": {
+              "AxisSize": 10,
+              "LegendSize": 8,
+              "TitleSize": 16,
+              "DescriptionSize": 12,
+              "OriginSize": 8,
+              "FontFamilyName": "Microsoft Sans Serif",
+              "WatermarkSize": 32
+            }
+          },
+          "Settings": {
+            "SideMarginsEnabled": true,
+            "LegendPosition": "None",
+            "BackColor": "#FFFFFF",
+            "DiagramBackColor": "#FFFFFF"
+          },
+          "OriginText": "Dabigatran-Model_V12\nRattanacheeworn 2021 - DDI Rifampicin\n2026-05-12 13:36"
+        }
+      ],
+      "Interactions": [
+        {
+          "Name": "CYP3A4-Kajosaari 2005",
+          "MoleculeName": "CYP3A4",
+          "CompoundName": "Rifampicin"
+        },
+        {
+          "Name": "P-gp-Reitman 2011",
+          "MoleculeName": "P-gp",
+          "CompoundName": "Rifampicin"
+        },
+        {
+          "Name": "AADAC-Assumed",
+          "MoleculeName": "AADAC",
+          "CompoundName": "Rifampicin"
+        },
+        {
+          "Name": "CYP3A4-Templeton 2011",
+          "MoleculeName": "CYP3A4",
+          "CompoundName": "Rifampicin"
+        },
+        {
+          "Name": "OATP1B1-Dixit 2007",
+          "MoleculeName": "OATP1B1",
+          "CompoundName": "Rifampicin"
+        },
+        {
+          "Name": "P-gp-Greiner 1999",
+          "MoleculeName": "P-gp",
+          "CompoundName": "Rifampicin"
+        }
+      ]
+    },
+    {
+      "Name": "Rattanacheeworn 2021 - DDI Control",
+      "Model": "4Comp",
+      "Solver": {},
+      "OutputSchema": [
+        {
+          "Parameters": [
+            {
+              "Name": "Start time",
+              "Value": 0.0,
+              "Unit": "h",
+              "ValueOrigin": {
+                "Source": "Unknown"
+              }
+            },
+            {
+              "Name": "End time",
+              "Value": 50.0,
+              "Unit": "h",
+              "ValueOrigin": {
+                "Source": "Unknown"
+              }
+            },
+            {
+              "Name": "Resolution",
+              "Value": 10.0,
+              "Unit": "pts/h",
+              "ValueOrigin": {
+                "Source": "Unknown"
+              }
+            }
+          ]
+        }
+      ],
+      "Parameters": [
+        {
+          "Path": "Applications|Cocktail DDI, Rattanacheeworn 2021 - Dabigatran|Solution|Application_1|ProtocolSchemaItem|Volume of water/body weight",
+          "Value": 4.5,
+          "Unit": "ml/kg"
+        },
+        {
+          "Path": "Dabigatran|Blood/Plasma concentration ratio",
+          "Value": 0.67,
+          "ValueOrigin": {
+            "Source": "Unknown"
+          }
+        }
+      ],
+      "OutputSelections": [
+        "Organism|PeripheralVenousBlood|Dabigatran|Plasma (Peripheral Venous Blood)"
+      ],
+      "Individual": "Rattanacheeworn 2021_DDI Rifampicin",
+      "Compounds": [
+        {
+          "Name": "DabiEtex",
+          "CalculationMethods": [
+            "Cellular partition coefficient method - Rodgers and Rowland",
+            "Cellular permeability - PK-Sim Standard"
+          ],
+          "Alternatives": [
+            {
+              "AlternativeName": "Calculated",
+              "GroupName": "COMPOUND_PERMEABILITY"
+            },
+            {
+              "AlternativeName": "Calculated",
+              "GroupName": "COMPOUND_INTESTINAL_PERMEABILITY"
+            }
+          ],
+          "Processes": [
+            {
+              "MoleculeName": "AADAC"
+            },
+            {
+              "MoleculeName": "CYP3A4"
+            },
+            {
+              "MoleculeName": "UGT1A4"
+            },
+            {
+              "Name": "CES1-FIT",
+              "MoleculeName": "CES1",
+              "MetaboliteName": "Dabigatran"
+            },
+            {
+              "Name": "CES2-FIT",
+              "MoleculeName": "CES2",
+              "MetaboliteName": "Dabigatran"
+            },
+            {
+              "MoleculeName": "UGT2B15"
+            },
+            {
+              "MoleculeName": "OATP1B1"
+            },
+            {
+              "Name": "ABCB1-FIT",
+              "MoleculeName": "P-gp"
+            },
+            {
+              "Name": "Glomerular Filtration-DabiEtex",
+              "SystemicProcessType": "GFR"
+            }
+          ],
+          "Protocol": {
+            "Name": "Cocktail DDI, Rattanacheeworn 2021 - Dabigatran",
+            "Formulations": [
+              {
+                "Name": "Solution",
+                "Key": "Formulation"
+              }
+            ]
+          }
+        },
+        {
+          "Name": "Dabigatran",
+          "CalculationMethods": [
+            "Cellular partition coefficient method - Rodgers and Rowland",
+            "Cellular permeability - PK-Sim Standard"
+          ],
+          "Alternatives": [
+            {
+              "AlternativeName": "Calculated",
+              "GroupName": "COMPOUND_PERMEABILITY"
+            }
+          ],
+          "Processes": [
+            {
+              "MoleculeName": "AADAC"
+            },
+            {
+              "MoleculeName": "CYP3A4"
+            },
+            {
+              "MoleculeName": "UGT1A4"
+            },
+            {
+              "MoleculeName": "CES1"
+            },
+            {
+              "MoleculeName": "CES2"
+            },
+            {
+              "Name": "UGT2B15-FIT",
+              "MoleculeName": "UGT2B15",
+              "MetaboliteName": "DabiGluc"
+            },
+            {
+              "Name": "Glomerular Filtration-Dabi",
+              "SystemicProcessType": "GFR"
+            }
+          ]
+        },
+        {
+          "Name": "DabiGluc",
+          "CalculationMethods": [
+            "Cellular partition coefficient method - Rodgers and Rowland",
+            "Cellular permeability - PK-Sim Standard"
+          ],
+          "Alternatives": [
+            {
+              "AlternativeName": "Calculated",
+              "GroupName": "COMPOUND_PERMEABILITY"
+            }
+          ],
+          "Processes": [
+            {
+              "Name": "Glomerular Filtration-DabiGluc",
+              "SystemicProcessType": "GFR"
+            }
+          ]
+        }
+      ],
+      "ObserverSets": [
+        {
+          "Name": "SUM"
+        }
+      ],
+      "HasResults": true,
+      "IndividualAnalyses": [
+        {
+          "Axes": [
+            {
+              "Unit": "h",
+              "Dimension": "Time",
+              "Type": "X",
+              "GridLines": false,
+              "Visible": true,
+              "DefaultColor": "#FFFFFF",
+              "DefaultLineStyle": "None",
+              "Scaling": "Linear",
+              "NumberMode": "Normal"
+            },
+            {
+              "Unit": "ng/ml",
+              "Dimension": "Concentration (molar)",
+              "Type": "Y",
+              "GridLines": false,
+              "Visible": true,
+              "Min": 0.0,
+              "Max": 0.5,
+              "DefaultColor": "#FFFFFF",
+              "DefaultLineStyle": "Solid",
+              "Scaling": "Linear",
+              "NumberMode": "Normal"
+            }
+          ],
+          "Curves": [
+            {
+              "Name": "Dabigatran-Peripheral Venous Blood-Plasma-Concentration",
+              "X": "Time",
+              "Y": "Rattanacheeworn 2021 - DDI Control|Organism|PeripheralVenousBlood|Dabigatran|Plasma (Peripheral Venous Blood)",
+              "CurveOptions": {
+                "Color": "#0000FF",
+                "LegendIndex": 2
+              }
+            }
+          ],
+          "Name": "Rattanacheeworn 2021 - Dabigatran DDI Control - lin",
+          "FontAndSize": {
+            "Fonts": {
+              "AxisSize": 10,
+              "LegendSize": 8,
+              "TitleSize": 16,
+              "DescriptionSize": 12,
+              "OriginSize": 8,
+              "FontFamilyName": "Microsoft Sans Serif",
+              "WatermarkSize": 32
+            }
+          },
+          "Settings": {
+            "SideMarginsEnabled": true,
+            "LegendPosition": "None",
+            "BackColor": "#FFFFFF",
+            "DiagramBackColor": "#FFFFFF"
+          },
+          "OriginText": "Dabigatran-Model_V12\nRattanacheeworn 2021 - DDI Control\n2026-05-12 13:36"
+        }
+      ]
+    },
+    {
+      "Name": "Härtter 2012 - DDI Control",
+      "Model": "4Comp",
+      "ObservedData": [
+        "Härtter 2012_Rifa-Dabi_Control_Dabigatran",
+        "Härtter 2012_Rifa-Dabi_Control_SUM"
+      ],
+      "Solver": {
+        "RelTol": 1E-09
+      },
+      "OutputSchema": [
+        {
+          "Parameters": [
+            {
+              "Name": "Start time",
+              "Value": 0.0,
+              "Unit": "h",
+              "ValueOrigin": {
+                "Source": "Unknown"
+              }
+            },
+            {
+              "Name": "End time",
+              "Value": 108.0,
+              "Unit": "h",
+              "ValueOrigin": {
+                "Source": "Unknown"
+              }
+            },
+            {
+              "Name": "Resolution",
+              "Value": 10.0,
+              "Unit": "pts/h",
+              "ValueOrigin": {
+                "Source": "Unknown"
+              }
+            }
+          ]
+        }
+      ],
+      "Parameters": [
+        {
+          "Path": "Dabigatran|Blood/Plasma concentration ratio",
+          "Value": 0.67,
+          "ValueOrigin": {
+            "Source": "Unknown"
+          }
+        },
+        {
+          "Path": "Events|Rifampicin DDI - Dabigatran|DabiEtex_Capsule|Application_1|ProtocolSchemaItem|Volume of water/body weight",
+          "Value": 3.5,
+          "Unit": "ml/kg"
+        },
+        {
+          "Path": "Events|Rifampicin DDI - Dabigatran|DabiEtex_Capsule|Application_2|ProtocolSchemaItem|Volume of water/body weight",
+          "Value": 3.5,
+          "Unit": "ml/kg"
+        },
+        {
+          "Path": "Events|Rifampicin DDI - Dabigatran|DabiEtex_Capsule|Application_3|ProtocolSchemaItem|Volume of water/body weight",
+          "Value": 3.5,
+          "Unit": "ml/kg"
+        },
+        {
+          "Path": "Events|Rifampicin DDI - Dabigatran|DabiEtex_Capsule|Application_4|ProtocolSchemaItem|Volume of water/body weight",
+          "Value": 3.5,
+          "Unit": "ml/kg"
+        },
+        {
+          "Path": "Events|Rifampicin DDI - Rifampicin|Solution|Application_1|ProtocolSchemaItem|Volume of water/body weight",
+          "Value": 3.5,
+          "Unit": "ml/kg"
+        },
+        {
+          "Path": "Events|Rifampicin DDI - Rifampicin|Solution|Application_2|ProtocolSchemaItem|Volume of water/body weight",
+          "Value": 3.5,
+          "Unit": "ml/kg"
+        },
+        {
+          "Path": "Events|Rifampicin DDI - Rifampicin|Solution|Application_3|ProtocolSchemaItem|Volume of water/body weight",
+          "Value": 3.5,
+          "Unit": "ml/kg"
+        },
+        {
+          "Path": "Events|Rifampicin DDI - Rifampicin|Solution|Application_4|ProtocolSchemaItem|Volume of water/body weight",
+          "Value": 3.5,
+          "Unit": "ml/kg"
+        },
+        {
+          "Path": "Events|Rifampicin DDI - Rifampicin|Solution|Application_5|ProtocolSchemaItem|Volume of water/body weight",
+          "Value": 3.5,
+          "Unit": "ml/kg"
+        },
+        {
+          "Path": "Events|Rifampicin DDI - Rifampicin|Solution|Application_6|ProtocolSchemaItem|Volume of water/body weight",
+          "Value": 3.5,
+          "Unit": "ml/kg"
+        },
+        {
+          "Path": "Events|Rifampicin DDI - Rifampicin|Solution|Application_7|ProtocolSchemaItem|Volume of water/body weight",
+          "Value": 3.5,
+          "Unit": "ml/kg"
+        }
+      ],
+      "OutputSelections": [
+        "Organism|PeripheralVenousBlood|Rifampicin|Plasma (Peripheral Venous Blood)",
+        "Organism|PeripheralVenousBlood|Dabigatran|Plasma (Peripheral Venous Blood)",
+        "Organism|PeripheralVenousBlood|Dabigatran|SUM"
+      ],
+      "Individual": "Härtter 2012_DDI Rifampicin",
+      "Compounds": [
+        {
+          "Name": "Rifampicin",
+          "CalculationMethods": [
+            "Cellular partition coefficient method - Rodgers and Rowland",
+            "Cellular permeability - PK-Sim Standard"
+          ],
+          "Alternatives": [
+            {
+              "AlternativeName": "Optimized",
+              "GroupName": "COMPOUND_INTESTINAL_PERMEABILITY"
+            }
+          ],
+          "Processes": [
+            {
+              "Name": "AADAC-Nakajima 2011",
+              "MoleculeName": "AADAC"
+            },
+            {
+              "MoleculeName": "CYP3A4"
+            },
+            {
+              "MoleculeName": "UGT1A4"
+            },
+            {
+              "MoleculeName": "CES1"
+            },
+            {
+              "MoleculeName": "CES2"
+            },
+            {
+              "MoleculeName": "UGT2B15"
+            },
+            {
+              "Name": "OATP1B1-Tirona 2003",
+              "MoleculeName": "OATP1B1"
+            },
+            {
+              "Name": "P-gp-Collett 2004",
+              "MoleculeName": "P-gp"
+            },
+            {
+              "Name": "Glomerular Filtration-GFR",
+              "SystemicProcessType": "GFR"
+            }
+          ],
+          "Protocol": {
+            "Name": "Rifampicin DDI - Rifampicin",
+            "Formulations": [
+              {
+                "Name": "Solution",
+                "Key": "Formulation"
+              }
+            ]
+          }
+        },
+        {
+          "Name": "DabiEtex",
+          "CalculationMethods": [
+            "Cellular partition coefficient method - Rodgers and Rowland",
+            "Cellular permeability - PK-Sim Standard"
+          ],
+          "Alternatives": [
+            {
+              "AlternativeName": "Calculated",
+              "GroupName": "COMPOUND_PERMEABILITY"
+            },
+            {
+              "AlternativeName": "Calculated",
+              "GroupName": "COMPOUND_INTESTINAL_PERMEABILITY"
+            }
+          ],
+          "Processes": [
+            {
+              "MoleculeName": "AADAC"
+            },
+            {
+              "MoleculeName": "CYP3A4"
+            },
+            {
+              "MoleculeName": "UGT1A4"
+            },
+            {
+              "Name": "CES1-FIT",
+              "MoleculeName": "CES1",
+              "MetaboliteName": "Dabigatran"
+            },
+            {
+              "Name": "CES2-FIT",
+              "MoleculeName": "CES2",
+              "MetaboliteName": "Dabigatran"
+            },
+            {
+              "MoleculeName": "UGT2B15"
+            },
+            {
+              "MoleculeName": "OATP1B1"
+            },
+            {
+              "Name": "ABCB1-FIT",
+              "MoleculeName": "P-gp"
+            },
+            {
+              "Name": "Glomerular Filtration-DabiEtex",
+              "SystemicProcessType": "GFR"
+            }
+          ],
+          "Protocol": {
+            "Name": "Rifampicin DDI - Dabigatran",
+            "Formulations": [
+              {
+                "Name": "DabiEtex_Capsule",
+                "Key": "Formulation"
+              }
+            ]
+          }
+        },
+        {
+          "Name": "Dabigatran",
+          "CalculationMethods": [
+            "Cellular partition coefficient method - Rodgers and Rowland",
+            "Cellular permeability - PK-Sim Standard"
+          ],
+          "Alternatives": [
+            {
+              "AlternativeName": "Calculated",
+              "GroupName": "COMPOUND_PERMEABILITY"
+            }
+          ],
+          "Processes": [
+            {
+              "MoleculeName": "AADAC"
+            },
+            {
+              "MoleculeName": "CYP3A4"
+            },
+            {
+              "MoleculeName": "UGT1A4"
+            },
+            {
+              "MoleculeName": "CES1"
+            },
+            {
+              "MoleculeName": "CES2"
+            },
+            {
+              "Name": "UGT2B15-FIT",
+              "MoleculeName": "UGT2B15",
+              "MetaboliteName": "DabiGluc"
+            },
+            {
+              "Name": "Glomerular Filtration-Dabi",
+              "SystemicProcessType": "GFR"
+            }
+          ]
+        },
+        {
+          "Name": "DabiGluc",
+          "CalculationMethods": [
+            "Cellular partition coefficient method - Rodgers and Rowland",
+            "Cellular permeability - PK-Sim Standard"
+          ],
+          "Alternatives": [
+            {
+              "AlternativeName": "Calculated",
+              "GroupName": "COMPOUND_PERMEABILITY"
+            }
+          ],
+          "Processes": [
+            {
+              "Name": "Glomerular Filtration-DabiGluc",
+              "SystemicProcessType": "GFR"
+            }
+          ]
+        }
+      ],
+      "ObserverSets": [
+        {
+          "Name": "SUM"
+        }
+      ],
+      "HasResults": true,
+      "IndividualAnalyses": [
+        {
+          "Axes": [
+            {
+              "Unit": "h",
+              "Dimension": "Time",
+              "Type": "X",
+              "GridLines": false,
+              "Visible": true,
+              "Min": 0.0,
+              "Max": 60.0,
+              "DefaultColor": "#FFFFFF",
+              "DefaultLineStyle": "None",
+              "Scaling": "Linear",
+              "NumberMode": "Normal"
+            },
+            {
+              "Unit": "ng/ml",
+              "Dimension": "Concentration (molar)",
+              "Type": "Y",
+              "GridLines": false,
+              "Visible": true,
+              "Min": 1.0,
+              "Max": 100.0,
+              "DefaultColor": "#FFFFFF",
+              "DefaultLineStyle": "Solid",
+              "Scaling": "Linear",
+              "NumberMode": "Normal"
+            }
+          ],
+          "Curves": [
+            {
+              "Name": "Dabigatran-Peripheral Venous Blood-Plasma-Concentration",
+              "X": "Time",
+              "Y": "Härtter 2012 - DDI Control|Organism|PeripheralVenousBlood|Dabigatran|Plasma (Peripheral Venous Blood)",
+              "CurveOptions": {
+                "Color": "#0000FF",
+                "LegendIndex": 3
+              }
+            },
+            {
+              "Name": "Dabigatran-Peripheral Venous Blood-SUM-Concentration",
+              "X": "Time",
+              "Y": "Härtter 2012 - DDI Control|Organism|PeripheralVenousBlood|Dabigatran|SUM",
+              "CurveOptions": {
+                "Visible": false,
+                "Color": "#00C0C0",
+                "LegendIndex": 11
+              }
+            },
+            {
+              "Name": "Härtter 2012_Rifa-Dabi_Control_Dabigatran-Dabigatran-Measurement",
+              "X": "Härtter 2012_Rifa-Dabi_Control_Dabigatran|Time",
+              "Y": "Härtter 2012_Rifa-Dabi_Control_Dabigatran|ObservedData|||Dabigatran|Measurement",
+              "CurveOptions": {
+                "Color": "#0000FF",
+                "LegendIndex": 14,
+                "LineStyle": "None",
+                "Symbol": "Circle"
+              }
+            },
+            {
+              "Name": "Härtter 2012_Rifa-Dabi_Control_SUM-Measurement",
+              "X": "Härtter 2012_Rifa-Dabi_Control_SUM|Time",
+              "Y": "Härtter 2012_Rifa-Dabi_Control_SUM|ObservedData||||Measurement",
+              "CurveOptions": {
+                "Visible": false,
+                "Color": "#00C0C0",
+                "LegendIndex": 15,
+                "LineStyle": "None",
+                "Symbol": "Circle"
+              }
+            }
+          ],
+          "Name": "Härtter 2012 - Dabigatran DDI Control - lin",
+          "FontAndSize": {
+            "Fonts": {
+              "AxisSize": 10,
+              "LegendSize": 8,
+              "TitleSize": 16,
+              "DescriptionSize": 12,
+              "OriginSize": 8,
+              "FontFamilyName": "Microsoft Sans Serif",
+              "WatermarkSize": 32
+            }
+          },
+          "Settings": {
+            "SideMarginsEnabled": true,
+            "LegendPosition": "None",
+            "BackColor": "#FFFFFF",
+            "DiagramBackColor": "#FFFFFF"
+          },
+          "OriginText": "Dabigatran-Model_V12_clean\nHärtter 2012 - DDI Control\n2026-05-13 13:06"
+        }
+      ],
+      "Interactions": [
+        {
+          "Name": "CYP3A4-Kajosaari 2005",
+          "MoleculeName": "CYP3A4",
+          "CompoundName": "Rifampicin"
+        },
+        {
+          "Name": "OATP1B1-Hirano 2006",
+          "MoleculeName": "OATP1B1",
+          "CompoundName": "Rifampicin"
+        },
+        {
+          "Name": "P-gp-Reitman 2011",
+          "MoleculeName": "P-gp",
+          "CompoundName": "Rifampicin"
+        },
+        {
+          "Name": "AADAC-Assumed",
+          "MoleculeName": "AADAC",
+          "CompoundName": "Rifampicin"
+        },
+        {
+          "Name": "CYP3A4-Templeton 2011",
+          "MoleculeName": "CYP3A4",
+          "CompoundName": "Rifampicin"
+        },
+        {
+          "Name": "OATP1B1-Dixit 2007",
+          "MoleculeName": "OATP1B1",
+          "CompoundName": "Rifampicin"
+        },
+        {
+          "Name": "P-gp-Greiner 1999",
+          "MoleculeName": "P-gp",
+          "CompoundName": "Rifampicin"
+        }
+      ]
+    }
+  ],
+  "ObservedData": [
+    {
+      "Name": "Härtter 2012_Rifa-Dabi_Control_Dabigatran",
+      "ExtendedProperties": [
+        {
+          "Name": "Sheet",
+          "Value": "Day_0",
+          "Type": "String"
+        },
+        {
+          "Name": "Molecule",
+          "Value": "Dabigatran",
+          "Type": "String"
+        }
+      ],
+      "Columns": [
+        {
+          "Name": "Measurement",
+          "QuantityInfo": {
+            "Path": "Härtter 2012_Rifa-Dabi_Control_Dabigatran|ObservedData|||Dabigatran|Measurement"
+          },
+          "DataInfo": {
+            "Origin": "Observation",
+            "AuxiliaryType": "Undefined",
+            "MolWeight": 471.51
+          },
+          "Values": [
+            33.246,
+            67.0019,
+            81.8547,
+            77.2114,
+            66.4452057,
+            44.5195,
+            31.3600979,
+            24.8272,
+            19.0101,
+            5.91206026,
+            2.48272014
+          ],
+          "Dimension": "Concentration (mass)",
+          "Unit": "ng/ml"
+        }
+      ],
+      "BaseGrid": {
+        "Name": "Time",
+        "QuantityInfo": {
+          "Path": "Härtter 2012_Rifa-Dabi_Control_Dabigatran|Time",
+          "Type": "Time"
+        },
+        "DataInfo": {
+          "Origin": "BaseGrid",
+          "AuxiliaryType": "Undefined"
+        },
+        "Values": [
+          0.99024,
+          1.46939,
+          1.98048,
+          2.97071981,
+          3.99290013,
+          5.97338,
+          7.98580027,
+          9.99823,
+          12.0106,
+          24.0213,
+          34.0195
+        ],
+        "Dimension": "Time",
+        "Unit": "h"
+      }
+    },
+    {
+      "Name": "Härtter 2012_Rifa-Dabi_DDI_Dabigatran",
+      "ExtendedProperties": [
+        {
+          "Name": "Sheet",
+          "Value": "Day_9",
+          "Type": "String"
+        },
+        {
+          "Name": "Molecule",
+          "Value": "Dabigatran",
+          "Type": "String"
+        }
+      ],
+      "Columns": [
+        {
+          "Name": "Measurement",
+          "QuantityInfo": {
+            "Path": "Härtter 2012_Rifa-Dabi_DDI_Dabigatran|ObservedData|||Dabigatran|Measurement"
+          },
+          "DataInfo": {
+            "Origin": "Observation",
+            "AuxiliaryType": "Undefined",
+            "MolWeight": 471.51
+          },
+          "Values": [
+            15.2881994,
+            25.2484,
+            26.9257011,
+            23.0742989,
+            19.2715,
+            12.7687,
+            8.79294,
+            6.9755,
+            5.60536,
+            1.97738
+          ],
+          "Dimension": "Concentration (mass)",
+          "Unit": "ng/ml"
+        }
+      ],
+      "BaseGrid": {
+        "Name": "Time",
+        "QuantityInfo": {
+          "Path": "Härtter 2012_Rifa-Dabi_DDI_Dabigatran|Time",
+          "Type": "Time"
+        },
+        "DataInfo": {
+          "Origin": "BaseGrid",
+          "AuxiliaryType": "Undefined"
+        },
+        "Values": [
+          192.9863,
+          193.528778,
+          193.97261,
+          195.008224,
+          196.043854,
+          198.016434,
+          199.989044,
+          202.011,
+          203.9836,
+          216.0164
+        ],
+        "Dimension": "Time",
+        "Unit": "h"
+      }
+    },
+    {
+      "Name": "Härtter 2012_Rifa-Dabi_Control_SUM",
+      "ExtendedProperties": [
+        {
+          "Name": "Sheet",
+          "Value": "Day_0",
+          "Type": "String"
+        },
+        {
+          "Name": "Molecule",
+          "Value": "SUM",
+          "Type": "String"
+        },
+        {
+          "Name": "Molecular Weight",
+          "Value": "471.51",
+          "Type": "String"
+        }
+      ],
+      "Columns": [
+        {
+          "Name": "Measurement",
+          "QuantityInfo": {
+            "Path": "Härtter 2012_Rifa-Dabi_Control_SUM|ObservedData||||Measurement"
+          },
+          "DataInfo": {
+            "Origin": "Observation",
+            "AuxiliaryType": "Undefined"
+          },
+          "Values": [
+            43.5554,
+            84.3986,
+            102.576996,
+            97.4878,
+            81.5835,
+            54.7633,
+            39.6759,
+            29.9902,
+            23.0567989,
+            7.52682,
+            3.39146
+          ],
+          "Dimension": "Concentration (mass)",
+          "Unit": "ng/ml"
+        }
+      ],
+      "BaseGrid": {
+        "Name": "Time",
+        "QuantityInfo": {
+          "Path": "Härtter 2012_Rifa-Dabi_Control_SUM|Time",
+          "Type": "Time"
+        },
+        "DataInfo": {
+          "Origin": "BaseGrid",
+          "AuxiliaryType": "Undefined"
+        },
+        "Values": [
+          0.99024,
+          1.46939,
+          1.98048,
+          2.97071981,
+          3.99290013,
+          5.97338,
+          7.98580027,
+          9.99823,
+          12.0106,
+          24.0213,
+          34.0195
+        ],
+        "Dimension": "Time",
+        "Unit": "h"
+      }
+    },
+    {
+      "Name": "Härtter 2012_Rifa-Dabi_DDI_SUM",
+      "ExtendedProperties": [
+        {
+          "Name": "Sheet",
+          "Value": "Day_9",
+          "Type": "String"
+        },
+        {
+          "Name": "Molecular Weight",
+          "Value": "471.51",
+          "Type": "String"
+        },
+        {
+          "Name": "Molecule",
+          "Value": "SUM",
+          "Type": "String"
+        }
+      ],
+      "Columns": [
+        {
+          "Name": "Measurement",
+          "QuantityInfo": {
+            "Path": "Härtter 2012_Rifa-Dabi_DDI_SUM|ObservedData||||Measurement"
+          },
+          "DataInfo": {
+            "Origin": "Observation",
+            "AuxiliaryType": "Undefined"
+          },
+          "Values": [
+            18.338,
+            32.0956,
+            35.2339,
+            29.9902,
+            24.4671,
+            16.7046013,
+            12.0002,
+            9.790211,
+            7.59092,
+            2.60739017,
+            1.44006
+          ],
+          "Dimension": "Concentration (mass)",
+          "Unit": "ng/ml"
+        }
+      ],
+      "BaseGrid": {
+        "Name": "Time",
+        "QuantityInfo": {
+          "Path": "Härtter 2012_Rifa-Dabi_DDI_SUM|Time",
+          "Type": "Time"
+        },
+        "DataInfo": {
+          "Origin": "BaseGrid",
+          "AuxiliaryType": "Undefined"
+        },
+        "Values": [
+          192.9863,
+          193.528778,
+          193.97261,
+          195.008224,
+          196.043854,
+          198.016434,
+          199.989044,
+          202.011,
+          203.9836,
+          216.0164,
+          225.9876
+        ],
+        "Dimension": "Time",
+        "Unit": "h"
+      }
+    }
+  ],
+  "ObservedDataClassifications": [
+    {
+      "Name": "Literature",
+      "Classifiables": [
+        "Härtter 2012_Rifa-Dabi_Control_Dabigatran",
+        "Härtter 2012_Rifa-Dabi_DDI_Dabigatran",
+        "Härtter 2012_Rifa-Dabi_Control_SUM",
+        "Härtter 2012_Rifa-Dabi_DDI_SUM"
+      ]
+    }
+  ]
+}
