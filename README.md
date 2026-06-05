@@ -2,12 +2,12 @@
 
 Modeling of published clinical Rifampicin-Dabigatran-DDI studies for model evaluation.
 
-Within this repository, we distribute a PK-Sim snapshot file containing simulations of a clinical study used to evaluate the predictive performance of our models regarding the Verapamil-Dabigatran-DDI, including the respective observed data. 
+Within this repository, we distribute a PK-Sim snapshot file containing simulations of a clinical study used to evaluate the predictive performance of our models regarding the Rifampicin-Dabigatran-DDI, including the respective observed data. 
 
 The reference model repositories can be found here: 
 
-* xxx
-* xxx
+- [Rifampicin OSP PBPK model](https://github.com/Open-Systems-Pharmacology/Rifampicin-Model)
+- [Dabigatran OSP PBPK model](https://github.com/Open-Systems-Pharmacology/Dabigatran-Model)
 
 ## Code of conduct
 Everyone interacting in the Open Systems Pharmacology community (codebases, issue trackers, chat rooms, mailing lists etc...) is expected to follow the Open Systems Pharmacology [code of conduct](https://github.com/Open-Systems-Pharmacology/Suite/blob/master/CODE_OF_CONDUCT.md#contributor-covenant-code-of-conduct).
