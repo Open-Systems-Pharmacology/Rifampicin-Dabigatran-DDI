@@ -2270,7 +2270,9 @@
               "Value": 0.6088,
               "Unit": "1/min",
               "ValueOrigin": {
-                "Source": "Unknown"
+                "Source": "Publication",
+                "Method": "ParameterIdentification",
+                "Description": "Hanke et al. 2018"
               }
             }
           ]
@@ -2300,7 +2302,9 @@
               "Value": 5.21004653,
               "Unit": "1/min",
               "ValueOrigin": {
-                "Source": "Unknown"
+                "Source": "Publication",
+                "Method": "ParameterIdentification",
+                "Description": "Hanke et al. 2018"
               }
             }
           ]
@@ -2324,6 +2328,38 @@
         {
           "InternalName": "CompetitiveInhibition",
           "DataSource": "Kajosaari 2005",
+          "Molecule": "CYP2C8",
+          "Parameters": [
+            {
+              "Name": "Ki",
+              "Value": 30.2,
+              "Unit": "µmol/l",
+              "ValueOrigin": {
+                "Source": "Publication",
+                "Description": "Kajosaari et al. 2005"
+              }
+            }
+          ]
+        },
+        {
+          "InternalName": "CompetitiveInhibition",
+          "DataSource": "Hanke 2021",
+          "Molecule": "CYP2C9",
+          "Parameters": [
+            {
+              "Name": "Ki",
+              "Value": 150.0,
+              "Unit": "µmol/l",
+              "ValueOrigin": {
+                "Source": "Publication",
+                "Description": "Yoshida 2012"
+              }
+            }
+          ]
+        },
+        {
+          "InternalName": "CompetitiveInhibition",
+          "DataSource": "Kajosaari 2005",
           "Molecule": "CYP3A4",
           "Parameters": [
             {
@@ -2339,7 +2375,74 @@
         },
         {
           "InternalName": "CompetitiveInhibition",
-          "DataSource": "Reitman 2011",
+          "DataSource": "Hanke 2021",
+          "Molecule": "BCRP",
+          "Parameters": [
+            {
+              "Name": "Ki",
+              "Value": 14.0,
+              "Unit": "µmol/l",
+              "ValueOrigin": {
+                "Source": "Publication",
+                "Description": "Prueksaritanont 2014"
+              }
+            }
+          ]
+        },
+        {
+          "InternalName": "CompetitiveInhibition",
+          "DataSource": "Hanke 2021",
+          "Molecule": "OATP1B1",
+          "Parameters": [
+            {
+              "Name": "Ki",
+              "Value": 0.29,
+              "Unit": "µmol/l",
+              "ValueOrigin": {
+                "Source": "Publication",
+                "Method": "InVitro",
+                "Description": "Bi 2019"
+              }
+            }
+          ]
+        },
+        {
+          "InternalName": "CompetitiveInhibition",
+          "DataSource": "Hanke 2021",
+          "Molecule": "OATP1B3",
+          "Parameters": [
+            {
+              "Name": "Ki",
+              "Value": 0.5,
+              "Unit": "µmol/l",
+              "ValueOrigin": {
+                "Source": "Publication",
+                "Method": "InVitro",
+                "Description": "Bi 2019"
+              }
+            }
+          ]
+        },
+        {
+          "InternalName": "CompetitiveInhibition",
+          "DataSource": "Hanke 2021",
+          "Molecule": "OATP2B1",
+          "Parameters": [
+            {
+              "Name": "Ki",
+              "Value": 78.2,
+              "Unit": "µmol/l",
+              "ValueOrigin": {
+                "Source": "Publication",
+                "Method": "InVitro",
+                "Description": "Zhang 2019"
+              }
+            }
+          ]
+        },
+        {
+          "InternalName": "CompetitiveInhibition",
+          "DataSource": "Hanke 2021",
           "Molecule": "P-gp",
           "Parameters": [
             {
@@ -2347,10 +2450,66 @@
               "Value": 9.1,
               "Unit": "µmol/l",
               "ValueOrigin": {
-                "Source": "Publication",
-                "Method": "Assumption",
-                "Description": "Reitman 2011 (IC50 = Ki (169 µM / (1+ (0.1 µM / 177 µM) )"
+                "Source": "Other",
+                "Method": "InVitro",
+                "Description": "NBI"
               }
+            }
+          ]
+        },
+        {
+          "InternalName": "Induction",
+          "DataSource": "Chen 2010",
+          "Molecule": "CYP1A2",
+          "Parameters": [
+            {
+              "Name": "EC50",
+              "Value": 0.34,
+              "Unit": "µmol/l"
+            },
+            {
+              "Name": "Emax",
+              "Value": 0.65
+            }
+          ]
+        },
+        {
+          "InternalName": "Induction",
+          "DataSource": "Buckley 2014",
+          "Molecule": "CYP2C8",
+          "Parameters": [
+            {
+              "Name": "EC50",
+              "Value": 0.34,
+              "Unit": "µmol/l",
+              "ValueOrigin": {
+                "Source": "Publication",
+                "Description": "Templeton IE, Houston JB, Galetin A. Predictive utility of in vitro rifampin induction data generated in fresh and cryopreserved human hepatocytes, Fa2N-4, and HepaRG cells. Drug Metab Dispos. 2011;39:1921–9; Shou M, Hayashi M, Pan Y, Xu Y, Morrissey K, Xu L, et al. Modeling, prediction, and in vitro in vivo correlation of CYP3A4 induction. Drug Metab Dispos. 2008;36:2355–70. "
+              }
+            },
+            {
+              "Name": "Emax",
+              "Value": 3.2,
+              "ValueOrigin": {
+                "Source": "Publication",
+                "Description": "Buckley DB, Wiegand CM, Prentiss PL, Fahmi OA. Time-course of cytochrome P450 (CYP450) induction in cultured human hepatocytes: Evaluation of activity and mRNA expression profiles for six inducible CYP450 enzymes. ISSX. 2013"
+              }
+            }
+          ]
+        },
+        {
+          "InternalName": "Induction",
+          "DataSource": "Rae 2001",
+          "Molecule": "CYP2E1",
+          "Parameters": [
+            {
+              "Name": "EC50",
+              "Value": 0.34,
+              "Unit": "µmol/l"
+            },
+            {
+              "Name": "Emax",
+              "Value": 0.8
             }
           ]
         },
@@ -2380,8 +2539,8 @@
         },
         {
           "InternalName": "Induction",
-          "DataSource": "Greiner 1999",
-          "Molecule": "P-gp",
+          "DataSource": "Assumed",
+          "Molecule": "AADAC",
           "Parameters": [
             {
               "Name": "EC50",
@@ -2395,11 +2554,11 @@
             },
             {
               "Name": "Emax",
-              "Value": 2.5,
+              "Value": 0.985,
               "ValueOrigin": {
                 "Source": "Publication",
-                "Method": "Assumption",
-                "Description": "Greiner et al. 1999"
+                "Method": "ParameterIdentification",
+                "Description": "Hanke et al. 2018"
               }
             }
           ]
@@ -2432,8 +2591,8 @@
         },
         {
           "InternalName": "Induction",
-          "DataSource": "Assumed",
-          "Molecule": "AADAC",
+          "DataSource": "Greiner 1999",
+          "Molecule": "P-gp",
           "Parameters": [
             {
               "Name": "EC50",
@@ -2447,112 +2606,12 @@
             },
             {
               "Name": "Emax",
-              "Value": 0.985,
+              "Value": 2.5,
               "ValueOrigin": {
                 "Source": "Publication",
-                "Method": "ParameterIdentification",
-                "Description": "Hanke et al. 2018"
+                "Method": "Assumption",
+                "Description": "Greiner et al. 1999"
               }
-            }
-          ]
-        },
-        {
-          "InternalName": "CompetitiveInhibition",
-          "DataSource": "Kajosaari 2005",
-          "Molecule": "CYP2C8",
-          "Parameters": [
-            {
-              "Name": "Ki",
-              "Value": 30.2,
-              "Unit": "µmol/l",
-              "ValueOrigin": {
-                "Source": "Publication",
-                "Description": "Kajosaari et al. 2005"
-              }
-            }
-          ]
-        },
-        {
-          "InternalName": "CompetitiveInhibition",
-          "DataSource": "Hirano 2006",
-          "Molecule": "OATP1B1",
-          "Parameters": [
-            {
-              "Name": "Ki",
-              "Value": 0.477,
-              "Unit": "µmol/l",
-              "ValueOrigin": {
-                "Source": "Publication",
-                "Description": "Hirano M, Maeda K, Shitara Y, Sugiyama Y. Drug-drug interaction between pitavastatin and various drugs via OATP1B1. Drug Metab Dispos. 2006;34:1229–36"
-              }
-            }
-          ]
-        },
-        {
-          "InternalName": "Induction",
-          "DataSource": "Buckley 2014",
-          "Molecule": "CYP2C8",
-          "Parameters": [
-            {
-              "Name": "EC50",
-              "Value": 0.34,
-              "Unit": "µmol/l",
-              "ValueOrigin": {
-                "Source": "Publication",
-                "Description": "Templeton IE, Houston JB, Galetin A. Predictive utility of in vitro rifampin induction data generated in fresh and cryopreserved human hepatocytes, Fa2N-4, and HepaRG cells. Drug Metab Dispos. 2011;39:1921–9; Shou M, Hayashi M, Pan Y, Xu Y, Morrissey K, Xu L, et al. Modeling, prediction, and in vitro in vivo correlation of CYP3A4 induction. Drug Metab Dispos. 2008;36:2355–70. "
-              }
-            },
-            {
-              "Name": "Emax",
-              "Value": 3.2,
-              "ValueOrigin": {
-                "Source": "Publication",
-                "Description": "Buckley DB, Wiegand CM, Prentiss PL, Fahmi OA. Time-course of cytochrome P450 (CYP450) induction in cultured human hepatocytes: Evaluation of activity and mRNA expression profiles for six inducible CYP450 enzymes. ISSX. 2013"
-              }
-            }
-          ]
-        },
-        {
-          "InternalName": "Induction",
-          "DataSource": "Chen 2010",
-          "Molecule": "CYP1A2",
-          "Parameters": [
-            {
-              "Name": "EC50",
-              "Value": 0.34,
-              "Unit": "µmol/l"
-            },
-            {
-              "Name": "Emax",
-              "Value": 0.65
-            }
-          ]
-        },
-        {
-          "InternalName": "Induction",
-          "DataSource": "Rae 2001",
-          "Molecule": "CYP2E1",
-          "Parameters": [
-            {
-              "Name": "EC50",
-              "Value": 0.34,
-              "Unit": "µmol/l"
-            },
-            {
-              "Name": "Emax",
-              "Value": 0.8
-            }
-          ]
-        },
-        {
-          "InternalName": "CompetitiveInhibition",
-          "DataSource": "Annaert 2010",
-          "Molecule": "OATP1B3",
-          "Parameters": [
-            {
-              "Name": "Ki",
-              "Value": 0.9,
-              "Unit": "µmol/l"
             }
           ]
         }
@@ -3373,431 +3432,6 @@
   ],
   "Simulations": [
     {
-      "Name": "Härtter 2012 - DDI Rifampicin",
-      "Model": "4Comp",
-      "ObservedData": [
-        "Härtter 2012_Rifa-Dabi_DDI_SUM",
-        "Härtter 2012_Rifa-Dabi_DDI_Dabigatran"
-      ],
-      "Solver": {
-        "RelTol": 1E-09
-      },
-      "OutputSchema": [
-        {
-          "Parameters": [
-            {
-              "Name": "Start time",
-              "Value": 0.0,
-              "Unit": "h",
-              "ValueOrigin": {
-                "Source": "Unknown"
-              }
-            },
-            {
-              "Name": "End time",
-              "Value": 300.0,
-              "Unit": "h",
-              "ValueOrigin": {
-                "Source": "Unknown"
-              }
-            },
-            {
-              "Name": "Resolution",
-              "Value": 10.0,
-              "Unit": "pts/h",
-              "ValueOrigin": {
-                "Source": "Unknown"
-              }
-            }
-          ]
-        }
-      ],
-      "Parameters": [
-        {
-          "Path": "Applications|Rifampicin DDI - Dabigatran|DabiEtex_Capsule|Application_1|ProtocolSchemaItem|Volume of water/body weight",
-          "Value": 3.5,
-          "Unit": "ml/kg"
-        },
-        {
-          "Path": "Applications|Rifampicin DDI - Dabigatran|DabiEtex_Capsule|Application_2|ProtocolSchemaItem|Volume of water/body weight",
-          "Value": 3.5,
-          "Unit": "ml/kg"
-        },
-        {
-          "Path": "Applications|Rifampicin DDI - Dabigatran|DabiEtex_Capsule|Application_3|ProtocolSchemaItem|Volume of water/body weight",
-          "Value": 3.5,
-          "Unit": "ml/kg"
-        },
-        {
-          "Path": "Applications|Rifampicin DDI - Dabigatran|DabiEtex_Capsule|Application_4|ProtocolSchemaItem|Volume of water/body weight",
-          "Value": 3.5,
-          "Unit": "ml/kg"
-        },
-        {
-          "Path": "Applications|Rifampicin DDI - Rifampicin|Solution|Application_1|ProtocolSchemaItem|Volume of water/body weight",
-          "Value": 3.5,
-          "Unit": "ml/kg"
-        },
-        {
-          "Path": "Applications|Rifampicin DDI - Rifampicin|Solution|Application_2|ProtocolSchemaItem|Volume of water/body weight",
-          "Value": 3.5,
-          "Unit": "ml/kg"
-        },
-        {
-          "Path": "Applications|Rifampicin DDI - Rifampicin|Solution|Application_3|ProtocolSchemaItem|Volume of water/body weight",
-          "Value": 3.5,
-          "Unit": "ml/kg"
-        },
-        {
-          "Path": "Applications|Rifampicin DDI - Rifampicin|Solution|Application_4|ProtocolSchemaItem|Volume of water/body weight",
-          "Value": 3.5,
-          "Unit": "ml/kg"
-        },
-        {
-          "Path": "Applications|Rifampicin DDI - Rifampicin|Solution|Application_5|ProtocolSchemaItem|Volume of water/body weight",
-          "Value": 3.5,
-          "Unit": "ml/kg"
-        },
-        {
-          "Path": "Applications|Rifampicin DDI - Rifampicin|Solution|Application_6|ProtocolSchemaItem|Volume of water/body weight",
-          "Value": 3.5,
-          "Unit": "ml/kg"
-        },
-        {
-          "Path": "Applications|Rifampicin DDI - Rifampicin|Solution|Application_7|ProtocolSchemaItem|Volume of water/body weight",
-          "Value": 3.5,
-          "Unit": "ml/kg"
-        },
-        {
-          "Path": "Dabigatran|Blood/Plasma concentration ratio",
-          "Value": 0.67,
-          "ValueOrigin": {
-            "Source": "Unknown"
-          }
-        }
-      ],
-      "OutputSelections": [
-        "Organism|PeripheralVenousBlood|Rifampicin|Plasma (Peripheral Venous Blood)",
-        "Organism|PeripheralVenousBlood|Dabigatran|Plasma (Peripheral Venous Blood)",
-        "Organism|PeripheralVenousBlood|Dabigatran|SUM"
-      ],
-      "Individual": "Härtter 2012_DDI Rifampicin",
-      "Compounds": [
-        {
-          "Name": "Rifampicin",
-          "CalculationMethods": [
-            "Cellular partition coefficient method - Rodgers and Rowland",
-            "Cellular permeability - PK-Sim Standard"
-          ],
-          "Alternatives": [
-            {
-              "AlternativeName": "Optimized",
-              "GroupName": "COMPOUND_INTESTINAL_PERMEABILITY"
-            }
-          ],
-          "Processes": [
-            {
-              "Name": "AADAC-Nakajima 2011",
-              "MoleculeName": "AADAC"
-            },
-            {
-              "MoleculeName": "CYP3A4"
-            },
-            {
-              "MoleculeName": "UGT1A4"
-            },
-            {
-              "MoleculeName": "CES1"
-            },
-            {
-              "MoleculeName": "CES2"
-            },
-            {
-              "MoleculeName": "UGT2B15"
-            },
-            {
-              "Name": "OATP1B1-Tirona 2003",
-              "MoleculeName": "OATP1B1"
-            },
-            {
-              "Name": "P-gp-Collett 2004",
-              "MoleculeName": "P-gp"
-            },
-            {
-              "Name": "Glomerular Filtration-GFR",
-              "SystemicProcessType": "GFR"
-            }
-          ],
-          "Protocol": {
-            "Name": "Rifampicin DDI - Rifampicin",
-            "Formulations": [
-              {
-                "Name": "Solution",
-                "Key": "Formulation"
-              }
-            ]
-          }
-        },
-        {
-          "Name": "DabiEtex",
-          "CalculationMethods": [
-            "Cellular partition coefficient method - Rodgers and Rowland",
-            "Cellular permeability - PK-Sim Standard"
-          ],
-          "Alternatives": [
-            {
-              "AlternativeName": "Calculated",
-              "GroupName": "COMPOUND_PERMEABILITY"
-            },
-            {
-              "AlternativeName": "Calculated",
-              "GroupName": "COMPOUND_INTESTINAL_PERMEABILITY"
-            }
-          ],
-          "Processes": [
-            {
-              "MoleculeName": "AADAC"
-            },
-            {
-              "MoleculeName": "CYP3A4"
-            },
-            {
-              "MoleculeName": "UGT1A4"
-            },
-            {
-              "Name": "CES1-FIT",
-              "MoleculeName": "CES1",
-              "MetaboliteName": "Dabigatran"
-            },
-            {
-              "Name": "CES2-FIT",
-              "MoleculeName": "CES2",
-              "MetaboliteName": "Dabigatran"
-            },
-            {
-              "MoleculeName": "UGT2B15"
-            },
-            {
-              "MoleculeName": "OATP1B1"
-            },
-            {
-              "Name": "ABCB1-FIT",
-              "MoleculeName": "P-gp"
-            },
-            {
-              "Name": "Glomerular Filtration-DabiEtex",
-              "SystemicProcessType": "GFR"
-            }
-          ],
-          "Protocol": {
-            "Name": "Rifampicin DDI - Dabigatran",
-            "Formulations": [
-              {
-                "Name": "DabiEtex_Capsule",
-                "Key": "Formulation"
-              }
-            ]
-          }
-        },
-        {
-          "Name": "Dabigatran",
-          "CalculationMethods": [
-            "Cellular partition coefficient method - Rodgers and Rowland",
-            "Cellular permeability - PK-Sim Standard"
-          ],
-          "Alternatives": [
-            {
-              "AlternativeName": "Calculated",
-              "GroupName": "COMPOUND_PERMEABILITY"
-            }
-          ],
-          "Processes": [
-            {
-              "MoleculeName": "AADAC"
-            },
-            {
-              "MoleculeName": "CYP3A4"
-            },
-            {
-              "MoleculeName": "UGT1A4"
-            },
-            {
-              "MoleculeName": "CES1"
-            },
-            {
-              "MoleculeName": "CES2"
-            },
-            {
-              "Name": "UGT2B15-FIT",
-              "MoleculeName": "UGT2B15",
-              "MetaboliteName": "DabiGluc"
-            },
-            {
-              "Name": "Glomerular Filtration-Dabi",
-              "SystemicProcessType": "GFR"
-            }
-          ]
-        },
-        {
-          "Name": "DabiGluc",
-          "CalculationMethods": [
-            "Cellular partition coefficient method - Rodgers and Rowland",
-            "Cellular permeability - PK-Sim Standard"
-          ],
-          "Alternatives": [
-            {
-              "AlternativeName": "Calculated",
-              "GroupName": "COMPOUND_PERMEABILITY"
-            }
-          ],
-          "Processes": [
-            {
-              "Name": "Glomerular Filtration-DabiGluc",
-              "SystemicProcessType": "GFR"
-            }
-          ]
-        }
-      ],
-      "ObserverSets": [
-        {
-          "Name": "SUM"
-        }
-      ],
-      "HasResults": true,
-      "IndividualAnalyses": [
-        {
-          "Axes": [
-            {
-              "Unit": "h",
-              "Dimension": "Time",
-              "Type": "X",
-              "GridLines": false,
-              "Visible": true,
-              "Min": 180.0,
-              "Max": 240.0,
-              "DefaultColor": "#FFFFFF",
-              "DefaultLineStyle": "None",
-              "Scaling": "Linear",
-              "NumberMode": "Normal"
-            },
-            {
-              "Unit": "ng/ml",
-              "Dimension": "Concentration (molar)",
-              "Type": "Y",
-              "GridLines": false,
-              "Visible": true,
-              "Min": 1.0,
-              "Max": 100.0,
-              "DefaultColor": "#FFFFFF",
-              "DefaultLineStyle": "Solid",
-              "Scaling": "Linear",
-              "NumberMode": "Normal"
-            }
-          ],
-          "Curves": [
-            {
-              "Name": "Dabigatran-Peripheral Venous Blood-Plasma-Concentration",
-              "X": "Time",
-              "Y": "Härtter 2012 - DDI Rifampicin|Organism|PeripheralVenousBlood|Dabigatran|Plasma (Peripheral Venous Blood)",
-              "CurveOptions": {
-                "Color": "#C00000",
-                "LegendIndex": 3
-              }
-            },
-            {
-              "Name": "Dabigatran-Peripheral Venous Blood-SUM-Concentration",
-              "X": "Time",
-              "Y": "Härtter 2012 - DDI Rifampicin|Organism|PeripheralVenousBlood|Dabigatran|SUM",
-              "CurveOptions": {
-                "Visible": false,
-                "Color": "#00C0C0",
-                "LegendIndex": 11
-              }
-            },
-            {
-              "Name": "Härtter 2012_Rifa-Dabi_DDI_SUM-Measurement",
-              "X": "Härtter 2012_Rifa-Dabi_DDI_SUM|Time",
-              "Y": "Härtter 2012_Rifa-Dabi_DDI_SUM|ObservedData||||Measurement",
-              "CurveOptions": {
-                "Visible": false,
-                "Color": "#00C0C0",
-                "LegendIndex": 13,
-                "LineStyle": "None",
-                "Symbol": "Circle"
-              }
-            },
-            {
-              "Name": "Härtter 2012_Rifa-Dabi_DDI_Dabigatran-Dabigatran-Measurement",
-              "X": "Härtter 2012_Rifa-Dabi_DDI_Dabigatran|Time",
-              "Y": "Härtter 2012_Rifa-Dabi_DDI_Dabigatran|ObservedData|||Dabigatran|Measurement",
-              "CurveOptions": {
-                "Color": "#C00000",
-                "LegendIndex": 12,
-                "LineStyle": "None",
-                "Symbol": "Circle"
-              }
-            }
-          ],
-          "Name": "Härtter 2012 - Dabigatran DDI Rifampicin - lin",
-          "FontAndSize": {
-            "Fonts": {
-              "AxisSize": 10,
-              "LegendSize": 8,
-              "TitleSize": 16,
-              "DescriptionSize": 12,
-              "OriginSize": 8,
-              "FontFamilyName": "Microsoft Sans Serif",
-              "WatermarkSize": 32
-            }
-          },
-          "Settings": {
-            "SideMarginsEnabled": true,
-            "LegendPosition": "None",
-            "BackColor": "#FFFFFF",
-            "DiagramBackColor": "#FFFFFF"
-          },
-          "OriginText": "Dabigatran-Model_V12_clean\nHärtter 2012 - DDI Rifampicin\n2026-05-13 11:16"
-        }
-      ],
-      "Interactions": [
-        {
-          "Name": "CYP3A4-Kajosaari 2005",
-          "MoleculeName": "CYP3A4",
-          "CompoundName": "Rifampicin"
-        },
-        {
-          "Name": "OATP1B1-Hirano 2006",
-          "MoleculeName": "OATP1B1",
-          "CompoundName": "Rifampicin"
-        },
-        {
-          "Name": "P-gp-Reitman 2011",
-          "MoleculeName": "P-gp",
-          "CompoundName": "Rifampicin"
-        },
-        {
-          "Name": "AADAC-Assumed",
-          "MoleculeName": "AADAC",
-          "CompoundName": "Rifampicin"
-        },
-        {
-          "Name": "CYP3A4-Templeton 2011",
-          "MoleculeName": "CYP3A4",
-          "CompoundName": "Rifampicin"
-        },
-        {
-          "Name": "OATP1B1-Dixit 2007",
-          "MoleculeName": "OATP1B1",
-          "CompoundName": "Rifampicin"
-        },
-        {
-          "Name": "P-gp-Greiner 1999",
-          "MoleculeName": "P-gp",
-          "CompoundName": "Rifampicin"
-        }
-      ]
-    },
-    {
       "Name": "Prueksaritanont 2017 - DDI Control",
       "Model": "4Comp",
       "Solver": {},
@@ -4036,679 +3670,6 @@
             "DiagramBackColor": "#FFFFFF"
           },
           "OriginText": "Dabigatran-Model_V12\nPrueksaritanont 2017 - DDI Control\n2026-05-12 13:48"
-        }
-      ]
-    },
-    {
-      "Name": "Prueksaritanont 2017 - DDI Rifampicin",
-      "Model": "4Comp",
-      "Solver": {},
-      "OutputSchema": [
-        {
-          "Parameters": [
-            {
-              "Name": "Start time",
-              "Value": 0.0,
-              "Unit": "h",
-              "ValueOrigin": {
-                "Source": "Unknown"
-              }
-            },
-            {
-              "Name": "End time",
-              "Value": 150.0,
-              "Unit": "h",
-              "ValueOrigin": {
-                "Source": "Unknown"
-              }
-            },
-            {
-              "Name": "Resolution",
-              "Value": 10.0,
-              "Unit": "pts/h",
-              "ValueOrigin": {
-                "Source": "Unknown"
-              }
-            }
-          ]
-        }
-      ],
-      "Parameters": [
-        {
-          "Path": "Applications|Cocktail DDI, Prueksaritanont 2017 - Dabigatran|Solution|Application_1|ProtocolSchemaItem|Volume of water/body weight",
-          "Value": 3.0,
-          "Unit": "ml/kg"
-        },
-        {
-          "Path": "Applications|Cocktail DDI, Prueksaritanont 2017 - Rifampicin|Solution|Application_1|ProtocolSchemaItem|Volume of water/body weight",
-          "Value": 0.0,
-          "Unit": "ml/kg"
-        },
-        {
-          "Path": "Dabigatran|Blood/Plasma concentration ratio",
-          "Value": 0.67,
-          "ValueOrigin": {
-            "Source": "Unknown"
-          }
-        }
-      ],
-      "OutputSelections": [
-        "Organism|PeripheralVenousBlood|Dabigatran|Plasma (Peripheral Venous Blood)",
-        "Organism|PeripheralVenousBlood|Rifampicin|Plasma (Peripheral Venous Blood)"
-      ],
-      "Individual": "Prueksaritanont 2017_DDI cocktail",
-      "Compounds": [
-        {
-          "Name": "DabiEtex",
-          "CalculationMethods": [
-            "Cellular partition coefficient method - Rodgers and Rowland",
-            "Cellular permeability - PK-Sim Standard"
-          ],
-          "Alternatives": [
-            {
-              "AlternativeName": "Calculated",
-              "GroupName": "COMPOUND_PERMEABILITY"
-            },
-            {
-              "AlternativeName": "Calculated",
-              "GroupName": "COMPOUND_INTESTINAL_PERMEABILITY"
-            }
-          ],
-          "Processes": [
-            {
-              "MoleculeName": "AADAC"
-            },
-            {
-              "MoleculeName": "CYP3A4"
-            },
-            {
-              "MoleculeName": "UGT1A4"
-            },
-            {
-              "Name": "CES1-FIT",
-              "MoleculeName": "CES1",
-              "MetaboliteName": "Dabigatran"
-            },
-            {
-              "Name": "CES2-FIT",
-              "MoleculeName": "CES2",
-              "MetaboliteName": "Dabigatran"
-            },
-            {
-              "MoleculeName": "UGT2B15"
-            },
-            {
-              "MoleculeName": "OATP1B1"
-            },
-            {
-              "Name": "ABCB1-FIT",
-              "MoleculeName": "P-gp"
-            },
-            {
-              "Name": "Glomerular Filtration-DabiEtex",
-              "SystemicProcessType": "GFR"
-            }
-          ],
-          "Protocol": {
-            "Name": "Cocktail DDI, Prueksaritanont 2017 - Dabigatran",
-            "Formulations": [
-              {
-                "Name": "Solution",
-                "Key": "Formulation"
-              }
-            ]
-          }
-        },
-        {
-          "Name": "Dabigatran",
-          "CalculationMethods": [
-            "Cellular partition coefficient method - Rodgers and Rowland",
-            "Cellular permeability - PK-Sim Standard"
-          ],
-          "Alternatives": [
-            {
-              "AlternativeName": "Calculated",
-              "GroupName": "COMPOUND_PERMEABILITY"
-            }
-          ],
-          "Processes": [
-            {
-              "MoleculeName": "AADAC"
-            },
-            {
-              "MoleculeName": "CYP3A4"
-            },
-            {
-              "MoleculeName": "UGT1A4"
-            },
-            {
-              "MoleculeName": "CES1"
-            },
-            {
-              "MoleculeName": "CES2"
-            },
-            {
-              "Name": "UGT2B15-FIT",
-              "MoleculeName": "UGT2B15",
-              "MetaboliteName": "DabiGluc"
-            },
-            {
-              "Name": "Glomerular Filtration-Dabi",
-              "SystemicProcessType": "GFR"
-            }
-          ]
-        },
-        {
-          "Name": "DabiGluc",
-          "CalculationMethods": [
-            "Cellular partition coefficient method - Rodgers and Rowland",
-            "Cellular permeability - PK-Sim Standard"
-          ],
-          "Alternatives": [
-            {
-              "AlternativeName": "Calculated",
-              "GroupName": "COMPOUND_PERMEABILITY"
-            }
-          ],
-          "Processes": [
-            {
-              "Name": "Glomerular Filtration-DabiGluc",
-              "SystemicProcessType": "GFR"
-            }
-          ]
-        },
-        {
-          "Name": "Rifampicin",
-          "CalculationMethods": [
-            "Cellular partition coefficient method - Rodgers and Rowland",
-            "Cellular permeability - PK-Sim Standard"
-          ],
-          "Alternatives": [
-            {
-              "AlternativeName": "Optimized",
-              "GroupName": "COMPOUND_INTESTINAL_PERMEABILITY"
-            }
-          ],
-          "Processes": [
-            {
-              "Name": "AADAC-Nakajima 2011",
-              "MoleculeName": "AADAC"
-            },
-            {
-              "MoleculeName": "CYP3A4"
-            },
-            {
-              "MoleculeName": "UGT1A4"
-            },
-            {
-              "MoleculeName": "CES1"
-            },
-            {
-              "MoleculeName": "CES2"
-            },
-            {
-              "MoleculeName": "UGT2B15"
-            },
-            {
-              "Name": "OATP1B1-Tirona 2003",
-              "MoleculeName": "OATP1B1"
-            },
-            {
-              "Name": "P-gp-Collett 2004",
-              "MoleculeName": "P-gp"
-            },
-            {
-              "Name": "Glomerular Filtration-GFR",
-              "SystemicProcessType": "GFR"
-            }
-          ],
-          "Protocol": {
-            "Name": "Cocktail DDI, Prueksaritanont 2017 - Rifampicin",
-            "Formulations": [
-              {
-                "Name": "Solution",
-                "Key": "Formulation"
-              }
-            ]
-          }
-        }
-      ],
-      "ObserverSets": [
-        {
-          "Name": "SUM"
-        }
-      ],
-      "HasResults": true,
-      "IndividualAnalyses": [
-        {
-          "Axes": [
-            {
-              "Unit": "h",
-              "Dimension": "Time",
-              "Type": "X",
-              "GridLines": false,
-              "Visible": true,
-              "Min": 60.0,
-              "Max": 150.0,
-              "DefaultColor": "#FFFFFF",
-              "DefaultLineStyle": "None",
-              "Scaling": "Linear",
-              "NumberMode": "Normal"
-            },
-            {
-              "Unit": "ng/ml",
-              "Dimension": "Concentration (molar)",
-              "Type": "Y",
-              "GridLines": false,
-              "Visible": true,
-              "Min": 0.0,
-              "Max": 0.3,
-              "DefaultColor": "#FFFFFF",
-              "DefaultLineStyle": "Solid",
-              "Scaling": "Linear",
-              "NumberMode": "Normal"
-            }
-          ],
-          "Curves": [
-            {
-              "Name": "Dabigatran-Peripheral Venous Blood-Plasma-Concentration",
-              "X": "Time",
-              "Y": "Prueksaritanont 2017 - DDI Rifampicin|Organism|PeripheralVenousBlood|Dabigatran|Plasma (Peripheral Venous Blood)",
-              "CurveOptions": {
-                "Color": "#C00000",
-                "LegendIndex": 2
-              }
-            }
-          ],
-          "Name": "Prueksaritanont 2017 - Dabigatran DDI Rifampicin - lin",
-          "FontAndSize": {
-            "Fonts": {
-              "AxisSize": 10,
-              "LegendSize": 8,
-              "TitleSize": 16,
-              "DescriptionSize": 12,
-              "OriginSize": 8,
-              "FontFamilyName": "Microsoft Sans Serif",
-              "WatermarkSize": 32
-            }
-          },
-          "Settings": {
-            "SideMarginsEnabled": true,
-            "LegendPosition": "None",
-            "BackColor": "#FFFFFF",
-            "DiagramBackColor": "#FFFFFF"
-          },
-          "OriginText": "Dabigatran-Model_V12\nPrueksaritanont 2017 - DDI Rifampicin\n2026-05-12 13:47"
-        }
-      ],
-      "Interactions": [
-        {
-          "Name": "CYP3A4-Kajosaari 2005",
-          "MoleculeName": "CYP3A4",
-          "CompoundName": "Rifampicin"
-        },
-        {
-          "Name": "OATP1B1-Hirano 2006",
-          "MoleculeName": "OATP1B1",
-          "CompoundName": "Rifampicin"
-        },
-        {
-          "Name": "P-gp-Reitman 2011",
-          "MoleculeName": "P-gp",
-          "CompoundName": "Rifampicin"
-        },
-        {
-          "Name": "AADAC-Assumed",
-          "MoleculeName": "AADAC",
-          "CompoundName": "Rifampicin"
-        },
-        {
-          "Name": "CYP3A4-Templeton 2011",
-          "MoleculeName": "CYP3A4",
-          "CompoundName": "Rifampicin"
-        },
-        {
-          "Name": "OATP1B1-Dixit 2007",
-          "MoleculeName": "OATP1B1",
-          "CompoundName": "Rifampicin"
-        },
-        {
-          "Name": "P-gp-Greiner 1999",
-          "MoleculeName": "P-gp",
-          "CompoundName": "Rifampicin"
-        }
-      ]
-    },
-    {
-      "Name": "Rattanacheeworn 2021 - DDI Rifampicin",
-      "Model": "4Comp",
-      "Solver": {},
-      "OutputSchema": [
-        {
-          "Parameters": [
-            {
-              "Name": "Start time",
-              "Value": 0.0,
-              "Unit": "h",
-              "ValueOrigin": {
-                "Source": "Unknown"
-              }
-            },
-            {
-              "Name": "End time",
-              "Value": 50.0,
-              "Unit": "h",
-              "ValueOrigin": {
-                "Source": "Unknown"
-              }
-            },
-            {
-              "Name": "Resolution",
-              "Value": 10.0,
-              "Unit": "pts/h",
-              "ValueOrigin": {
-                "Source": "Unknown"
-              }
-            }
-          ]
-        }
-      ],
-      "Parameters": [
-        {
-          "Path": "Applications|Cocktail DDI, Rattanacheeworn 2021 - Dabigatran|Solution|Application_1|ProtocolSchemaItem|Volume of water/body weight",
-          "Value": 4.5,
-          "Unit": "ml/kg"
-        },
-        {
-          "Path": "Applications|Cocktail DDI, Rattanacheeworn 2021 - Rifampicin|Solution|Application_1|ProtocolSchemaItem|Volume of water/body weight",
-          "Value": 0.0,
-          "Unit": "ml/kg"
-        },
-        {
-          "Path": "Dabigatran|Blood/Plasma concentration ratio",
-          "Value": 0.67,
-          "ValueOrigin": {
-            "Source": "Unknown"
-          }
-        }
-      ],
-      "OutputSelections": [
-        "Organism|PeripheralVenousBlood|Dabigatran|Plasma (Peripheral Venous Blood)",
-        "Organism|PeripheralVenousBlood|Rifampicin|Plasma (Peripheral Venous Blood)"
-      ],
-      "Individual": "Rattanacheeworn 2021_DDI Rifampicin",
-      "Compounds": [
-        {
-          "Name": "DabiEtex",
-          "CalculationMethods": [
-            "Cellular partition coefficient method - Rodgers and Rowland",
-            "Cellular permeability - PK-Sim Standard"
-          ],
-          "Alternatives": [
-            {
-              "AlternativeName": "Calculated",
-              "GroupName": "COMPOUND_PERMEABILITY"
-            },
-            {
-              "AlternativeName": "Calculated",
-              "GroupName": "COMPOUND_INTESTINAL_PERMEABILITY"
-            }
-          ],
-          "Processes": [
-            {
-              "MoleculeName": "AADAC"
-            },
-            {
-              "MoleculeName": "CYP3A4"
-            },
-            {
-              "MoleculeName": "UGT1A4"
-            },
-            {
-              "Name": "CES1-FIT",
-              "MoleculeName": "CES1",
-              "MetaboliteName": "Dabigatran"
-            },
-            {
-              "Name": "CES2-FIT",
-              "MoleculeName": "CES2",
-              "MetaboliteName": "Dabigatran"
-            },
-            {
-              "MoleculeName": "UGT2B15"
-            },
-            {
-              "MoleculeName": "OATP1B1"
-            },
-            {
-              "Name": "ABCB1-FIT",
-              "MoleculeName": "P-gp"
-            },
-            {
-              "Name": "Glomerular Filtration-DabiEtex",
-              "SystemicProcessType": "GFR"
-            }
-          ],
-          "Protocol": {
-            "Name": "Cocktail DDI, Rattanacheeworn 2021 - Dabigatran",
-            "Formulations": [
-              {
-                "Name": "Solution",
-                "Key": "Formulation"
-              }
-            ]
-          }
-        },
-        {
-          "Name": "Dabigatran",
-          "CalculationMethods": [
-            "Cellular partition coefficient method - Rodgers and Rowland",
-            "Cellular permeability - PK-Sim Standard"
-          ],
-          "Alternatives": [
-            {
-              "AlternativeName": "Calculated",
-              "GroupName": "COMPOUND_PERMEABILITY"
-            }
-          ],
-          "Processes": [
-            {
-              "MoleculeName": "AADAC"
-            },
-            {
-              "MoleculeName": "CYP3A4"
-            },
-            {
-              "MoleculeName": "UGT1A4"
-            },
-            {
-              "MoleculeName": "CES1"
-            },
-            {
-              "MoleculeName": "CES2"
-            },
-            {
-              "Name": "UGT2B15-FIT",
-              "MoleculeName": "UGT2B15",
-              "MetaboliteName": "DabiGluc"
-            },
-            {
-              "Name": "Glomerular Filtration-Dabi",
-              "SystemicProcessType": "GFR"
-            }
-          ]
-        },
-        {
-          "Name": "DabiGluc",
-          "CalculationMethods": [
-            "Cellular partition coefficient method - Rodgers and Rowland",
-            "Cellular permeability - PK-Sim Standard"
-          ],
-          "Alternatives": [
-            {
-              "AlternativeName": "Calculated",
-              "GroupName": "COMPOUND_PERMEABILITY"
-            }
-          ],
-          "Processes": [
-            {
-              "Name": "Glomerular Filtration-DabiGluc",
-              "SystemicProcessType": "GFR"
-            }
-          ]
-        },
-        {
-          "Name": "Rifampicin",
-          "CalculationMethods": [
-            "Cellular partition coefficient method - Rodgers and Rowland",
-            "Cellular permeability - PK-Sim Standard"
-          ],
-          "Alternatives": [
-            {
-              "AlternativeName": "Optimized",
-              "GroupName": "COMPOUND_INTESTINAL_PERMEABILITY"
-            }
-          ],
-          "Processes": [
-            {
-              "Name": "AADAC-Nakajima 2011",
-              "MoleculeName": "AADAC"
-            },
-            {
-              "MoleculeName": "CYP3A4"
-            },
-            {
-              "MoleculeName": "UGT1A4"
-            },
-            {
-              "MoleculeName": "CES1"
-            },
-            {
-              "MoleculeName": "CES2"
-            },
-            {
-              "MoleculeName": "UGT2B15"
-            },
-            {
-              "Name": "OATP1B1-Tirona 2003",
-              "MoleculeName": "OATP1B1"
-            },
-            {
-              "Name": "P-gp-Collett 2004",
-              "MoleculeName": "P-gp"
-            },
-            {
-              "Name": "Glomerular Filtration-GFR",
-              "SystemicProcessType": "GFR"
-            }
-          ],
-          "Protocol": {
-            "Name": "Cocktail DDI, Rattanacheeworn 2021 - Rifampicin",
-            "Formulations": [
-              {
-                "Name": "Solution",
-                "Key": "Formulation"
-              }
-            ]
-          }
-        }
-      ],
-      "ObserverSets": [
-        {
-          "Name": "SUM"
-        }
-      ],
-      "HasResults": true,
-      "IndividualAnalyses": [
-        {
-          "Axes": [
-            {
-              "Unit": "h",
-              "Dimension": "Time",
-              "Type": "X",
-              "GridLines": false,
-              "Visible": true,
-              "DefaultColor": "#FFFFFF",
-              "DefaultLineStyle": "None",
-              "Scaling": "Linear",
-              "NumberMode": "Normal"
-            },
-            {
-              "Unit": "ng/ml",
-              "Dimension": "Concentration (molar)",
-              "Type": "Y",
-              "GridLines": false,
-              "Visible": true,
-              "Min": 0.0,
-              "Max": 0.5,
-              "DefaultColor": "#FFFFFF",
-              "DefaultLineStyle": "Solid",
-              "Scaling": "Linear",
-              "NumberMode": "Normal"
-            }
-          ],
-          "Curves": [
-            {
-              "Name": "Dabigatran-Peripheral Venous Blood-Plasma-Concentration",
-              "X": "Time",
-              "Y": "Rattanacheeworn 2021 - DDI Rifampicin|Organism|PeripheralVenousBlood|Dabigatran|Plasma (Peripheral Venous Blood)",
-              "CurveOptions": {
-                "Color": "#C00000",
-                "LegendIndex": 2
-              }
-            }
-          ],
-          "Name": "Rattanacheeworn 2021 - Dabigatran DDI Rifampicin - lin",
-          "FontAndSize": {
-            "Fonts": {
-              "AxisSize": 10,
-              "LegendSize": 8,
-              "TitleSize": 16,
-              "DescriptionSize": 12,
-              "OriginSize": 8,
-              "FontFamilyName": "Microsoft Sans Serif",
-              "WatermarkSize": 32
-            }
-          },
-          "Settings": {
-            "SideMarginsEnabled": true,
-            "LegendPosition": "None",
-            "BackColor": "#FFFFFF",
-            "DiagramBackColor": "#FFFFFF"
-          },
-          "OriginText": "Dabigatran-Model_V12\nRattanacheeworn 2021 - DDI Rifampicin\n2026-05-12 13:36"
-        }
-      ],
-      "Interactions": [
-        {
-          "Name": "CYP3A4-Kajosaari 2005",
-          "MoleculeName": "CYP3A4",
-          "CompoundName": "Rifampicin"
-        },
-        {
-          "Name": "P-gp-Reitman 2011",
-          "MoleculeName": "P-gp",
-          "CompoundName": "Rifampicin"
-        },
-        {
-          "Name": "AADAC-Assumed",
-          "MoleculeName": "AADAC",
-          "CompoundName": "Rifampicin"
-        },
-        {
-          "Name": "CYP3A4-Templeton 2011",
-          "MoleculeName": "CYP3A4",
-          "CompoundName": "Rifampicin"
-        },
-        {
-          "Name": "OATP1B1-Dixit 2007",
-          "MoleculeName": "OATP1B1",
-          "CompoundName": "Rifampicin"
-        },
-        {
-          "Name": "P-gp-Greiner 1999",
-          "MoleculeName": "P-gp",
-          "CompoundName": "Rifampicin"
         }
       ]
     },
@@ -5057,67 +4018,12 @@
         }
       ],
       "OutputSelections": [
-        "Organism|PeripheralVenousBlood|Rifampicin|Plasma (Peripheral Venous Blood)",
         "Organism|PeripheralVenousBlood|Dabigatran|Plasma (Peripheral Venous Blood)",
+        "Organism|PeripheralVenousBlood|Rifampicin|Plasma (Peripheral Venous Blood)",
         "Organism|PeripheralVenousBlood|Dabigatran|SUM"
       ],
       "Individual": "Härtter 2012_DDI Rifampicin",
       "Compounds": [
-        {
-          "Name": "Rifampicin",
-          "CalculationMethods": [
-            "Cellular partition coefficient method - Rodgers and Rowland",
-            "Cellular permeability - PK-Sim Standard"
-          ],
-          "Alternatives": [
-            {
-              "AlternativeName": "Optimized",
-              "GroupName": "COMPOUND_INTESTINAL_PERMEABILITY"
-            }
-          ],
-          "Processes": [
-            {
-              "Name": "AADAC-Nakajima 2011",
-              "MoleculeName": "AADAC"
-            },
-            {
-              "MoleculeName": "CYP3A4"
-            },
-            {
-              "MoleculeName": "UGT1A4"
-            },
-            {
-              "MoleculeName": "CES1"
-            },
-            {
-              "MoleculeName": "CES2"
-            },
-            {
-              "MoleculeName": "UGT2B15"
-            },
-            {
-              "Name": "OATP1B1-Tirona 2003",
-              "MoleculeName": "OATP1B1"
-            },
-            {
-              "Name": "P-gp-Collett 2004",
-              "MoleculeName": "P-gp"
-            },
-            {
-              "Name": "Glomerular Filtration-GFR",
-              "SystemicProcessType": "GFR"
-            }
-          ],
-          "Protocol": {
-            "Name": "Rifampicin DDI - Rifampicin",
-            "Formulations": [
-              {
-                "Name": "Solution",
-                "Key": "Formulation"
-              }
-            ]
-          }
-        },
         {
           "Name": "DabiEtex",
           "CalculationMethods": [
@@ -5236,6 +4142,61 @@
               "SystemicProcessType": "GFR"
             }
           ]
+        },
+        {
+          "Name": "Rifampicin",
+          "CalculationMethods": [
+            "Cellular partition coefficient method - Rodgers and Rowland",
+            "Cellular permeability - PK-Sim Standard"
+          ],
+          "Alternatives": [
+            {
+              "AlternativeName": "Optimized",
+              "GroupName": "COMPOUND_INTESTINAL_PERMEABILITY"
+            }
+          ],
+          "Processes": [
+            {
+              "Name": "AADAC-Nakajima 2011",
+              "MoleculeName": "AADAC"
+            },
+            {
+              "MoleculeName": "CYP3A4"
+            },
+            {
+              "MoleculeName": "UGT1A4"
+            },
+            {
+              "MoleculeName": "CES1"
+            },
+            {
+              "MoleculeName": "CES2"
+            },
+            {
+              "MoleculeName": "UGT2B15"
+            },
+            {
+              "Name": "OATP1B1-Tirona 2003",
+              "MoleculeName": "OATP1B1"
+            },
+            {
+              "Name": "P-gp-Collett 2004",
+              "MoleculeName": "P-gp"
+            },
+            {
+              "Name": "Glomerular Filtration-GFR",
+              "SystemicProcessType": "GFR"
+            }
+          ],
+          "Protocol": {
+            "Name": "Rifampicin DDI - Rifampicin",
+            "Formulations": [
+              {
+                "Name": "Solution",
+                "Key": "Formulation"
+              }
+            ]
+          }
         }
       ],
       "ObserverSets": [
@@ -5336,33 +4297,13 @@
             "BackColor": "#FFFFFF",
             "DiagramBackColor": "#FFFFFF"
           },
-          "OriginText": "Dabigatran-Model_V12_clean\nHärtter 2012 - DDI Control\n2026-05-13 13:06"
+          "OriginText": "Rifampicin-Dabigatran-DDI_2\nHärtter 2012 - DDI Control\n2026-06-25 12:07"
         }
       ],
       "Interactions": [
         {
-          "Name": "CYP3A4-Kajosaari 2005",
-          "MoleculeName": "CYP3A4",
-          "CompoundName": "Rifampicin"
-        },
-        {
-          "Name": "OATP1B1-Hirano 2006",
-          "MoleculeName": "OATP1B1",
-          "CompoundName": "Rifampicin"
-        },
-        {
-          "Name": "P-gp-Reitman 2011",
-          "MoleculeName": "P-gp",
-          "CompoundName": "Rifampicin"
-        },
-        {
           "Name": "AADAC-Assumed",
           "MoleculeName": "AADAC",
-          "CompoundName": "Rifampicin"
-        },
-        {
-          "Name": "CYP3A4-Templeton 2011",
-          "MoleculeName": "CYP3A4",
           "CompoundName": "Rifampicin"
         },
         {
@@ -5371,7 +4312,1130 @@
           "CompoundName": "Rifampicin"
         },
         {
+          "Name": "OATP1B1-Hanke 2021",
+          "MoleculeName": "OATP1B1",
+          "CompoundName": "Rifampicin"
+        },
+        {
+          "Name": "CYP3A4-Templeton 2011",
+          "MoleculeName": "CYP3A4",
+          "CompoundName": "Rifampicin"
+        },
+        {
+          "Name": "CYP3A4-Kajosaari 2005",
+          "MoleculeName": "CYP3A4",
+          "CompoundName": "Rifampicin"
+        },
+        {
           "Name": "P-gp-Greiner 1999",
+          "MoleculeName": "P-gp",
+          "CompoundName": "Rifampicin"
+        },
+        {
+          "Name": "P-gp-Hanke 2021",
+          "MoleculeName": "P-gp",
+          "CompoundName": "Rifampicin"
+        }
+      ]
+    },
+    {
+      "Name": "Härtter 2012 - DDI Rifampicin",
+      "Model": "4Comp",
+      "ObservedData": [
+        "Härtter 2012_Rifa-Dabi_DDI_SUM",
+        "Härtter 2012_Rifa-Dabi_DDI_Dabigatran"
+      ],
+      "Solver": {
+        "RelTol": 1E-09
+      },
+      "OutputSchema": [
+        {
+          "Parameters": [
+            {
+              "Name": "Start time",
+              "Value": 0.0,
+              "Unit": "h",
+              "ValueOrigin": {
+                "Source": "Unknown"
+              }
+            },
+            {
+              "Name": "End time",
+              "Value": 300.0,
+              "Unit": "h",
+              "ValueOrigin": {
+                "Source": "Unknown"
+              }
+            },
+            {
+              "Name": "Resolution",
+              "Value": 10.0,
+              "Unit": "pts/h",
+              "ValueOrigin": {
+                "Source": "Unknown"
+              }
+            }
+          ]
+        }
+      ],
+      "Parameters": [
+        {
+          "Path": "Dabigatran|Blood/Plasma concentration ratio",
+          "Value": 0.67,
+          "ValueOrigin": {
+            "Source": "Unknown"
+          }
+        },
+        {
+          "Path": "Events|Rifampicin DDI - Dabigatran|DabiEtex_Capsule|Application_1|ProtocolSchemaItem|Volume of water/body weight",
+          "Value": 3.5,
+          "Unit": "ml/kg"
+        },
+        {
+          "Path": "Events|Rifampicin DDI - Dabigatran|DabiEtex_Capsule|Application_2|ProtocolSchemaItem|Volume of water/body weight",
+          "Value": 3.5,
+          "Unit": "ml/kg"
+        },
+        {
+          "Path": "Events|Rifampicin DDI - Dabigatran|DabiEtex_Capsule|Application_3|ProtocolSchemaItem|Volume of water/body weight",
+          "Value": 3.5,
+          "Unit": "ml/kg"
+        },
+        {
+          "Path": "Events|Rifampicin DDI - Dabigatran|DabiEtex_Capsule|Application_4|ProtocolSchemaItem|Volume of water/body weight",
+          "Value": 3.5,
+          "Unit": "ml/kg"
+        },
+        {
+          "Path": "Events|Rifampicin DDI - Rifampicin|Solution|Application_1|ProtocolSchemaItem|Volume of water/body weight",
+          "Value": 3.5,
+          "Unit": "ml/kg"
+        },
+        {
+          "Path": "Events|Rifampicin DDI - Rifampicin|Solution|Application_2|ProtocolSchemaItem|Volume of water/body weight",
+          "Value": 3.5,
+          "Unit": "ml/kg"
+        },
+        {
+          "Path": "Events|Rifampicin DDI - Rifampicin|Solution|Application_3|ProtocolSchemaItem|Volume of water/body weight",
+          "Value": 3.5,
+          "Unit": "ml/kg"
+        },
+        {
+          "Path": "Events|Rifampicin DDI - Rifampicin|Solution|Application_4|ProtocolSchemaItem|Volume of water/body weight",
+          "Value": 3.5,
+          "Unit": "ml/kg"
+        },
+        {
+          "Path": "Events|Rifampicin DDI - Rifampicin|Solution|Application_5|ProtocolSchemaItem|Volume of water/body weight",
+          "Value": 3.5,
+          "Unit": "ml/kg"
+        },
+        {
+          "Path": "Events|Rifampicin DDI - Rifampicin|Solution|Application_6|ProtocolSchemaItem|Volume of water/body weight",
+          "Value": 3.5,
+          "Unit": "ml/kg"
+        },
+        {
+          "Path": "Events|Rifampicin DDI - Rifampicin|Solution|Application_7|ProtocolSchemaItem|Volume of water/body weight",
+          "Value": 3.5,
+          "Unit": "ml/kg"
+        }
+      ],
+      "OutputSelections": [
+        "Organism|PeripheralVenousBlood|Dabigatran|Plasma (Peripheral Venous Blood)",
+        "Organism|PeripheralVenousBlood|Rifampicin|Plasma (Peripheral Venous Blood)",
+        "Organism|PeripheralVenousBlood|Dabigatran|SUM"
+      ],
+      "Individual": "Härtter 2012_DDI Rifampicin",
+      "Compounds": [
+        {
+          "Name": "DabiEtex",
+          "CalculationMethods": [
+            "Cellular partition coefficient method - Rodgers and Rowland",
+            "Cellular permeability - PK-Sim Standard"
+          ],
+          "Alternatives": [
+            {
+              "AlternativeName": "Calculated",
+              "GroupName": "COMPOUND_PERMEABILITY"
+            },
+            {
+              "AlternativeName": "Calculated",
+              "GroupName": "COMPOUND_INTESTINAL_PERMEABILITY"
+            }
+          ],
+          "Processes": [
+            {
+              "MoleculeName": "AADAC"
+            },
+            {
+              "MoleculeName": "CYP3A4"
+            },
+            {
+              "MoleculeName": "UGT1A4"
+            },
+            {
+              "Name": "CES1-FIT",
+              "MoleculeName": "CES1",
+              "MetaboliteName": "Dabigatran"
+            },
+            {
+              "Name": "CES2-FIT",
+              "MoleculeName": "CES2",
+              "MetaboliteName": "Dabigatran"
+            },
+            {
+              "MoleculeName": "UGT2B15"
+            },
+            {
+              "MoleculeName": "OATP1B1"
+            },
+            {
+              "Name": "ABCB1-FIT",
+              "MoleculeName": "P-gp"
+            },
+            {
+              "Name": "Glomerular Filtration-DabiEtex",
+              "SystemicProcessType": "GFR"
+            }
+          ],
+          "Protocol": {
+            "Name": "Rifampicin DDI - Dabigatran",
+            "Formulations": [
+              {
+                "Name": "DabiEtex_Capsule",
+                "Key": "Formulation"
+              }
+            ]
+          }
+        },
+        {
+          "Name": "Dabigatran",
+          "CalculationMethods": [
+            "Cellular partition coefficient method - Rodgers and Rowland",
+            "Cellular permeability - PK-Sim Standard"
+          ],
+          "Alternatives": [
+            {
+              "AlternativeName": "Calculated",
+              "GroupName": "COMPOUND_PERMEABILITY"
+            }
+          ],
+          "Processes": [
+            {
+              "MoleculeName": "AADAC"
+            },
+            {
+              "MoleculeName": "CYP3A4"
+            },
+            {
+              "MoleculeName": "UGT1A4"
+            },
+            {
+              "MoleculeName": "CES1"
+            },
+            {
+              "MoleculeName": "CES2"
+            },
+            {
+              "Name": "UGT2B15-FIT",
+              "MoleculeName": "UGT2B15",
+              "MetaboliteName": "DabiGluc"
+            },
+            {
+              "Name": "Glomerular Filtration-Dabi",
+              "SystemicProcessType": "GFR"
+            }
+          ]
+        },
+        {
+          "Name": "DabiGluc",
+          "CalculationMethods": [
+            "Cellular partition coefficient method - Rodgers and Rowland",
+            "Cellular permeability - PK-Sim Standard"
+          ],
+          "Alternatives": [
+            {
+              "AlternativeName": "Calculated",
+              "GroupName": "COMPOUND_PERMEABILITY"
+            }
+          ],
+          "Processes": [
+            {
+              "Name": "Glomerular Filtration-DabiGluc",
+              "SystemicProcessType": "GFR"
+            }
+          ]
+        },
+        {
+          "Name": "Rifampicin",
+          "CalculationMethods": [
+            "Cellular partition coefficient method - Rodgers and Rowland",
+            "Cellular permeability - PK-Sim Standard"
+          ],
+          "Alternatives": [
+            {
+              "AlternativeName": "Optimized",
+              "GroupName": "COMPOUND_INTESTINAL_PERMEABILITY"
+            }
+          ],
+          "Processes": [
+            {
+              "Name": "AADAC-Nakajima 2011",
+              "MoleculeName": "AADAC"
+            },
+            {
+              "MoleculeName": "CYP3A4"
+            },
+            {
+              "MoleculeName": "UGT1A4"
+            },
+            {
+              "MoleculeName": "CES1"
+            },
+            {
+              "MoleculeName": "CES2"
+            },
+            {
+              "MoleculeName": "UGT2B15"
+            },
+            {
+              "Name": "OATP1B1-Tirona 2003",
+              "MoleculeName": "OATP1B1"
+            },
+            {
+              "Name": "P-gp-Collett 2004",
+              "MoleculeName": "P-gp"
+            },
+            {
+              "Name": "Glomerular Filtration-GFR",
+              "SystemicProcessType": "GFR"
+            }
+          ],
+          "Protocol": {
+            "Name": "Rifampicin DDI - Rifampicin",
+            "Formulations": [
+              {
+                "Name": "Solution",
+                "Key": "Formulation"
+              }
+            ]
+          }
+        }
+      ],
+      "ObserverSets": [
+        {
+          "Name": "SUM"
+        }
+      ],
+      "HasResults": true,
+      "IndividualAnalyses": [
+        {
+          "Axes": [
+            {
+              "Unit": "h",
+              "Dimension": "Time",
+              "Type": "X",
+              "GridLines": false,
+              "Visible": true,
+              "Min": 180.0,
+              "Max": 240.0,
+              "DefaultColor": "#FFFFFF",
+              "DefaultLineStyle": "None",
+              "Scaling": "Linear",
+              "NumberMode": "Normal"
+            },
+            {
+              "Unit": "ng/ml",
+              "Dimension": "Concentration (molar)",
+              "Type": "Y",
+              "GridLines": false,
+              "Visible": true,
+              "Min": 1.0,
+              "Max": 100.0,
+              "DefaultColor": "#FFFFFF",
+              "DefaultLineStyle": "Solid",
+              "Scaling": "Linear",
+              "NumberMode": "Normal"
+            }
+          ],
+          "Curves": [
+            {
+              "Name": "Dabigatran-Peripheral Venous Blood-Plasma-Concentration",
+              "X": "Time",
+              "Y": "Härtter 2012 - DDI Rifampicin|Organism|PeripheralVenousBlood|Dabigatran|Plasma (Peripheral Venous Blood)",
+              "CurveOptions": {
+                "Color": "#C00000",
+                "LegendIndex": 3
+              }
+            },
+            {
+              "Name": "Dabigatran-Peripheral Venous Blood-SUM-Concentration",
+              "X": "Time",
+              "Y": "Härtter 2012 - DDI Rifampicin|Organism|PeripheralVenousBlood|Dabigatran|SUM",
+              "CurveOptions": {
+                "Visible": false,
+                "Color": "#00C0C0",
+                "LegendIndex": 11
+              }
+            },
+            {
+              "Name": "Härtter 2012_Rifa-Dabi_DDI_SUM-Measurement",
+              "X": "Härtter 2012_Rifa-Dabi_DDI_SUM|Time",
+              "Y": "Härtter 2012_Rifa-Dabi_DDI_SUM|ObservedData||||Measurement",
+              "CurveOptions": {
+                "Visible": false,
+                "Color": "#00C0C0",
+                "LegendIndex": 13,
+                "LineStyle": "None",
+                "Symbol": "Circle"
+              }
+            },
+            {
+              "Name": "Härtter 2012_Rifa-Dabi_DDI_Dabigatran-Dabigatran-Measurement",
+              "X": "Härtter 2012_Rifa-Dabi_DDI_Dabigatran|Time",
+              "Y": "Härtter 2012_Rifa-Dabi_DDI_Dabigatran|ObservedData|||Dabigatran|Measurement",
+              "CurveOptions": {
+                "Color": "#C00000",
+                "LegendIndex": 12,
+                "LineStyle": "None",
+                "Symbol": "Circle"
+              }
+            }
+          ],
+          "Name": "Härtter 2012 - Dabigatran DDI Rifampicin - lin",
+          "FontAndSize": {
+            "Fonts": {
+              "AxisSize": 10,
+              "LegendSize": 8,
+              "TitleSize": 16,
+              "DescriptionSize": 12,
+              "OriginSize": 8,
+              "FontFamilyName": "Microsoft Sans Serif",
+              "WatermarkSize": 32
+            }
+          },
+          "Settings": {
+            "SideMarginsEnabled": true,
+            "LegendPosition": "None",
+            "BackColor": "#FFFFFF",
+            "DiagramBackColor": "#FFFFFF"
+          },
+          "OriginText": "Rifampicin-Dabigatran-DDI_2\nHärtter 2012 - DDI Rifampicin\n2026-06-25 12:10"
+        }
+      ],
+      "Interactions": [
+        {
+          "Name": "AADAC-Assumed",
+          "MoleculeName": "AADAC",
+          "CompoundName": "Rifampicin"
+        },
+        {
+          "Name": "OATP1B1-Dixit 2007",
+          "MoleculeName": "OATP1B1",
+          "CompoundName": "Rifampicin"
+        },
+        {
+          "Name": "OATP1B1-Hanke 2021",
+          "MoleculeName": "OATP1B1",
+          "CompoundName": "Rifampicin"
+        },
+        {
+          "Name": "CYP3A4-Templeton 2011",
+          "MoleculeName": "CYP3A4",
+          "CompoundName": "Rifampicin"
+        },
+        {
+          "Name": "CYP3A4-Kajosaari 2005",
+          "MoleculeName": "CYP3A4",
+          "CompoundName": "Rifampicin"
+        },
+        {
+          "Name": "P-gp-Greiner 1999",
+          "MoleculeName": "P-gp",
+          "CompoundName": "Rifampicin"
+        },
+        {
+          "Name": "P-gp-Hanke 2021",
+          "MoleculeName": "P-gp",
+          "CompoundName": "Rifampicin"
+        }
+      ]
+    },
+    {
+      "Name": "Prueksaritanont 2017 - DDI Rifampicin",
+      "Model": "4Comp",
+      "Solver": {},
+      "OutputSchema": [
+        {
+          "Parameters": [
+            {
+              "Name": "Start time",
+              "Value": 0.0,
+              "Unit": "h",
+              "ValueOrigin": {
+                "Source": "Unknown"
+              }
+            },
+            {
+              "Name": "End time",
+              "Value": 150.0,
+              "Unit": "h",
+              "ValueOrigin": {
+                "Source": "Unknown"
+              }
+            },
+            {
+              "Name": "Resolution",
+              "Value": 10.0,
+              "Unit": "pts/h",
+              "ValueOrigin": {
+                "Source": "Unknown"
+              }
+            }
+          ]
+        }
+      ],
+      "Parameters": [
+        {
+          "Path": "Dabigatran|Blood/Plasma concentration ratio",
+          "Value": 0.67,
+          "ValueOrigin": {
+            "Source": "Unknown"
+          }
+        },
+        {
+          "Path": "Events|Cocktail DDI, Prueksaritanont 2017 - Dabigatran|Solution|Application_1|ProtocolSchemaItem|Volume of water/body weight",
+          "Value": 3.0,
+          "Unit": "ml/kg"
+        },
+        {
+          "Path": "Events|Cocktail DDI, Prueksaritanont 2017 - Rifampicin|Solution|Application_1|ProtocolSchemaItem|Volume of water/body weight",
+          "Value": 0.0,
+          "Unit": "ml/kg"
+        }
+      ],
+      "OutputSelections": [
+        "Organism|PeripheralVenousBlood|Dabigatran|Plasma (Peripheral Venous Blood)",
+        "Organism|PeripheralVenousBlood|Rifampicin|Plasma (Peripheral Venous Blood)"
+      ],
+      "Individual": "Prueksaritanont 2017_DDI cocktail",
+      "Compounds": [
+        {
+          "Name": "DabiEtex",
+          "CalculationMethods": [
+            "Cellular partition coefficient method - Rodgers and Rowland",
+            "Cellular permeability - PK-Sim Standard"
+          ],
+          "Alternatives": [
+            {
+              "AlternativeName": "Calculated",
+              "GroupName": "COMPOUND_PERMEABILITY"
+            },
+            {
+              "AlternativeName": "Calculated",
+              "GroupName": "COMPOUND_INTESTINAL_PERMEABILITY"
+            }
+          ],
+          "Processes": [
+            {
+              "MoleculeName": "AADAC"
+            },
+            {
+              "MoleculeName": "CYP3A4"
+            },
+            {
+              "MoleculeName": "UGT1A4"
+            },
+            {
+              "Name": "CES1-FIT",
+              "MoleculeName": "CES1",
+              "MetaboliteName": "Dabigatran"
+            },
+            {
+              "Name": "CES2-FIT",
+              "MoleculeName": "CES2",
+              "MetaboliteName": "Dabigatran"
+            },
+            {
+              "MoleculeName": "UGT2B15"
+            },
+            {
+              "MoleculeName": "OATP1B1"
+            },
+            {
+              "Name": "ABCB1-FIT",
+              "MoleculeName": "P-gp"
+            },
+            {
+              "Name": "Glomerular Filtration-DabiEtex",
+              "SystemicProcessType": "GFR"
+            }
+          ],
+          "Protocol": {
+            "Name": "Cocktail DDI, Prueksaritanont 2017 - Dabigatran",
+            "Formulations": [
+              {
+                "Name": "Solution",
+                "Key": "Formulation"
+              }
+            ]
+          }
+        },
+        {
+          "Name": "Dabigatran",
+          "CalculationMethods": [
+            "Cellular partition coefficient method - Rodgers and Rowland",
+            "Cellular permeability - PK-Sim Standard"
+          ],
+          "Alternatives": [
+            {
+              "AlternativeName": "Calculated",
+              "GroupName": "COMPOUND_PERMEABILITY"
+            }
+          ],
+          "Processes": [
+            {
+              "MoleculeName": "AADAC"
+            },
+            {
+              "MoleculeName": "CYP3A4"
+            },
+            {
+              "MoleculeName": "UGT1A4"
+            },
+            {
+              "MoleculeName": "CES1"
+            },
+            {
+              "MoleculeName": "CES2"
+            },
+            {
+              "Name": "UGT2B15-FIT",
+              "MoleculeName": "UGT2B15",
+              "MetaboliteName": "DabiGluc"
+            },
+            {
+              "Name": "Glomerular Filtration-Dabi",
+              "SystemicProcessType": "GFR"
+            }
+          ]
+        },
+        {
+          "Name": "DabiGluc",
+          "CalculationMethods": [
+            "Cellular partition coefficient method - Rodgers and Rowland",
+            "Cellular permeability - PK-Sim Standard"
+          ],
+          "Alternatives": [
+            {
+              "AlternativeName": "Calculated",
+              "GroupName": "COMPOUND_PERMEABILITY"
+            }
+          ],
+          "Processes": [
+            {
+              "Name": "Glomerular Filtration-DabiGluc",
+              "SystemicProcessType": "GFR"
+            }
+          ]
+        },
+        {
+          "Name": "Rifampicin",
+          "CalculationMethods": [
+            "Cellular partition coefficient method - Rodgers and Rowland",
+            "Cellular permeability - PK-Sim Standard"
+          ],
+          "Alternatives": [
+            {
+              "AlternativeName": "Optimized",
+              "GroupName": "COMPOUND_INTESTINAL_PERMEABILITY"
+            }
+          ],
+          "Processes": [
+            {
+              "Name": "AADAC-Nakajima 2011",
+              "MoleculeName": "AADAC"
+            },
+            {
+              "MoleculeName": "CYP3A4"
+            },
+            {
+              "MoleculeName": "UGT1A4"
+            },
+            {
+              "MoleculeName": "CES1"
+            },
+            {
+              "MoleculeName": "CES2"
+            },
+            {
+              "MoleculeName": "UGT2B15"
+            },
+            {
+              "Name": "OATP1B1-Tirona 2003",
+              "MoleculeName": "OATP1B1"
+            },
+            {
+              "Name": "P-gp-Collett 2004",
+              "MoleculeName": "P-gp"
+            },
+            {
+              "Name": "Glomerular Filtration-GFR",
+              "SystemicProcessType": "GFR"
+            }
+          ],
+          "Protocol": {
+            "Name": "Cocktail DDI, Prueksaritanont 2017 - Rifampicin",
+            "Formulations": [
+              {
+                "Name": "Solution",
+                "Key": "Formulation"
+              }
+            ]
+          }
+        }
+      ],
+      "ObserverSets": [
+        {
+          "Name": "SUM"
+        }
+      ],
+      "HasResults": true,
+      "IndividualAnalyses": [
+        {
+          "Axes": [
+            {
+              "Unit": "h",
+              "Dimension": "Time",
+              "Type": "X",
+              "GridLines": false,
+              "Visible": true,
+              "Min": 60.0,
+              "Max": 150.0,
+              "DefaultColor": "#FFFFFF",
+              "DefaultLineStyle": "None",
+              "Scaling": "Linear",
+              "NumberMode": "Normal"
+            },
+            {
+              "Unit": "ng/ml",
+              "Dimension": "Concentration (molar)",
+              "Type": "Y",
+              "GridLines": false,
+              "Visible": true,
+              "Min": 0.0,
+              "Max": 0.3,
+              "DefaultColor": "#FFFFFF",
+              "DefaultLineStyle": "Solid",
+              "Scaling": "Linear",
+              "NumberMode": "Normal"
+            }
+          ],
+          "Curves": [
+            {
+              "Name": "Dabigatran-Peripheral Venous Blood-Plasma-Concentration",
+              "X": "Time",
+              "Y": "Prueksaritanont 2017 - DDI Rifampicin|Organism|PeripheralVenousBlood|Dabigatran|Plasma (Peripheral Venous Blood)",
+              "CurveOptions": {
+                "Color": "#C00000",
+                "LegendIndex": 2
+              }
+            }
+          ],
+          "Name": "Prueksaritanont 2017 - Dabigatran DDI Rifampicin - lin",
+          "FontAndSize": {
+            "Fonts": {
+              "AxisSize": 10,
+              "LegendSize": 8,
+              "TitleSize": 16,
+              "DescriptionSize": 12,
+              "OriginSize": 8,
+              "FontFamilyName": "Microsoft Sans Serif",
+              "WatermarkSize": 32
+            }
+          },
+          "Settings": {
+            "SideMarginsEnabled": true,
+            "LegendPosition": "None",
+            "BackColor": "#FFFFFF",
+            "DiagramBackColor": "#FFFFFF"
+          },
+          "OriginText": "Rifampicin-Dabigatran-DDI_2\nPrueksaritanont 2017 - DDI Rifampicin\n2026-06-25 12:11"
+        }
+      ],
+      "Interactions": [
+        {
+          "Name": "AADAC-Assumed",
+          "MoleculeName": "AADAC",
+          "CompoundName": "Rifampicin"
+        },
+        {
+          "Name": "OATP1B1-Dixit 2007",
+          "MoleculeName": "OATP1B1",
+          "CompoundName": "Rifampicin"
+        },
+        {
+          "Name": "OATP1B1-Hanke 2021",
+          "MoleculeName": "OATP1B1",
+          "CompoundName": "Rifampicin"
+        },
+        {
+          "Name": "CYP3A4-Kajosaari 2005",
+          "MoleculeName": "CYP3A4",
+          "CompoundName": "Rifampicin"
+        },
+        {
+          "Name": "CYP3A4-Templeton 2011",
+          "MoleculeName": "CYP3A4",
+          "CompoundName": "Rifampicin"
+        },
+        {
+          "Name": "P-gp-Greiner 1999",
+          "MoleculeName": "P-gp",
+          "CompoundName": "Rifampicin"
+        },
+        {
+          "Name": "P-gp-Hanke 2021",
+          "MoleculeName": "P-gp",
+          "CompoundName": "Rifampicin"
+        }
+      ]
+    },
+    {
+      "Name": "Rattanacheeworn 2021 - DDI Rifampicin",
+      "Model": "4Comp",
+      "Solver": {},
+      "OutputSchema": [
+        {
+          "Parameters": [
+            {
+              "Name": "Start time",
+              "Value": 0.0,
+              "Unit": "h",
+              "ValueOrigin": {
+                "Source": "Unknown"
+              }
+            },
+            {
+              "Name": "End time",
+              "Value": 50.0,
+              "Unit": "h",
+              "ValueOrigin": {
+                "Source": "Unknown"
+              }
+            },
+            {
+              "Name": "Resolution",
+              "Value": 10.0,
+              "Unit": "pts/h",
+              "ValueOrigin": {
+                "Source": "Unknown"
+              }
+            }
+          ]
+        }
+      ],
+      "Parameters": [
+        {
+          "Path": "Dabigatran|Blood/Plasma concentration ratio",
+          "Value": 0.67,
+          "ValueOrigin": {
+            "Source": "Unknown"
+          }
+        },
+        {
+          "Path": "Events|Cocktail DDI, Rattanacheeworn 2021 - Dabigatran|Solution|Application_1|ProtocolSchemaItem|Volume of water/body weight",
+          "Value": 4.5,
+          "Unit": "ml/kg"
+        },
+        {
+          "Path": "Events|Cocktail DDI, Rattanacheeworn 2021 - Rifampicin|Solution|Application_1|ProtocolSchemaItem|Volume of water/body weight",
+          "Value": 0.0,
+          "Unit": "ml/kg"
+        }
+      ],
+      "OutputSelections": [
+        "Organism|PeripheralVenousBlood|Dabigatran|Plasma (Peripheral Venous Blood)",
+        "Organism|PeripheralVenousBlood|Rifampicin|Plasma (Peripheral Venous Blood)"
+      ],
+      "Individual": "Rattanacheeworn 2021_DDI Rifampicin",
+      "Compounds": [
+        {
+          "Name": "DabiEtex",
+          "CalculationMethods": [
+            "Cellular partition coefficient method - Rodgers and Rowland",
+            "Cellular permeability - PK-Sim Standard"
+          ],
+          "Alternatives": [
+            {
+              "AlternativeName": "Calculated",
+              "GroupName": "COMPOUND_PERMEABILITY"
+            },
+            {
+              "AlternativeName": "Calculated",
+              "GroupName": "COMPOUND_INTESTINAL_PERMEABILITY"
+            }
+          ],
+          "Processes": [
+            {
+              "MoleculeName": "AADAC"
+            },
+            {
+              "MoleculeName": "CYP3A4"
+            },
+            {
+              "MoleculeName": "UGT1A4"
+            },
+            {
+              "Name": "CES1-FIT",
+              "MoleculeName": "CES1",
+              "MetaboliteName": "Dabigatran"
+            },
+            {
+              "Name": "CES2-FIT",
+              "MoleculeName": "CES2",
+              "MetaboliteName": "Dabigatran"
+            },
+            {
+              "MoleculeName": "UGT2B15"
+            },
+            {
+              "MoleculeName": "OATP1B1"
+            },
+            {
+              "Name": "ABCB1-FIT",
+              "MoleculeName": "P-gp"
+            },
+            {
+              "Name": "Glomerular Filtration-DabiEtex",
+              "SystemicProcessType": "GFR"
+            }
+          ],
+          "Protocol": {
+            "Name": "Cocktail DDI, Rattanacheeworn 2021 - Dabigatran",
+            "Formulations": [
+              {
+                "Name": "Solution",
+                "Key": "Formulation"
+              }
+            ]
+          }
+        },
+        {
+          "Name": "Dabigatran",
+          "CalculationMethods": [
+            "Cellular partition coefficient method - Rodgers and Rowland",
+            "Cellular permeability - PK-Sim Standard"
+          ],
+          "Alternatives": [
+            {
+              "AlternativeName": "Calculated",
+              "GroupName": "COMPOUND_PERMEABILITY"
+            }
+          ],
+          "Processes": [
+            {
+              "MoleculeName": "AADAC"
+            },
+            {
+              "MoleculeName": "CYP3A4"
+            },
+            {
+              "MoleculeName": "UGT1A4"
+            },
+            {
+              "MoleculeName": "CES1"
+            },
+            {
+              "MoleculeName": "CES2"
+            },
+            {
+              "Name": "UGT2B15-FIT",
+              "MoleculeName": "UGT2B15",
+              "MetaboliteName": "DabiGluc"
+            },
+            {
+              "Name": "Glomerular Filtration-Dabi",
+              "SystemicProcessType": "GFR"
+            }
+          ]
+        },
+        {
+          "Name": "DabiGluc",
+          "CalculationMethods": [
+            "Cellular partition coefficient method - Rodgers and Rowland",
+            "Cellular permeability - PK-Sim Standard"
+          ],
+          "Alternatives": [
+            {
+              "AlternativeName": "Calculated",
+              "GroupName": "COMPOUND_PERMEABILITY"
+            }
+          ],
+          "Processes": [
+            {
+              "Name": "Glomerular Filtration-DabiGluc",
+              "SystemicProcessType": "GFR"
+            }
+          ]
+        },
+        {
+          "Name": "Rifampicin",
+          "CalculationMethods": [
+            "Cellular partition coefficient method - Rodgers and Rowland",
+            "Cellular permeability - PK-Sim Standard"
+          ],
+          "Alternatives": [
+            {
+              "AlternativeName": "Optimized",
+              "GroupName": "COMPOUND_INTESTINAL_PERMEABILITY"
+            }
+          ],
+          "Processes": [
+            {
+              "Name": "AADAC-Nakajima 2011",
+              "MoleculeName": "AADAC"
+            },
+            {
+              "MoleculeName": "CYP3A4"
+            },
+            {
+              "MoleculeName": "UGT1A4"
+            },
+            {
+              "MoleculeName": "CES1"
+            },
+            {
+              "MoleculeName": "CES2"
+            },
+            {
+              "MoleculeName": "UGT2B15"
+            },
+            {
+              "Name": "OATP1B1-Tirona 2003",
+              "MoleculeName": "OATP1B1"
+            },
+            {
+              "Name": "P-gp-Collett 2004",
+              "MoleculeName": "P-gp"
+            },
+            {
+              "Name": "Glomerular Filtration-GFR",
+              "SystemicProcessType": "GFR"
+            }
+          ],
+          "Protocol": {
+            "Name": "Cocktail DDI, Rattanacheeworn 2021 - Rifampicin",
+            "Formulations": [
+              {
+                "Name": "Solution",
+                "Key": "Formulation"
+              }
+            ]
+          }
+        }
+      ],
+      "ObserverSets": [
+        {
+          "Name": "SUM"
+        }
+      ],
+      "HasResults": true,
+      "IndividualAnalyses": [
+        {
+          "Axes": [
+            {
+              "Unit": "h",
+              "Dimension": "Time",
+              "Type": "X",
+              "GridLines": false,
+              "Visible": true,
+              "DefaultColor": "#FFFFFF",
+              "DefaultLineStyle": "None",
+              "Scaling": "Linear",
+              "NumberMode": "Normal"
+            },
+            {
+              "Unit": "ng/ml",
+              "Dimension": "Concentration (molar)",
+              "Type": "Y",
+              "GridLines": false,
+              "Visible": true,
+              "Min": 0.0,
+              "Max": 0.5,
+              "DefaultColor": "#FFFFFF",
+              "DefaultLineStyle": "Solid",
+              "Scaling": "Linear",
+              "NumberMode": "Normal"
+            }
+          ],
+          "Curves": [
+            {
+              "Name": "Dabigatran-Peripheral Venous Blood-Plasma-Concentration",
+              "X": "Time",
+              "Y": "Rattanacheeworn 2021 - DDI Rifampicin|Organism|PeripheralVenousBlood|Dabigatran|Plasma (Peripheral Venous Blood)",
+              "CurveOptions": {
+                "Color": "#C00000",
+                "LegendIndex": 2
+              }
+            }
+          ],
+          "Name": "Rattanacheeworn 2021 - Dabigatran DDI Rifampicin - lin",
+          "FontAndSize": {
+            "Fonts": {
+              "AxisSize": 10,
+              "LegendSize": 8,
+              "TitleSize": 16,
+              "DescriptionSize": 12,
+              "OriginSize": 8,
+              "FontFamilyName": "Microsoft Sans Serif",
+              "WatermarkSize": 32
+            }
+          },
+          "Settings": {
+            "SideMarginsEnabled": true,
+            "LegendPosition": "None",
+            "BackColor": "#FFFFFF",
+            "DiagramBackColor": "#FFFFFF"
+          },
+          "OriginText": "Rifampicin-Dabigatran-DDI_2\nRattanacheeworn 2021 - DDI Rifampicin\n2026-06-25 12:17"
+        }
+      ],
+      "Interactions": [
+        {
+          "Name": "AADAC-Assumed",
+          "MoleculeName": "AADAC",
+          "CompoundName": "Rifampicin"
+        },
+        {
+          "Name": "OATP1B1-Dixit 2007",
+          "MoleculeName": "OATP1B1",
+          "CompoundName": "Rifampicin"
+        },
+        {
+          "Name": "OATP1B1-Hanke 2021",
+          "MoleculeName": "OATP1B1",
+          "CompoundName": "Rifampicin"
+        },
+        {
+          "Name": "CYP3A4-Kajosaari 2005",
+          "MoleculeName": "CYP3A4",
+          "CompoundName": "Rifampicin"
+        },
+        {
+          "Name": "CYP3A4-Templeton 2011",
+          "MoleculeName": "CYP3A4",
+          "CompoundName": "Rifampicin"
+        },
+        {
+          "Name": "P-gp-Greiner 1999",
+          "MoleculeName": "P-gp",
+          "CompoundName": "Rifampicin"
+        },
+        {
+          "Name": "P-gp-Hanke 2021",
           "MoleculeName": "P-gp",
           "CompoundName": "Rifampicin"
         }
